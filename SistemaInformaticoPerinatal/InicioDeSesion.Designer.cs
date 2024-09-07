@@ -44,6 +44,7 @@
             btnIniciar.TabIndex = 0;
             btnIniciar.Text = "INICIAR";
             btnIniciar.UseVisualStyleBackColor = true;
+            btnIniciar.Click += btnIniciar_Click;
             // 
             // lblUsuario
             // 
@@ -76,6 +77,7 @@
             btnSalir.TabIndex = 4;
             btnSalir.Text = "SALIR";
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // lblContraseña
             // 

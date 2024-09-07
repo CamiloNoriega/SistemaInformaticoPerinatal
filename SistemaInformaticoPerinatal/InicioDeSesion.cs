@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SistemaInformaticoPerinatal
 {
@@ -15,6 +16,29 @@ namespace SistemaInformaticoPerinatal
         public InicioDeSesion()
         {
             InitializeComponent();
+        }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text == "Invitado" && txtContraseña.Text == "12345678")
+            {
+                MessageBox.Show("BIENVENIDO");
+                MenuDeNavegacion ven2 = new MenuDeNavegacion();
+                ven2.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("ACCESO DENEGADO");
+                txtUsuario.Clear();
+                txtContraseña.Clear();
+
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
