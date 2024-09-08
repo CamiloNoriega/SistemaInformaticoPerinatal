@@ -20,7 +20,7 @@ namespace SistemaInformaticoPerinatal
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "Invitado" && txtContraseña.Text == "12345678")
+            if (txtUsuario.Text == "" && txtContraseña.Text == "")
             {
                 MessageBox.Show("BIENVENIDO");
                 MenuDeNavegacion ven2 = new MenuDeNavegacion();
