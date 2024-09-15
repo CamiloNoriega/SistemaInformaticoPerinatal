@@ -31,6 +31,13 @@
             components = new System.ComponentModel.Container();
             gbxAntecedentesFPO = new GroupBox();
             groupBox22 = new GroupBox();
+            groupBox28 = new GroupBox();
+            radioButton44 = new RadioButton();
+            radioButton46 = new RadioButton();
+            label30 = new Label();
+            gbxAlfabeta = new GroupBox();
+            rbnAlfabetaSi = new RadioButton();
+            rbnAlfabetaNo = new RadioButton();
             groupBox27 = new GroupBox();
             label29 = new Label();
             cmbEstudios = new ComboBox();
@@ -142,13 +149,6 @@
             radioButton1 = new RadioButton();
             label2 = new Label();
             label1 = new Label();
-            gbxAlfabeta = new GroupBox();
-            rbnAlfabetaSi = new RadioButton();
-            rbnAlfabetaNo = new RadioButton();
-            groupBox28 = new GroupBox();
-            radioButton44 = new RadioButton();
-            radioButton46 = new RadioButton();
-            label30 = new Label();
             btnRegresar = new Button();
             btnContinuar = new Button();
             btnCerrar = new Button();
@@ -156,6 +156,8 @@
             erpBoton = new ErrorProvider(components);
             gbxAntecedentesFPO.SuspendLayout();
             groupBox22.SuspendLayout();
+            groupBox28.SuspendLayout();
+            gbxAlfabeta.SuspendLayout();
             groupBox27.SuspendLayout();
             groupBox26.SuspendLayout();
             groupBox25.SuspendLayout();
@@ -182,8 +184,6 @@
             groupBox6.SuspendLayout();
             groupBox5.SuspendLayout();
             groupBox4.SuspendLayout();
-            gbxAlfabeta.SuspendLayout();
-            groupBox28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)erpNumeros).BeginInit();
             ((System.ComponentModel.ISupportInitialize)erpBoton).BeginInit();
             SuspendLayout();
@@ -226,6 +226,82 @@
             groupBox22.TabIndex = 1;
             groupBox22.TabStop = false;
             groupBox22.Text = "ANTECEDENTES OBSTETRICOS";
+            // 
+            // groupBox28
+            // 
+            groupBox28.Controls.Add(radioButton44);
+            groupBox28.Controls.Add(radioButton46);
+            groupBox28.Controls.Add(label30);
+            groupBox28.Location = new Point(597, 163);
+            groupBox28.Name = "groupBox28";
+            groupBox28.Size = new Size(203, 71);
+            groupBox28.TabIndex = 24;
+            groupBox28.TabStop = false;
+            groupBox28.Text = "ANTECESDENTES DE GEMELARES";
+            // 
+            // radioButton44
+            // 
+            radioButton44.AutoSize = true;
+            radioButton44.Location = new Point(106, 31);
+            radioButton44.Name = "radioButton44";
+            radioButton44.Size = new Size(34, 19);
+            radioButton44.TabIndex = 11;
+            radioButton44.TabStop = true;
+            radioButton44.Text = "Si";
+            radioButton44.UseVisualStyleBackColor = true;
+            // 
+            // radioButton46
+            // 
+            radioButton46.AutoSize = true;
+            radioButton46.Location = new Point(158, 30);
+            radioButton46.Name = "radioButton46";
+            radioButton46.Size = new Size(41, 19);
+            radioButton46.TabIndex = 10;
+            radioButton46.TabStop = true;
+            radioButton46.Text = "No";
+            radioButton46.UseVisualStyleBackColor = true;
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(6, 24);
+            label30.Name = "label30";
+            label30.Size = new Size(94, 30);
+            label30.TabIndex = 1;
+            label30.Text = "¿No quería tener\r\n (más) hijos?";
+            // 
+            // gbxAlfabeta
+            // 
+            gbxAlfabeta.Controls.Add(rbnAlfabetaSi);
+            gbxAlfabeta.Controls.Add(rbnAlfabetaNo);
+            gbxAlfabeta.Location = new Point(452, 162);
+            gbxAlfabeta.Name = "gbxAlfabeta";
+            gbxAlfabeta.Size = new Size(139, 71);
+            gbxAlfabeta.TabIndex = 23;
+            gbxAlfabeta.TabStop = false;
+            gbxAlfabeta.Text = "ANTECESDENTES DE GEMELARES";
+            // 
+            // rbnAlfabetaSi
+            // 
+            rbnAlfabetaSi.AutoSize = true;
+            rbnAlfabetaSi.Location = new Point(31, 37);
+            rbnAlfabetaSi.Name = "rbnAlfabetaSi";
+            rbnAlfabetaSi.Size = new Size(34, 19);
+            rbnAlfabetaSi.TabIndex = 11;
+            rbnAlfabetaSi.TabStop = true;
+            rbnAlfabetaSi.Text = "Si";
+            rbnAlfabetaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnAlfabetaNo
+            // 
+            rbnAlfabetaNo.AutoSize = true;
+            rbnAlfabetaNo.Location = new Point(83, 36);
+            rbnAlfabetaNo.Name = "rbnAlfabetaNo";
+            rbnAlfabetaNo.Size = new Size(41, 19);
+            rbnAlfabetaNo.TabIndex = 10;
+            rbnAlfabetaNo.TabStop = true;
+            rbnAlfabetaNo.Text = "No";
+            rbnAlfabetaNo.UseVisualStyleBackColor = true;
             // 
             // groupBox27
             // 
@@ -1333,82 +1409,6 @@
             label1.TabIndex = 2;
             label1.Text = "No";
             // 
-            // gbxAlfabeta
-            // 
-            gbxAlfabeta.Controls.Add(rbnAlfabetaSi);
-            gbxAlfabeta.Controls.Add(rbnAlfabetaNo);
-            gbxAlfabeta.Location = new Point(452, 162);
-            gbxAlfabeta.Name = "gbxAlfabeta";
-            gbxAlfabeta.Size = new Size(139, 71);
-            gbxAlfabeta.TabIndex = 23;
-            gbxAlfabeta.TabStop = false;
-            gbxAlfabeta.Text = "ANTECESDENTES DE GEMELARES";
-            // 
-            // rbnAlfabetaSi
-            // 
-            rbnAlfabetaSi.AutoSize = true;
-            rbnAlfabetaSi.Location = new Point(31, 37);
-            rbnAlfabetaSi.Name = "rbnAlfabetaSi";
-            rbnAlfabetaSi.Size = new Size(34, 19);
-            rbnAlfabetaSi.TabIndex = 11;
-            rbnAlfabetaSi.TabStop = true;
-            rbnAlfabetaSi.Text = "Si";
-            rbnAlfabetaSi.UseVisualStyleBackColor = true;
-            // 
-            // rbnAlfabetaNo
-            // 
-            rbnAlfabetaNo.AutoSize = true;
-            rbnAlfabetaNo.Location = new Point(83, 36);
-            rbnAlfabetaNo.Name = "rbnAlfabetaNo";
-            rbnAlfabetaNo.Size = new Size(41, 19);
-            rbnAlfabetaNo.TabIndex = 10;
-            rbnAlfabetaNo.TabStop = true;
-            rbnAlfabetaNo.Text = "No";
-            rbnAlfabetaNo.UseVisualStyleBackColor = true;
-            // 
-            // groupBox28
-            // 
-            groupBox28.Controls.Add(radioButton44);
-            groupBox28.Controls.Add(radioButton46);
-            groupBox28.Controls.Add(label30);
-            groupBox28.Location = new Point(597, 163);
-            groupBox28.Name = "groupBox28";
-            groupBox28.Size = new Size(203, 71);
-            groupBox28.TabIndex = 24;
-            groupBox28.TabStop = false;
-            groupBox28.Text = "ANTECESDENTES DE GEMELARES";
-            // 
-            // radioButton44
-            // 
-            radioButton44.AutoSize = true;
-            radioButton44.Location = new Point(106, 31);
-            radioButton44.Name = "radioButton44";
-            radioButton44.Size = new Size(34, 19);
-            radioButton44.TabIndex = 11;
-            radioButton44.TabStop = true;
-            radioButton44.Text = "Si";
-            radioButton44.UseVisualStyleBackColor = true;
-            // 
-            // radioButton46
-            // 
-            radioButton46.AutoSize = true;
-            radioButton46.Location = new Point(158, 30);
-            radioButton46.Name = "radioButton46";
-            radioButton46.Size = new Size(41, 19);
-            radioButton46.TabIndex = 10;
-            radioButton46.TabStop = true;
-            radioButton46.Text = "No";
-            radioButton46.UseVisualStyleBackColor = true;
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Location = new Point(6, 24);
-            label30.Name = "label30";
-            label30.Size = new Size(94, 30);
-            label30.TabIndex = 1;
-            label30.Text = "¿No quería tener\r\n (más) hijos?";
-            // 
             // btnRegresar
             // 
             btnRegresar.Location = new Point(363, 666);
@@ -1458,6 +1458,10 @@
             gbxAntecedentesFPO.ResumeLayout(false);
             groupBox22.ResumeLayout(false);
             groupBox22.PerformLayout();
+            groupBox28.ResumeLayout(false);
+            groupBox28.PerformLayout();
+            gbxAlfabeta.ResumeLayout(false);
+            gbxAlfabeta.PerformLayout();
             groupBox27.ResumeLayout(false);
             groupBox27.PerformLayout();
             groupBox26.ResumeLayout(false);
@@ -1510,10 +1514,6 @@
             groupBox5.PerformLayout();
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
-            gbxAlfabeta.ResumeLayout(false);
-            gbxAlfabeta.PerformLayout();
-            groupBox28.ResumeLayout(false);
-            groupBox28.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)erpNumeros).EndInit();
             ((System.ComponentModel.ISupportInitialize)erpBoton).EndInit();
             ResumeLayout(false);
