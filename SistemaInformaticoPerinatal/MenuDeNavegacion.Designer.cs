@@ -30,7 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuDeNavegacion));
-            label1 = new Label();
+            lblMenúNavegación = new Label();
             btnHistoriaClinicaP = new Button();
             bindingSource1 = new BindingSource(components);
             btnAntecedentes = new Button();
@@ -45,25 +45,27 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // lblMenúNavegación
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Britannic Bold", 22F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkBlue;
-            label1.Location = new Point(148, 182);
-            label1.Name = "label1";
-            label1.Size = new Size(308, 33);
-            label1.TabIndex = 0;
-            label1.Text = "MENÚ DE NAVEGACIÓN";
+            lblMenúNavegación.AutoSize = true;
+            lblMenúNavegación.Font = new Font("Britannic Bold", 22F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMenúNavegación.ForeColor = Color.DarkBlue;
+            lblMenúNavegación.Location = new Point(211, 303);
+            lblMenúNavegación.Margin = new Padding(4, 0, 4, 0);
+            lblMenúNavegación.Name = "lblMenúNavegación";
+            lblMenúNavegación.Size = new Size(449, 48);
+            lblMenúNavegación.TabIndex = 0;
+            lblMenúNavegación.Text = "MENÚ DE NAVEGACIÓN";
             // 
             // btnHistoriaClinicaP
             // 
             btnHistoriaClinicaP.BackColor = Color.LightSkyBlue;
             btnHistoriaClinicaP.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnHistoriaClinicaP.ForeColor = Color.White;
-            btnHistoriaClinicaP.Location = new Point(187, 247);
+            btnHistoriaClinicaP.Location = new Point(267, 412);
+            btnHistoriaClinicaP.Margin = new Padding(4, 5, 4, 5);
             btnHistoriaClinicaP.Name = "btnHistoriaClinicaP";
-            btnHistoriaClinicaP.Size = new Size(224, 23);
+            btnHistoriaClinicaP.Size = new Size(320, 38);
             btnHistoriaClinicaP.TabIndex = 1;
             btnHistoriaClinicaP.Text = "HISTORIA CLINICA PERINATAL";
             btnHistoriaClinicaP.UseVisualStyleBackColor = false;
@@ -74,9 +76,10 @@
             btnAntecedentes.BackColor = Color.LightSkyBlue;
             btnAntecedentes.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnAntecedentes.ForeColor = Color.White;
-            btnAntecedentes.Location = new Point(236, 292);
+            btnAntecedentes.Location = new Point(337, 487);
+            btnAntecedentes.Margin = new Padding(4, 5, 4, 5);
             btnAntecedentes.Name = "btnAntecedentes";
-            btnAntecedentes.Size = new Size(123, 23);
+            btnAntecedentes.Size = new Size(176, 38);
             btnAntecedentes.TabIndex = 2;
             btnAntecedentes.Text = "ANTECEDENTES";
             btnAntecedentes.UseVisualStyleBackColor = false;
@@ -87,9 +90,10 @@
             btnEnfermedades.BackColor = Color.LightSkyBlue;
             btnEnfermedades.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnEnfermedades.ForeColor = Color.White;
-            btnEnfermedades.Location = new Point(236, 336);
+            btnEnfermedades.Location = new Point(337, 560);
+            btnEnfermedades.Margin = new Padding(4, 5, 4, 5);
             btnEnfermedades.Name = "btnEnfermedades";
-            btnEnfermedades.Size = new Size(123, 23);
+            btnEnfermedades.Size = new Size(176, 38);
             btnEnfermedades.TabIndex = 3;
             btnEnfermedades.Text = "ENFERMEDADES";
             btnEnfermedades.UseVisualStyleBackColor = false;
@@ -100,9 +104,10 @@
             btnCerrarSesion.BackColor = Color.MidnightBlue;
             btnCerrarSesion.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCerrarSesion.ForeColor = Color.White;
-            btnCerrarSesion.Location = new Point(236, 380);
+            btnCerrarSesion.Location = new Point(337, 633);
+            btnCerrarSesion.Margin = new Padding(4, 5, 4, 5);
             btnCerrarSesion.Name = "btnCerrarSesion";
-            btnCerrarSesion.Size = new Size(123, 23);
+            btnCerrarSesion.Size = new Size(176, 38);
             btnCerrarSesion.TabIndex = 4;
             btnCerrarSesion.Text = "CERRAR SESIÓN";
             btnCerrarSesion.UseVisualStyleBackColor = false;
@@ -111,10 +116,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(77, 81);
-            pictureBox1.Margin = new Padding(2, 2, 2, 2);
+            pictureBox1.Location = new Point(110, 135);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(123, 55);
+            pictureBox1.Size = new Size(176, 92);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
@@ -122,10 +126,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(243, 51);
-            pictureBox2.Margin = new Padding(2, 2, 2, 2);
+            pictureBox2.Location = new Point(347, 85);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(127, 100);
+            pictureBox2.Size = new Size(181, 167);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
@@ -133,20 +136,19 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(408, 81);
-            pictureBox3.Margin = new Padding(2, 2, 2, 2);
+            pictureBox3.Location = new Point(583, 135);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(129, 55);
+            pictureBox3.Size = new Size(184, 92);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 7;
             pictureBox3.TabStop = false;
             // 
             // MenuDeNavegacion
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(584, 424);
+            ClientSize = new Size(834, 707);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
@@ -154,7 +156,8 @@
             Controls.Add(btnEnfermedades);
             Controls.Add(btnAntecedentes);
             Controls.Add(btnHistoriaClinicaP);
-            Controls.Add(label1);
+            Controls.Add(lblMenúNavegación);
+            Margin = new Padding(4, 5, 4, 5);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "MenuDeNavegacion";
@@ -170,7 +173,7 @@
 
         #endregion
 
-        private Label label1;
+        private Label lblMenúNavegación;
         private Button btnHistoriaClinicaP;
         private BindingSource bindingSource1;
         private Button btnAntecedentes;
