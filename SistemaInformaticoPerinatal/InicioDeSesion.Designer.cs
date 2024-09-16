@@ -44,10 +44,9 @@
             btnIniciar.BackColor = Color.LightSkyBlue;
             btnIniciar.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnIniciar.ForeColor = SystemColors.ControlLightLight;
-            btnIniciar.Location = new Point(267, 506);
-            btnIniciar.Margin = new Padding(4, 5, 4, 5);
+            btnIniciar.Location = new Point(187, 304);
             btnIniciar.Name = "btnIniciar";
-            btnIniciar.Size = new Size(107, 38);
+            btnIniciar.Size = new Size(75, 23);
             btnIniciar.TabIndex = 0;
             btnIniciar.Text = "INICIAR";
             btnIniciar.UseVisualStyleBackColor = false;
@@ -58,28 +57,25 @@
             lblUsuario.AutoSize = true;
             lblUsuario.Font = new Font("Arial Rounded MT Bold", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblUsuario.ForeColor = Color.SteelBlue;
-            lblUsuario.Location = new Point(113, 314);
-            lblUsuario.Margin = new Padding(4, 0, 4, 0);
+            lblUsuario.Location = new Point(79, 188);
             lblUsuario.Name = "lblUsuario";
-            lblUsuario.Size = new Size(103, 23);
+            lblUsuario.Size = new Size(73, 16);
             lblUsuario.TabIndex = 1;
             lblUsuario.Text = "USUARIO";
             // 
             // txtUsuario
             // 
-            txtUsuario.Location = new Point(267, 306);
-            txtUsuario.Margin = new Padding(4, 5, 4, 5);
+            txtUsuario.Location = new Point(187, 184);
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(141, 31);
+            txtUsuario.Size = new Size(100, 23);
             txtUsuario.TabIndex = 2;
             // 
             // txtContraseña
             // 
-            txtContraseña.Location = new Point(267, 372);
-            txtContraseña.Margin = new Padding(4, 5, 4, 5);
+            txtContraseña.Location = new Point(187, 223);
             txtContraseña.Name = "txtContraseña";
             txtContraseña.PasswordChar = '♦';
-            txtContraseña.Size = new Size(141, 31);
+            txtContraseña.Size = new Size(100, 23);
             txtContraseña.TabIndex = 3;
             // 
             // btnSalir
@@ -87,10 +83,9 @@
             btnSalir.BackColor = Color.LightSkyBlue;
             btnSalir.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSalir.ForeColor = SystemColors.ControlLightLight;
-            btnSalir.Location = new Point(114, 506);
-            btnSalir.Margin = new Padding(4, 5, 4, 5);
+            btnSalir.Location = new Point(80, 304);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(107, 38);
+            btnSalir.Size = new Size(75, 23);
             btnSalir.TabIndex = 4;
             btnSalir.Text = "SALIR";
             btnSalir.UseVisualStyleBackColor = false;
@@ -101,29 +96,29 @@
             lblContraseña.AutoSize = true;
             lblContraseña.Font = new Font("Arial Rounded MT Bold", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblContraseña.ForeColor = Color.SteelBlue;
-            lblContraseña.Location = new Point(69, 376);
-            lblContraseña.Margin = new Padding(4, 0, 4, 0);
+            lblContraseña.Location = new Point(48, 226);
             lblContraseña.Name = "lblContraseña";
-            lblContraseña.Size = new Size(152, 23);
+            lblContraseña.Size = new Size(107, 16);
             lblContraseña.TabIndex = 5;
             lblContraseña.Text = "CONTRASEÑA";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(69, 60);
+            pictureBox1.Location = new Point(48, 36);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(406, 192);
+            pictureBox1.Size = new Size(284, 115);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
             // InicioDeSesion
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(556, 645);
+            ClientSize = new Size(389, 387);
             Controls.Add(pictureBox1);
             Controls.Add(lblContraseña);
             Controls.Add(btnSalir);
@@ -131,8 +126,10 @@
             Controls.Add(txtUsuario);
             Controls.Add(lblUsuario);
             Controls.Add(btnIniciar);
-            Margin = new Padding(4, 5, 4, 5);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "InicioDeSesion";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "InicioDeSesion";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

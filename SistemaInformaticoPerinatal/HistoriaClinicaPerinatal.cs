@@ -217,5 +217,20 @@ namespace SistemaInformaticoPerinatal
         {
             ValidarSoloNumeros(txtNumeroIdentidad, erpTexto);
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            MenuDeNavegacion Ven2 = new MenuDeNavegacion();
+            Ven2.Show();
+            this.Hide();
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            InicioDeSesion Ven1 = new InicioDeSesion();
+            Ven1.Show();
+            this.Hide();
+            MessageBox.Show("Su secion ha sido cerrada exitosamente");
+        }
     }
 }

@@ -1491,7 +1491,10 @@
             Controls.Add(btnContinuar);
             Controls.Add(btnCerrar);
             Controls.Add(gbxAntecedentesFPO);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Antecedentes";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Antecedentes";
             gbxAntecedentesFPO.ResumeLayout(false);
             gbxAntecedentesObstetricos.ResumeLayout(false);

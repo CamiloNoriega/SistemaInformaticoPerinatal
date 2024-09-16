@@ -533,6 +533,7 @@
             btnCerrar.TabIndex = 7;
             btnCerrar.Text = "CERRAR SESIÓN";
             btnCerrar.UseVisualStyleBackColor = true;
+            btnCerrar.Click += btnCerrar_Click;
             // 
             // btnContinuar
             // 
@@ -552,6 +553,7 @@
             btnRegresar.TabIndex = 9;
             btnRegresar.Text = "REGRESAR AL MENU";
             btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.Click += btnRegresar_Click;
             // 
             // gbxHistoriaClínicaP
             // 
@@ -587,13 +589,17 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             BackColor = Color.White;
             ClientSize = new Size(731, 669);
             Controls.Add(gbxHistoriaClínicaP);
             Controls.Add(btnRegresar);
             Controls.Add(btnContinuar);
             Controls.Add(btnCerrar);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "HistoriaClinicaPerinatal";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HistoriaClinicaPerinatal";
             gbxNombreApellido.ResumeLayout(false);
             gbxNombreApellido.PerformLayout();
