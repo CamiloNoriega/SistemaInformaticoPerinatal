@@ -34,25 +34,25 @@
             gbxEmbarazoPlaneado = new GroupBox();
             rbnEmbarazoPlaneadoSi = new RadioButton();
             rbnEmbarazoPlaneadoNo = new RadioButton();
-            label30 = new Label();
+            lblEmbarazoplaneado = new Label();
             gbxAntecedentesGemelares = new GroupBox();
             rbnGemelaresSi = new RadioButton();
             rbnGemelaresNo = new RadioButton();
             gbxFMetodoAnticoseptivo = new GroupBox();
-            label29 = new Label();
+            lblFMetodoAnticonceptivo = new Label();
             cmbFMetodoAnticonseptivo = new ComboBox();
             txtMuertesPrimeraSemana = new TextBox();
             txtViven = new TextBox();
             txtEmbEtopico = new TextBox();
-            label26 = new Label();
-            label27 = new Label();
-            label28 = new Label();
+            lblMuertesPrimeraSemana = new Label();
+            lblViven = new Label();
+            lblEmbEtopico = new Label();
             gbxFinEmbarazoAnterior = new GroupBox();
-            dateTimePicker1 = new DateTimePicker();
+            dtpFinEmbaA = new DateTimePicker();
             rbnMenos1Año = new RadioButton();
             gbxAbortos = new GroupBox();
             txtAbortos = new TextBox();
-            label25 = new Label();
+            lblAbortos = new Label();
             gbx3ExpontConsecutivos = new RadioButton();
             gbxPesoNacido = new GroupBox();
             rbnPesoNormal = new RadioButton();
@@ -63,29 +63,29 @@
             txtCesarea = new TextBox();
             txtVaginales = new TextBox();
             txtNumeroPartos = new TextBox();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
+            lblCesarea = new Label();
+            lblVaginales = new Label();
+            lblNumeroPartos = new Label();
             txtNacidosMuertos = new TextBox();
             txtNacidosVivos = new TextBox();
             txtGestasPrevias = new TextBox();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
+            lblNacidosMuertos = new Label();
+            lblNacidosV = new Label();
+            lblGestasP = new Label();
             gbxAntecedentes = new GroupBox();
-            label11 = new Label();
-            label12 = new Label();
-            label9 = new Label();
-            label10 = new Label();
+            lblOtracond = new Label();
+            lblEclampsia = new Label();
+            lblPreeclam = new Label();
+            lblHipertension = new Label();
             lblDiabetes = new Label();
             lblTBC = new Label();
             gbxAntecedentesPersonalesObstetricos = new GroupBox();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
-            label17 = new Label();
-            label18 = new Label();
+            lblVih = new Label();
+            lblViolencia = new Label();
+            lblNefropatia = new Label();
+            lblCardiopatia = new Label();
+            lblInfertilidad = new Label();
+            lblCirugiaGU = new Label();
             gbxObstetricosVIH = new GroupBox();
             rbnVIHSi = new RadioButton();
             rbnVIHNo = new RadioButton();
@@ -124,10 +124,10 @@
             gbxPersonalesTBC = new GroupBox();
             rbnPTBCSi = new RadioButton();
             rbnPTBCNo = new RadioButton();
-            label5 = new Label();
-            label6 = new Label();
-            label3 = new Label();
-            label4 = new Label();
+            lblPOSi = new Label();
+            lblPONo = new Label();
+            lblPSi = new Label();
+            lblPNo = new Label();
             gbxAntecedentesFamiliares = new GroupBox();
             gbxFamiliaresOCMGrave = new GroupBox();
             rbnFOCMGraveSi = new RadioButton();
@@ -147,8 +147,8 @@
             gbxFamiliaresTBC = new GroupBox();
             rbnFTBCSi = new RadioButton();
             rbnFTBCNo = new RadioButton();
-            label2 = new Label();
-            label1 = new Label();
+            lblFSi = new Label();
+            lblFNo = new Label();
             btnRegresar = new Button();
             btnContinuar = new Button();
             btnCerrar = new Button();
@@ -213,9 +213,9 @@
             gbxAntecedentesObstetricos.Controls.Add(txtMuertesPrimeraSemana);
             gbxAntecedentesObstetricos.Controls.Add(txtViven);
             gbxAntecedentesObstetricos.Controls.Add(txtEmbEtopico);
-            gbxAntecedentesObstetricos.Controls.Add(label26);
-            gbxAntecedentesObstetricos.Controls.Add(label27);
-            gbxAntecedentesObstetricos.Controls.Add(label28);
+            gbxAntecedentesObstetricos.Controls.Add(lblMuertesPrimeraSemana);
+            gbxAntecedentesObstetricos.Controls.Add(lblViven);
+            gbxAntecedentesObstetricos.Controls.Add(lblEmbEtopico);
             gbxAntecedentesObstetricos.Controls.Add(gbxFinEmbarazoAnterior);
             gbxAntecedentesObstetricos.Controls.Add(gbxAbortos);
             gbxAntecedentesObstetricos.Controls.Add(gbxPesoNacido);
@@ -223,9 +223,9 @@
             gbxAntecedentesObstetricos.Controls.Add(txtNacidosMuertos);
             gbxAntecedentesObstetricos.Controls.Add(txtNacidosVivos);
             gbxAntecedentesObstetricos.Controls.Add(txtGestasPrevias);
-            gbxAntecedentesObstetricos.Controls.Add(label19);
-            gbxAntecedentesObstetricos.Controls.Add(label20);
-            gbxAntecedentesObstetricos.Controls.Add(label21);
+            gbxAntecedentesObstetricos.Controls.Add(lblNacidosMuertos);
+            gbxAntecedentesObstetricos.Controls.Add(lblNacidosV);
+            gbxAntecedentesObstetricos.Controls.Add(lblGestasP);
             gbxAntecedentesObstetricos.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             gbxAntecedentesObstetricos.Location = new Point(9, 608);
             gbxAntecedentesObstetricos.Margin = new Padding(4, 5, 4, 5);
@@ -240,7 +240,7 @@
             // 
             gbxEmbarazoPlaneado.Controls.Add(rbnEmbarazoPlaneadoSi);
             gbxEmbarazoPlaneado.Controls.Add(rbnEmbarazoPlaneadoNo);
-            gbxEmbarazoPlaneado.Controls.Add(label30);
+            gbxEmbarazoPlaneado.Controls.Add(lblEmbarazoplaneado);
             gbxEmbarazoPlaneado.Location = new Point(927, 272);
             gbxEmbarazoPlaneado.Margin = new Padding(4, 5, 4, 5);
             gbxEmbarazoPlaneado.Name = "gbxEmbarazoPlaneado";
@@ -274,15 +274,15 @@
             rbnEmbarazoPlaneadoNo.Text = "No";
             rbnEmbarazoPlaneadoNo.UseVisualStyleBackColor = true;
             // 
-            // label30
+            // lblEmbarazoplaneado
             // 
-            label30.AutoSize = true;
-            label30.Location = new Point(9, 40);
-            label30.Margin = new Padding(4, 0, 4, 0);
-            label30.Name = "label30";
-            label30.Size = new Size(159, 42);
-            label30.TabIndex = 1;
-            label30.Text = "¿No quería tener\r\n (más) hijos?";
+            lblEmbarazoplaneado.AutoSize = true;
+            lblEmbarazoplaneado.Location = new Point(9, 40);
+            lblEmbarazoplaneado.Margin = new Padding(4, 0, 4, 0);
+            lblEmbarazoplaneado.Name = "lblEmbarazoplaneado";
+            lblEmbarazoplaneado.Size = new Size(159, 42);
+            lblEmbarazoplaneado.TabIndex = 1;
+            lblEmbarazoplaneado.Text = "¿No quería tener\r\n (más) hijos?";
             // 
             // gbxAntecedentesGemelares
             // 
@@ -323,7 +323,7 @@
             // 
             // gbxFMetodoAnticoseptivo
             // 
-            gbxFMetodoAnticoseptivo.Controls.Add(label29);
+            gbxFMetodoAnticoseptivo.Controls.Add(lblFMetodoAnticonceptivo);
             gbxFMetodoAnticoseptivo.Controls.Add(cmbFMetodoAnticonseptivo);
             gbxFMetodoAnticoseptivo.Location = new Point(270, 270);
             gbxFMetodoAnticoseptivo.Margin = new Padding(4, 5, 4, 5);
@@ -334,15 +334,15 @@
             gbxFMetodoAnticoseptivo.TabStop = false;
             gbxFMetodoAnticoseptivo.Text = "FRACASO MÉTODO ANTICONCEPTIVOS";
             // 
-            // label29
+            // lblFMetodoAnticonceptivo
             // 
-            label29.AutoSize = true;
-            label29.Location = new Point(11, 32);
-            label29.Margin = new Padding(4, 0, 4, 0);
-            label29.Name = "label29";
-            label29.Size = new Size(205, 63);
-            label29.TabIndex = 22;
-            label29.Text = "¿Estaba usando algún\r\nmétodo para evitar\r\nel embarazo?";
+            lblFMetodoAnticonceptivo.AutoSize = true;
+            lblFMetodoAnticonceptivo.Location = new Point(11, 32);
+            lblFMetodoAnticonceptivo.Margin = new Padding(4, 0, 4, 0);
+            lblFMetodoAnticonceptivo.Name = "lblFMetodoAnticonceptivo";
+            lblFMetodoAnticonceptivo.Size = new Size(205, 63);
+            lblFMetodoAnticonceptivo.TabIndex = 22;
+            lblFMetodoAnticonceptivo.Text = "¿Estaba usando algún\r\nmétodo para evitar\r\nel embarazo?";
             // 
             // cmbFMetodoAnticonseptivo
             // 
@@ -356,7 +356,7 @@
             // 
             // txtMuertesPrimeraSemana
             // 
-            txtMuertesPrimeraSemana.Location = new Point(180, 297);
+            txtMuertesPrimeraSemana.Location = new Point(194, 297);
             txtMuertesPrimeraSemana.Margin = new Padding(4, 5, 4, 5);
             txtMuertesPrimeraSemana.MaxLength = 2;
             txtMuertesPrimeraSemana.Name = "txtMuertesPrimeraSemana";
@@ -366,7 +366,7 @@
             // 
             // txtViven
             // 
-            txtViven.Location = new Point(180, 170);
+            txtViven.Location = new Point(194, 170);
             txtViven.Margin = new Padding(4, 5, 4, 5);
             txtViven.MaxLength = 2;
             txtViven.Name = "txtViven";
@@ -376,7 +376,7 @@
             // 
             // txtEmbEtopico
             // 
-            txtEmbEtopico.Location = new Point(180, 360);
+            txtEmbEtopico.Location = new Point(194, 360);
             txtEmbEtopico.Margin = new Padding(4, 5, 4, 5);
             txtEmbEtopico.MaxLength = 2;
             txtEmbEtopico.Name = "txtEmbEtopico";
@@ -384,39 +384,39 @@
             txtEmbEtopico.TabIndex = 18;
             txtEmbEtopico.TextChanged += txtEmbEtopico_TextChanged;
             // 
-            // label26
+            // lblMuertesPrimeraSemana
             // 
-            label26.AutoSize = true;
-            label26.Location = new Point(9, 302);
-            label26.Margin = new Padding(4, 0, 4, 0);
-            label26.Name = "label26";
-            label26.Size = new Size(192, 21);
-            label26.TabIndex = 17;
-            label26.Text = "Muertos 1ra semana";
+            lblMuertesPrimeraSemana.AutoSize = true;
+            lblMuertesPrimeraSemana.Location = new Point(-1, 300);
+            lblMuertesPrimeraSemana.Margin = new Padding(4, 0, 4, 0);
+            lblMuertesPrimeraSemana.Name = "lblMuertesPrimeraSemana";
+            lblMuertesPrimeraSemana.Size = new Size(192, 21);
+            lblMuertesPrimeraSemana.TabIndex = 17;
+            lblMuertesPrimeraSemana.Text = "Muertos 1ra semana";
             // 
-            // label27
+            // lblViven
             // 
-            label27.AutoSize = true;
-            label27.Location = new Point(120, 175);
-            label27.Margin = new Padding(4, 0, 4, 0);
-            label27.Name = "label27";
-            label27.Size = new Size(59, 21);
-            label27.TabIndex = 16;
-            label27.Text = "Viven";
+            lblViven.AutoSize = true;
+            lblViven.Location = new Point(119, 171);
+            lblViven.Margin = new Padding(4, 0, 4, 0);
+            lblViven.Name = "lblViven";
+            lblViven.Size = new Size(59, 21);
+            lblViven.TabIndex = 16;
+            lblViven.Text = "Viven";
             // 
-            // label28
+            // lblEmbEtopico
             // 
-            label28.AutoSize = true;
-            label28.Location = new Point(61, 365);
-            label28.Margin = new Padding(4, 0, 4, 0);
-            label28.Name = "label28";
-            label28.Size = new Size(126, 21);
-            label28.TabIndex = 15;
-            label28.Text = "Emb. etopico";
+            lblEmbEtopico.AutoSize = true;
+            lblEmbEtopico.Location = new Point(61, 365);
+            lblEmbEtopico.Margin = new Padding(4, 0, 4, 0);
+            lblEmbEtopico.Name = "lblEmbEtopico";
+            lblEmbEtopico.Size = new Size(126, 21);
+            lblEmbEtopico.TabIndex = 15;
+            lblEmbEtopico.Text = "Emb. etopico";
             // 
             // gbxFinEmbarazoAnterior
             // 
-            gbxFinEmbarazoAnterior.Controls.Add(dateTimePicker1);
+            gbxFinEmbarazoAnterior.Controls.Add(dtpFinEmbaA);
             gbxFinEmbarazoAnterior.Controls.Add(rbnMenos1Año);
             gbxFinEmbarazoAnterior.Location = new Point(869, 127);
             gbxFinEmbarazoAnterior.Margin = new Padding(4, 5, 4, 5);
@@ -427,14 +427,14 @@
             gbxFinEmbarazoAnterior.TabStop = false;
             gbxFinEmbarazoAnterior.Text = "FIN EMBARAZO ANTERIOR";
             // 
-            // dateTimePicker1
+            // dtpFinEmbaA
             // 
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(33, 33);
-            dateTimePicker1.Margin = new Padding(4, 5, 4, 5);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(137, 28);
-            dateTimePicker1.TabIndex = 6;
+            dtpFinEmbaA.Format = DateTimePickerFormat.Short;
+            dtpFinEmbaA.Location = new Point(33, 33);
+            dtpFinEmbaA.Margin = new Padding(4, 5, 4, 5);
+            dtpFinEmbaA.Name = "dtpFinEmbaA";
+            dtpFinEmbaA.Size = new Size(137, 28);
+            dtpFinEmbaA.TabIndex = 6;
             // 
             // rbnMenos1Año
             // 
@@ -451,7 +451,7 @@
             // gbxAbortos
             // 
             gbxAbortos.Controls.Add(txtAbortos);
-            gbxAbortos.Controls.Add(label25);
+            gbxAbortos.Controls.Add(lblAbortos);
             gbxAbortos.Controls.Add(gbx3ExpontConsecutivos);
             gbxAbortos.Location = new Point(869, 22);
             gbxAbortos.Margin = new Padding(4, 5, 4, 5);
@@ -464,7 +464,7 @@
             // 
             // txtAbortos
             // 
-            txtAbortos.Location = new Point(131, 37);
+            txtAbortos.Location = new Point(137, 38);
             txtAbortos.Margin = new Padding(4, 5, 4, 5);
             txtAbortos.MaxLength = 2;
             txtAbortos.Name = "txtAbortos";
@@ -472,15 +472,15 @@
             txtAbortos.TabIndex = 10;
             txtAbortos.TextChanged += txtAbortos_TextChanged;
             // 
-            // label25
+            // lblAbortos
             // 
-            label25.AutoSize = true;
-            label25.Location = new Point(19, 45);
-            label25.Margin = new Padding(4, 0, 4, 0);
-            label25.Name = "label25";
-            label25.Size = new Size(120, 21);
-            label25.TabIndex = 9;
-            label25.Text = "# de abortos";
+            lblAbortos.AutoSize = true;
+            lblAbortos.Location = new Point(19, 45);
+            lblAbortos.Margin = new Padding(4, 0, 4, 0);
+            lblAbortos.Name = "lblAbortos";
+            lblAbortos.Size = new Size(120, 21);
+            lblAbortos.TabIndex = 9;
+            lblAbortos.Text = "# de abortos";
             // 
             // gbx3ExpontConsecutivos
             // 
@@ -562,9 +562,9 @@
             gbxPartos.Controls.Add(txtCesarea);
             gbxPartos.Controls.Add(txtVaginales);
             gbxPartos.Controls.Add(txtNumeroPartos);
-            gbxPartos.Controls.Add(label22);
-            gbxPartos.Controls.Add(label23);
-            gbxPartos.Controls.Add(label24);
+            gbxPartos.Controls.Add(lblCesarea);
+            gbxPartos.Controls.Add(lblVaginales);
+            gbxPartos.Controls.Add(lblNumeroPartos);
             gbxPartos.Location = new Point(276, 22);
             gbxPartos.Margin = new Padding(4, 5, 4, 5);
             gbxPartos.Name = "gbxPartos";
@@ -576,7 +576,7 @@
             // 
             // txtCesarea
             // 
-            txtCesarea.Location = new Point(186, 153);
+            txtCesarea.Location = new Point(203, 149);
             txtCesarea.Margin = new Padding(4, 5, 4, 5);
             txtCesarea.MaxLength = 2;
             txtCesarea.Name = "txtCesarea";
@@ -586,7 +586,7 @@
             // 
             // txtVaginales
             // 
-            txtVaginales.Location = new Point(186, 105);
+            txtVaginales.Location = new Point(203, 103);
             txtVaginales.Margin = new Padding(4, 5, 4, 5);
             txtVaginales.MaxLength = 2;
             txtVaginales.Name = "txtVaginales";
@@ -596,7 +596,7 @@
             // 
             // txtNumeroPartos
             // 
-            txtNumeroPartos.Location = new Point(186, 57);
+            txtNumeroPartos.Location = new Point(203, 55);
             txtNumeroPartos.Margin = new Padding(4, 5, 4, 5);
             txtNumeroPartos.MaxLength = 2;
             txtNumeroPartos.Name = "txtNumeroPartos";
@@ -604,39 +604,39 @@
             txtNumeroPartos.TabIndex = 14;
             txtNumeroPartos.TextChanged += txtNumeroPartos_TextChanged;
             // 
-            // label22
+            // lblCesarea
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(14, 153);
-            label22.Margin = new Padding(4, 0, 4, 0);
-            label22.Name = "label22";
-            label22.Size = new Size(196, 21);
-            label22.TabIndex = 13;
-            label22.Text = "Cuantos por cesarea";
+            lblCesarea.AutoSize = true;
+            lblCesarea.Location = new Point(5, 152);
+            lblCesarea.Margin = new Padding(4, 0, 4, 0);
+            lblCesarea.Name = "lblCesarea";
+            lblCesarea.Size = new Size(196, 21);
+            lblCesarea.TabIndex = 13;
+            lblCesarea.Text = "Cuantos por cesarea";
             // 
-            // label23
+            // lblVaginales
             // 
-            label23.AutoSize = true;
-            label23.Location = new Point(30, 110);
-            label23.Margin = new Padding(4, 0, 4, 0);
-            label23.Name = "label23";
-            label23.Size = new Size(173, 21);
-            label23.TabIndex = 12;
-            label23.Text = "Cuantos vaginales";
+            lblVaginales.AutoSize = true;
+            lblVaginales.Location = new Point(30, 110);
+            lblVaginales.Margin = new Padding(4, 0, 4, 0);
+            lblVaginales.Name = "lblVaginales";
+            lblVaginales.Size = new Size(173, 21);
+            lblVaginales.TabIndex = 12;
+            lblVaginales.Text = "Cuantos vaginales";
             // 
-            // label24
+            // lblNumeroPartos
             // 
-            label24.AutoSize = true;
-            label24.Location = new Point(30, 62);
-            label24.Margin = new Padding(4, 0, 4, 0);
-            label24.Name = "label24";
-            label24.Size = new Size(171, 21);
-            label24.TabIndex = 11;
-            label24.Text = "Numero de Partos";
+            lblNumeroPartos.AutoSize = true;
+            lblNumeroPartos.Location = new Point(30, 62);
+            lblNumeroPartos.Margin = new Padding(4, 0, 4, 0);
+            lblNumeroPartos.Name = "lblNumeroPartos";
+            lblNumeroPartos.Size = new Size(171, 21);
+            lblNumeroPartos.TabIndex = 11;
+            lblNumeroPartos.Text = "Numero de Partos";
             // 
             // txtNacidosMuertos
             // 
-            txtNacidosMuertos.Location = new Point(180, 233);
+            txtNacidosMuertos.Location = new Point(194, 233);
             txtNacidosMuertos.Margin = new Padding(4, 5, 4, 5);
             txtNacidosMuertos.MaxLength = 2;
             txtNacidosMuertos.Name = "txtNacidosMuertos";
@@ -646,7 +646,7 @@
             // 
             // txtNacidosVivos
             // 
-            txtNacidosVivos.Location = new Point(180, 107);
+            txtNacidosVivos.Location = new Point(194, 105);
             txtNacidosVivos.Margin = new Padding(4, 5, 4, 5);
             txtNacidosVivos.MaxLength = 2;
             txtNacidosVivos.Name = "txtNacidosVivos";
@@ -656,7 +656,7 @@
             // 
             // txtGestasPrevias
             // 
-            txtGestasPrevias.Location = new Point(180, 43);
+            txtGestasPrevias.Location = new Point(194, 45);
             txtGestasPrevias.Margin = new Padding(4, 5, 4, 5);
             txtGestasPrevias.MaxLength = 2;
             txtGestasPrevias.Name = "txtGestasPrevias";
@@ -664,42 +664,42 @@
             txtGestasPrevias.TabIndex = 8;
             txtGestasPrevias.TextChanged += txtGestasPrevias_TextChanged;
             // 
-            // label19
+            // lblNacidosMuertos
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(33, 238);
-            label19.Margin = new Padding(4, 0, 4, 0);
-            label19.Name = "label19";
-            label19.Size = new Size(161, 21);
-            label19.TabIndex = 7;
-            label19.Text = "Nacidos muertos";
+            lblNacidosMuertos.AutoSize = true;
+            lblNacidosMuertos.Location = new Point(30, 236);
+            lblNacidosMuertos.Margin = new Padding(4, 0, 4, 0);
+            lblNacidosMuertos.Name = "lblNacidosMuertos";
+            lblNacidosMuertos.Size = new Size(161, 21);
+            lblNacidosMuertos.TabIndex = 7;
+            lblNacidosMuertos.Text = "Nacidos muertos";
             // 
-            // label20
+            // lblNacidosV
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(57, 112);
-            label20.Margin = new Padding(4, 0, 4, 0);
-            label20.Name = "label20";
-            label20.Size = new Size(134, 21);
-            label20.TabIndex = 6;
-            label20.Text = "Nacidos vivos";
+            lblNacidosV.AutoSize = true;
+            lblNacidosV.Location = new Point(57, 112);
+            lblNacidosV.Margin = new Padding(4, 0, 4, 0);
+            lblNacidosV.Name = "lblNacidosV";
+            lblNacidosV.Size = new Size(134, 21);
+            lblNacidosV.TabIndex = 6;
+            lblNacidosV.Text = "Nacidos vivos";
             // 
-            // label21
+            // lblGestasP
             // 
-            label21.AutoSize = true;
-            label21.Location = new Point(56, 48);
-            label21.Margin = new Padding(4, 0, 4, 0);
-            label21.Name = "label21";
-            label21.Size = new Size(143, 21);
-            label21.TabIndex = 5;
-            label21.Text = "Gestas previas";
+            lblGestasP.AutoSize = true;
+            lblGestasP.Location = new Point(56, 48);
+            lblGestasP.Margin = new Padding(4, 0, 4, 0);
+            lblGestasP.Name = "lblGestasP";
+            lblGestasP.Size = new Size(143, 21);
+            lblGestasP.TabIndex = 5;
+            lblGestasP.Text = "Gestas previas";
             // 
             // gbxAntecedentes
             // 
-            gbxAntecedentes.Controls.Add(label11);
-            gbxAntecedentes.Controls.Add(label12);
-            gbxAntecedentes.Controls.Add(label9);
-            gbxAntecedentes.Controls.Add(label10);
+            gbxAntecedentes.Controls.Add(lblOtracond);
+            gbxAntecedentes.Controls.Add(lblEclampsia);
+            gbxAntecedentes.Controls.Add(lblPreeclam);
+            gbxAntecedentes.Controls.Add(lblHipertension);
             gbxAntecedentes.Controls.Add(lblDiabetes);
             gbxAntecedentes.Controls.Add(lblTBC);
             gbxAntecedentes.Controls.Add(gbxAntecedentesPersonalesObstetricos);
@@ -713,45 +713,45 @@
             gbxAntecedentes.TabStop = false;
             gbxAntecedentes.Text = "ANTECEDENTES";
             // 
-            // label11
+            // lblOtracond
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(203, 488);
-            label11.Margin = new Padding(4, 0, 4, 0);
-            label11.Name = "label11";
-            label11.Size = new Size(234, 21);
-            label11.TabIndex = 7;
-            label11.Text = "Otra Cond. Médica Grave";
+            lblOtracond.AutoSize = true;
+            lblOtracond.Location = new Point(203, 488);
+            lblOtracond.Margin = new Padding(4, 0, 4, 0);
+            lblOtracond.Name = "lblOtracond";
+            lblOtracond.Size = new Size(234, 21);
+            lblOtracond.TabIndex = 7;
+            lblOtracond.Text = "Otra Cond. Médica Grave";
             // 
-            // label12
+            // lblEclampsia
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(260, 413);
-            label12.Margin = new Padding(4, 0, 4, 0);
-            label12.Name = "label12";
-            label12.Size = new Size(102, 21);
-            label12.TabIndex = 6;
-            label12.Text = "Eclampsia";
+            lblEclampsia.AutoSize = true;
+            lblEclampsia.Location = new Point(260, 413);
+            lblEclampsia.Margin = new Padding(4, 0, 4, 0);
+            lblEclampsia.Name = "lblEclampsia";
+            lblEclampsia.Size = new Size(102, 21);
+            lblEclampsia.TabIndex = 6;
+            lblEclampsia.Text = "Eclampsia";
             // 
-            // label9
+            // lblPreeclam
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(249, 340);
-            label9.Margin = new Padding(4, 0, 4, 0);
-            label9.Name = "label9";
-            label9.Size = new Size(132, 21);
-            label9.TabIndex = 5;
-            label9.Text = "Preeclampsia";
+            lblPreeclam.AutoSize = true;
+            lblPreeclam.Location = new Point(249, 340);
+            lblPreeclam.Margin = new Padding(4, 0, 4, 0);
+            lblPreeclam.Name = "lblPreeclam";
+            lblPreeclam.Size = new Size(132, 21);
+            lblPreeclam.TabIndex = 5;
+            lblPreeclam.Text = "Preeclampsia";
             // 
-            // label10
+            // lblHipertension
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(250, 268);
-            label10.Margin = new Padding(4, 0, 4, 0);
-            label10.Name = "label10";
-            label10.Size = new Size(124, 21);
-            label10.TabIndex = 4;
-            label10.Text = "Hipertensión";
+            lblHipertension.AutoSize = true;
+            lblHipertension.Location = new Point(250, 268);
+            lblHipertension.Margin = new Padding(4, 0, 4, 0);
+            lblHipertension.Name = "lblHipertension";
+            lblHipertension.Size = new Size(124, 21);
+            lblHipertension.TabIndex = 4;
+            lblHipertension.Text = "Hipertensión";
             // 
             // lblDiabetes
             // 
@@ -775,12 +775,12 @@
             // 
             // gbxAntecedentesPersonalesObstetricos
             // 
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label13);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label14);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label15);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label16);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label17);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label18);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblVih);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblViolencia);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblNefropatia);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblCardiopatia);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblInfertilidad);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblCirugiaGU);
             gbxAntecedentesPersonalesObstetricos.Controls.Add(gbxObstetricosVIH);
             gbxAntecedentesPersonalesObstetricos.Controls.Add(gbxObstetricosViolencia);
             gbxAntecedentesPersonalesObstetricos.Controls.Add(gbxObstetricosNefropatia);
@@ -793,10 +793,10 @@
             gbxAntecedentesPersonalesObstetricos.Controls.Add(gbxPersonalesHipertension);
             gbxAntecedentesPersonalesObstetricos.Controls.Add(gbxPersonalesDiabetes);
             gbxAntecedentesPersonalesObstetricos.Controls.Add(gbxPersonalesTBC);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label5);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label6);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label3);
-            gbxAntecedentesPersonalesObstetricos.Controls.Add(label4);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblPOSi);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblPONo);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblPSi);
+            gbxAntecedentesPersonalesObstetricos.Controls.Add(lblPNo);
             gbxAntecedentesPersonalesObstetricos.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             gbxAntecedentesPersonalesObstetricos.Location = new Point(424, 37);
             gbxAntecedentesPersonalesObstetricos.Margin = new Padding(4, 5, 4, 5);
@@ -807,65 +807,65 @@
             gbxAntecedentesPersonalesObstetricos.TabStop = false;
             gbxAntecedentesPersonalesObstetricos.Text = "PERSONALES                                                                                                                          OBSTETRICOS";
             // 
-            // label13
+            // lblVih
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(603, 450);
-            label13.Margin = new Padding(4, 0, 4, 0);
-            label13.Name = "label13";
-            label13.Size = new Size(42, 21);
-            label13.TabIndex = 25;
-            label13.Text = "VIH";
+            lblVih.AutoSize = true;
+            lblVih.Location = new Point(603, 450);
+            lblVih.Margin = new Padding(4, 0, 4, 0);
+            lblVih.Name = "lblVih";
+            lblVih.Size = new Size(42, 21);
+            lblVih.TabIndex = 25;
+            lblVih.Text = "VIH";
             // 
-            // label14
+            // lblViolencia
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(561, 377);
-            label14.Margin = new Padding(4, 0, 4, 0);
-            label14.Name = "label14";
-            label14.Size = new Size(92, 21);
-            label14.TabIndex = 24;
-            label14.Text = "Violencia";
+            lblViolencia.AutoSize = true;
+            lblViolencia.Location = new Point(561, 377);
+            lblViolencia.Margin = new Padding(4, 0, 4, 0);
+            lblViolencia.Name = "lblViolencia";
+            lblViolencia.Size = new Size(92, 21);
+            lblViolencia.TabIndex = 24;
+            lblViolencia.Text = "Violencia";
             // 
-            // label15
+            // lblNefropatia
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(550, 303);
-            label15.Margin = new Padding(4, 0, 4, 0);
-            label15.Name = "label15";
-            label15.Size = new Size(104, 21);
-            label15.TabIndex = 23;
-            label15.Text = "Nefropatía";
+            lblNefropatia.AutoSize = true;
+            lblNefropatia.Location = new Point(550, 303);
+            lblNefropatia.Margin = new Padding(4, 0, 4, 0);
+            lblNefropatia.Name = "lblNefropatia";
+            lblNefropatia.Size = new Size(104, 21);
+            lblNefropatia.TabIndex = 23;
+            lblNefropatia.Text = "Nefropatía";
             // 
-            // label16
+            // lblCardiopatia
             // 
-            label16.AutoSize = true;
-            label16.Location = new Point(543, 232);
-            label16.Margin = new Padding(4, 0, 4, 0);
-            label16.Name = "label16";
-            label16.Size = new Size(113, 21);
-            label16.TabIndex = 22;
-            label16.Text = "Cardiopatía";
+            lblCardiopatia.AutoSize = true;
+            lblCardiopatia.Location = new Point(543, 232);
+            lblCardiopatia.Margin = new Padding(4, 0, 4, 0);
+            lblCardiopatia.Name = "lblCardiopatia";
+            lblCardiopatia.Size = new Size(113, 21);
+            lblCardiopatia.TabIndex = 22;
+            lblCardiopatia.Text = "Cardiopatía";
             // 
-            // label17
+            // lblInfertilidad
             // 
-            label17.AutoSize = true;
-            label17.Location = new Point(549, 158);
-            label17.Margin = new Padding(4, 0, 4, 0);
-            label17.Name = "label17";
-            label17.Size = new Size(106, 21);
-            label17.TabIndex = 21;
-            label17.Text = "Infertilidad";
+            lblInfertilidad.AutoSize = true;
+            lblInfertilidad.Location = new Point(549, 158);
+            lblInfertilidad.Margin = new Padding(4, 0, 4, 0);
+            lblInfertilidad.Name = "lblInfertilidad";
+            lblInfertilidad.Size = new Size(106, 21);
+            lblInfertilidad.TabIndex = 21;
+            lblInfertilidad.Text = "Infertilidad";
             // 
-            // label18
+            // lblCirugiaGU
             // 
-            label18.AutoSize = true;
-            label18.Location = new Point(459, 85);
-            label18.Margin = new Padding(4, 0, 4, 0);
-            label18.Name = "label18";
-            label18.Size = new Size(215, 21);
-            label18.TabIndex = 20;
-            label18.Text = "Cirugía Genito Urinaria";
+            lblCirugiaGU.AutoSize = true;
+            lblCirugiaGU.Location = new Point(441, 83);
+            lblCirugiaGU.Margin = new Padding(4, 0, 4, 0);
+            lblCirugiaGU.Name = "lblCirugiaGU";
+            lblCirugiaGU.Size = new Size(215, 21);
+            lblCirugiaGU.TabIndex = 20;
+            lblCirugiaGU.Text = "Cirugía Genito Urinaria";
             // 
             // gbxObstetricosVIH
             // 
@@ -1307,45 +1307,45 @@
             rbnPTBCNo.TabStop = true;
             rbnPTBCNo.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // lblPOSi
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(721, 32);
-            label5.Margin = new Padding(4, 0, 4, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(27, 21);
-            label5.TabIndex = 7;
-            label5.Text = "Si";
+            lblPOSi.AutoSize = true;
+            lblPOSi.Location = new Point(721, 32);
+            lblPOSi.Margin = new Padding(4, 0, 4, 0);
+            lblPOSi.Name = "lblPOSi";
+            lblPOSi.Size = new Size(27, 21);
+            lblPOSi.TabIndex = 7;
+            lblPOSi.Text = "Si";
             // 
-            // label6
+            // lblPONo
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(669, 32);
-            label6.Margin = new Padding(4, 0, 4, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(35, 21);
-            label6.TabIndex = 6;
-            label6.Text = "No";
+            lblPONo.AutoSize = true;
+            lblPONo.Location = new Point(669, 32);
+            lblPONo.Margin = new Padding(4, 0, 4, 0);
+            lblPONo.Name = "lblPONo";
+            lblPONo.Size = new Size(35, 21);
+            lblPONo.TabIndex = 6;
+            lblPONo.Text = "No";
             // 
-            // label3
+            // lblPSi
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(81, 32);
-            label3.Margin = new Padding(4, 0, 4, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(27, 21);
-            label3.TabIndex = 5;
-            label3.Text = "Si";
+            lblPSi.AutoSize = true;
+            lblPSi.Location = new Point(82, 46);
+            lblPSi.Margin = new Padding(4, 0, 4, 0);
+            lblPSi.Name = "lblPSi";
+            lblPSi.Size = new Size(27, 21);
+            lblPSi.TabIndex = 5;
+            lblPSi.Text = "Si";
             // 
-            // label4
+            // lblPNo
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(29, 32);
-            label4.Margin = new Padding(4, 0, 4, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(35, 21);
-            label4.TabIndex = 4;
-            label4.Text = "No";
+            lblPNo.AutoSize = true;
+            lblPNo.Location = new Point(29, 46);
+            lblPNo.Margin = new Padding(4, 0, 4, 0);
+            lblPNo.Name = "lblPNo";
+            lblPNo.Size = new Size(35, 21);
+            lblPNo.TabIndex = 4;
+            lblPNo.Text = "No";
             // 
             // gbxAntecedentesFamiliares
             // 
@@ -1355,8 +1355,8 @@
             gbxAntecedentesFamiliares.Controls.Add(gbxFamiliaresHipertension);
             gbxAntecedentesFamiliares.Controls.Add(gbxFamiliaresDiabetes);
             gbxAntecedentesFamiliares.Controls.Add(gbxFamiliaresTBC);
-            gbxAntecedentesFamiliares.Controls.Add(label2);
-            gbxAntecedentesFamiliares.Controls.Add(label1);
+            gbxAntecedentesFamiliares.Controls.Add(lblFSi);
+            gbxAntecedentesFamiliares.Controls.Add(lblFNo);
             gbxAntecedentesFamiliares.Location = new Point(9, 37);
             gbxAntecedentesFamiliares.Margin = new Padding(4, 5, 4, 5);
             gbxAntecedentesFamiliares.Name = "gbxAntecedentesFamiliares";
@@ -1570,25 +1570,25 @@
             rbnFTBCNo.TabStop = true;
             rbnFTBCNo.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // lblFSi
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(101, 32);
-            label2.Margin = new Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(27, 21);
-            label2.TabIndex = 3;
-            label2.Text = "Si";
+            lblFSi.AutoSize = true;
+            lblFSi.Location = new Point(101, 32);
+            lblFSi.Margin = new Padding(4, 0, 4, 0);
+            lblFSi.Name = "lblFSi";
+            lblFSi.Size = new Size(27, 21);
+            lblFSi.TabIndex = 3;
+            lblFSi.Text = "Si";
             // 
-            // label1
+            // lblFNo
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(51, 32);
-            label1.Margin = new Padding(4, 0, 4, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(35, 21);
-            label1.TabIndex = 2;
-            label1.Text = "No";
+            lblFNo.AutoSize = true;
+            lblFNo.Location = new Point(51, 32);
+            lblFNo.Margin = new Padding(4, 0, 4, 0);
+            lblFNo.Name = "lblFNo";
+            lblFNo.Size = new Size(35, 21);
+            lblFNo.TabIndex = 2;
+            lblFNo.Text = "No";
             // 
             // btnRegresar
             // 
@@ -1721,15 +1721,15 @@
         private GroupBox gbxAntecedentes;
         private GroupBox gbxAntecedentesPersonalesObstetricos;
         private GroupBox gbxAntecedentesFamiliares;
-        private Label label5;
-        private Label label6;
-        private Label label3;
-        private Label label4;
+        private Label lblPOSi;
+        private Label lblPONo;
+        private Label lblPSi;
+        private Label lblPNo;
         private GroupBox gbxFamiliaresTBC;
         private RadioButton rbnFTBCSi;
         private RadioButton rbnFTBCNo;
-        private Label label2;
-        private Label label1;
+        private Label lblFSi;
+        private Label lblFNo;
         private Label lblTBC;
         private GroupBox gbxObstetricosVIH;
         private RadioButton rbnVIHSi;
@@ -1780,17 +1780,17 @@
         private GroupBox gbxFamiliaresDiabetes;
         private RadioButton rbnFDiabetesSi;
         private RadioButton rbnFDiabetesNo;
-        private Label label11;
-        private Label label12;
-        private Label label9;
-        private Label label10;
+        private Label lblOtracond;
+        private Label lblEclampsia;
+        private Label lblPreeclam;
+        private Label lblHipertension;
         private Label lblDiabetes;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label16;
-        private Label label17;
-        private Label label18;
+        private Label lblVih;
+        private Label lblViolencia;
+        private Label lblNefropatia;
+        private Label lblCardiopatia;
+        private Label lblInfertilidad;
+        private Label lblCirugiaGU;
         private RadioButton rbnPDiabetesG;
         private RadioButton rbnPDiabetesII;
         private RadioButton rbnPDiabetesI;
@@ -1799,9 +1799,9 @@
         private TextBox txtNacidosMuertos;
         private TextBox txtNacidosVivos;
         private TextBox txtGestasPrevias;
-        private Label label19;
-        private Label label20;
-        private Label label21;
+        private Label lblNacidosMuertos;
+        private Label lblNacidosV;
+        private Label lblGestasP;
         private GroupBox gbxPesoNacido;
         private RadioButton rbnPesoNormal;
         private RadioButton rbnPeso4000;
@@ -1811,29 +1811,29 @@
         private TextBox txtCesarea;
         private TextBox txtVaginales;
         private TextBox txtNumeroPartos;
-        private Label label22;
-        private Label label23;
-        private Label label24;
+        private Label lblCesarea;
+        private Label lblVaginales;
+        private Label lblNumeroPartos;
         private GroupBox gbxAbortos;
         private TextBox txtAbortos;
-        private Label label25;
+        private Label lblAbortos;
         private RadioButton gbx3ExpontConsecutivos;
         private TextBox txtMuertesPrimeraSemana;
         private TextBox txtViven;
         private TextBox txtEmbEtopico;
-        private Label label26;
-        private Label label27;
-        private Label label28;
+        private Label lblMuertesPrimeraSemana;
+        private Label lblViven;
+        private Label lblEmbEtopico;
         private GroupBox gbxFinEmbarazoAnterior;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtpFinEmbaA;
         private RadioButton rbnMenos1Año;
         private GroupBox gbxFMetodoAnticoseptivo;
-        private Label label29;
+        private Label lblFMetodoAnticonceptivo;
         private ComboBox cmbFMetodoAnticonseptivo;
         private GroupBox gbxEmbarazoPlaneado;
         private RadioButton rbnEmbarazoPlaneadoSi;
         private RadioButton rbnEmbarazoPlaneadoNo;
-        private Label label30;
+        private Label lblEmbarazoplaneado;
         private GroupBox gbxAntecedentesGemelares;
         private RadioButton rbnGemelaresSi;
         private RadioButton rbnGemelaresNo;
