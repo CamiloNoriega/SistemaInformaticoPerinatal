@@ -182,10 +182,13 @@
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = SystemColors.GradientInactiveCaption;
             groupBox1.Controls.Add(groupBox2);
-            groupBox1.Location = new Point(12, 12);
+            groupBox1.Location = new Point(19, 17);
+            groupBox1.Margin = new Padding(4, 4, 4, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(962, 426);
+            groupBox1.Padding = new Padding(4, 4, 4, 4);
+            groupBox1.Size = new Size(1511, 596);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "ENFERMEDADES (PATOLOGÍAS MATERNAS)";
@@ -227,9 +230,11 @@
             groupBox2.Controls.Add(groupBox13);
             groupBox2.Controls.Add(groupBox14);
             groupBox2.Controls.Add(groupBox15);
-            groupBox2.Location = new Point(6, 22);
+            groupBox2.Location = new Point(10, 31);
+            groupBox2.Margin = new Padding(4, 4, 4, 4);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(943, 398);
+            groupBox2.Padding = new Padding(4, 4, 4, 4);
+            groupBox2.Size = new Size(1482, 557);
             groupBox2.TabIndex = 0;
             groupBox2.TabStop = false;
             groupBox2.Text = "ENFERMEDADES";
@@ -237,9 +242,10 @@
             // radioButton41
             // 
             radioButton41.AutoSize = true;
-            radioButton41.Location = new Point(277, 22);
+            radioButton41.Location = new Point(436, 31);
+            radioButton41.Margin = new Padding(4, 4, 4, 4);
             radioButton41.Name = "radioButton41";
-            radioButton41.Size = new Size(71, 19);
+            radioButton41.Size = new Size(109, 25);
             radioButton41.TabIndex = 48;
             radioButton41.TabStop = true;
             radioButton41.Text = "Ninguna";
@@ -248,9 +254,10 @@
             // radioButton42
             // 
             radioButton42.AutoSize = true;
-            radioButton42.Location = new Point(189, 22);
+            radioButton42.Location = new Point(297, 31);
+            radioButton42.Margin = new Padding(4, 4, 4, 4);
             radioButton42.Name = "radioButton42";
-            radioButton42.Size = new Size(66, 19);
+            radioButton42.Size = new Size(103, 25);
             radioButton42.TabIndex = 47;
             radioButton42.TabStop = true;
             radioButton42.Text = "1 o Más";
@@ -276,9 +283,11 @@
             groupBox17.Controls.Add(groupBox20);
             groupBox17.Controls.Add(groupBox21);
             groupBox17.Controls.Add(groupBox22);
-            groupBox17.Location = new Point(656, 15);
+            groupBox17.Location = new Point(1031, 21);
+            groupBox17.Margin = new Padding(4, 4, 4, 4);
             groupBox17.Name = "groupBox17";
-            groupBox17.Size = new Size(281, 377);
+            groupBox17.Padding = new Padding(4, 4, 4, 4);
+            groupBox17.Size = new Size(441, 528);
             groupBox17.TabIndex = 46;
             groupBox17.TabStop = false;
             groupBox17.Text = "HEMORRAGIA";
@@ -286,107 +295,120 @@
             // label26
             // 
             label26.AutoSize = true;
-            label26.Location = new Point(204, 44);
+            label26.Location = new Point(320, 61);
+            label26.Margin = new Padding(4, 0, 4, 0);
             label26.Name = "label26";
-            label26.Size = new Size(46, 15);
+            label26.Size = new Size(72, 21);
             label26.TabIndex = 56;
             label26.Text = "Codigo";
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(204, 246);
+            textBox8.Location = new Point(320, 344);
+            textBox8.Margin = new Padding(4, 4, 4, 4);
             textBox8.Name = "textBox8";
-            textBox8.Size = new Size(35, 23);
+            textBox8.Size = new Size(52, 28);
             textBox8.TabIndex = 55;
             // 
             // textBox9
             // 
-            textBox9.Location = new Point(204, 159);
+            textBox9.Location = new Point(320, 223);
+            textBox9.Margin = new Padding(4, 4, 4, 4);
             textBox9.Name = "textBox9";
-            textBox9.Size = new Size(35, 23);
+            textBox9.Size = new Size(52, 28);
             textBox9.TabIndex = 54;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(204, 202);
+            textBox3.Location = new Point(320, 283);
+            textBox3.Margin = new Padding(4, 4, 4, 4);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(35, 23);
+            textBox3.Size = new Size(52, 28);
             textBox3.TabIndex = 53;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(204, 115);
+            textBox2.Location = new Point(320, 161);
+            textBox2.Margin = new Padding(4, 4, 4, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(35, 23);
+            textBox2.Size = new Size(52, 28);
             textBox2.TabIndex = 52;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(204, 71);
+            textBox1.Location = new Point(320, 99);
+            textBox1.Margin = new Padding(4, 4, 4, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(35, 23);
+            textBox1.Size = new Size(52, 28);
             textBox1.TabIndex = 51;
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(31, 205);
+            label19.Location = new Point(48, 287);
+            label19.Margin = new Padding(4, 0, 4, 0);
             label19.Name = "label19";
-            label19.Size = new Size(60, 15);
+            label19.Size = new Size(102, 21);
             label19.TabIndex = 50;
             label19.Text = "Eclampsia";
             // 
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(23, 249);
+            label20.Location = new Point(36, 349);
+            label20.Margin = new Padding(4, 0, 4, 0);
             label20.Name = "label20";
-            label20.Size = new Size(68, 15);
+            label20.Size = new Size(113, 21);
             label20.TabIndex = 49;
             label20.Text = "Cardiopatia";
             // 
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(14, 162);
+            label21.Location = new Point(22, 227);
+            label21.Margin = new Padding(4, 0, 4, 0);
             label21.Name = "label21";
-            label21.Size = new Size(77, 15);
+            label21.Size = new Size(132, 21);
             label21.TabIndex = 48;
             label21.Text = "Preeclampsia";
             // 
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(10, 112);
+            label22.Location = new Point(15, 157);
+            label22.Margin = new Padding(4, 0, 4, 0);
             label22.Name = "label22";
-            label22.Size = new Size(81, 30);
+            label22.Size = new Size(135, 42);
             label22.TabIndex = 47;
             label22.Text = "HTA Inducida \r\nEmbarazo";
             // 
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(27, 75);
+            label23.Location = new Point(43, 105);
+            label23.Margin = new Padding(4, 0, 4, 0);
             label23.Name = "label23";
-            label23.Size = new Size(64, 15);
+            label23.Size = new Size(110, 21);
             label23.TabIndex = 46;
             label23.Text = "HTA Previa";
             // 
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(146, 44);
+            label24.Location = new Point(230, 61);
+            label24.Margin = new Padding(4, 0, 4, 0);
             label24.Name = "label24";
-            label24.Size = new Size(16, 15);
+            label24.Size = new Size(27, 21);
             label24.TabIndex = 45;
             label24.Text = "Si";
             // 
             // label25
             // 
             label25.AutoSize = true;
-            label25.Location = new Point(109, 44);
+            label25.Location = new Point(172, 61);
+            label25.Margin = new Padding(4, 0, 4, 0);
             label25.Name = "label25";
-            label25.Size = new Size(23, 15);
+            label25.Size = new Size(35, 21);
             label25.TabIndex = 44;
             label25.Text = "No";
             // 
@@ -394,18 +416,21 @@
             // 
             groupBox18.Controls.Add(radioButton29);
             groupBox18.Controls.Add(radioButton30);
-            groupBox18.Location = new Point(97, 104);
+            groupBox18.Location = new Point(153, 145);
+            groupBox18.Margin = new Padding(4, 4, 4, 4);
             groupBox18.Name = "groupBox18";
-            groupBox18.Size = new Size(72, 38);
+            groupBox18.Padding = new Padding(4, 4, 4, 4);
+            groupBox18.Size = new Size(113, 53);
             groupBox18.TabIndex = 43;
             groupBox18.TabStop = false;
             // 
             // radioButton29
             // 
             radioButton29.AutoSize = true;
-            radioButton29.Location = new Point(51, 15);
+            radioButton29.Location = new Point(80, 21);
+            radioButton29.Margin = new Padding(4, 4, 4, 4);
             radioButton29.Name = "radioButton29";
-            radioButton29.Size = new Size(14, 13);
+            radioButton29.Size = new Size(21, 20);
             radioButton29.TabIndex = 3;
             radioButton29.TabStop = true;
             radioButton29.UseVisualStyleBackColor = true;
@@ -413,9 +438,10 @@
             // radioButton30
             // 
             radioButton30.AutoSize = true;
-            radioButton30.Location = new Point(14, 15);
+            radioButton30.Location = new Point(22, 21);
+            radioButton30.Margin = new Padding(4, 4, 4, 4);
             radioButton30.Name = "radioButton30";
-            radioButton30.Size = new Size(14, 13);
+            radioButton30.Size = new Size(21, 20);
             radioButton30.TabIndex = 0;
             radioButton30.TabStop = true;
             radioButton30.UseVisualStyleBackColor = true;
@@ -424,18 +450,21 @@
             // 
             groupBox19.Controls.Add(radioButton31);
             groupBox19.Controls.Add(radioButton32);
-            groupBox19.Location = new Point(97, 236);
+            groupBox19.Location = new Point(153, 330);
+            groupBox19.Margin = new Padding(4, 4, 4, 4);
             groupBox19.Name = "groupBox19";
-            groupBox19.Size = new Size(72, 38);
+            groupBox19.Padding = new Padding(4, 4, 4, 4);
+            groupBox19.Size = new Size(113, 53);
             groupBox19.TabIndex = 40;
             groupBox19.TabStop = false;
             // 
             // radioButton31
             // 
             radioButton31.AutoSize = true;
-            radioButton31.Location = new Point(51, 15);
+            radioButton31.Location = new Point(80, 21);
+            radioButton31.Margin = new Padding(4, 4, 4, 4);
             radioButton31.Name = "radioButton31";
-            radioButton31.Size = new Size(14, 13);
+            radioButton31.Size = new Size(21, 20);
             radioButton31.TabIndex = 3;
             radioButton31.TabStop = true;
             radioButton31.UseVisualStyleBackColor = true;
@@ -443,9 +472,10 @@
             // radioButton32
             // 
             radioButton32.AutoSize = true;
-            radioButton32.Location = new Point(14, 15);
+            radioButton32.Location = new Point(22, 21);
+            radioButton32.Margin = new Padding(4, 4, 4, 4);
             radioButton32.Name = "radioButton32";
-            radioButton32.Size = new Size(14, 13);
+            radioButton32.Size = new Size(21, 20);
             radioButton32.TabIndex = 0;
             radioButton32.TabStop = true;
             radioButton32.UseVisualStyleBackColor = true;
@@ -454,18 +484,21 @@
             // 
             groupBox20.Controls.Add(radioButton33);
             groupBox20.Controls.Add(radioButton34);
-            groupBox20.Location = new Point(97, 192);
+            groupBox20.Location = new Point(153, 269);
+            groupBox20.Margin = new Padding(4, 4, 4, 4);
             groupBox20.Name = "groupBox20";
-            groupBox20.Size = new Size(72, 38);
+            groupBox20.Padding = new Padding(4, 4, 4, 4);
+            groupBox20.Size = new Size(113, 53);
             groupBox20.TabIndex = 41;
             groupBox20.TabStop = false;
             // 
             // radioButton33
             // 
             radioButton33.AutoSize = true;
-            radioButton33.Location = new Point(51, 15);
+            radioButton33.Location = new Point(80, 21);
+            radioButton33.Margin = new Padding(4, 4, 4, 4);
             radioButton33.Name = "radioButton33";
-            radioButton33.Size = new Size(14, 13);
+            radioButton33.Size = new Size(21, 20);
             radioButton33.TabIndex = 3;
             radioButton33.TabStop = true;
             radioButton33.UseVisualStyleBackColor = true;
@@ -473,9 +506,10 @@
             // radioButton34
             // 
             radioButton34.AutoSize = true;
-            radioButton34.Location = new Point(14, 15);
+            radioButton34.Location = new Point(22, 21);
+            radioButton34.Margin = new Padding(4, 4, 4, 4);
             radioButton34.Name = "radioButton34";
-            radioButton34.Size = new Size(14, 13);
+            radioButton34.Size = new Size(21, 20);
             radioButton34.TabIndex = 0;
             radioButton34.TabStop = true;
             radioButton34.UseVisualStyleBackColor = true;
@@ -484,18 +518,21 @@
             // 
             groupBox21.Controls.Add(radioButton35);
             groupBox21.Controls.Add(radioButton36);
-            groupBox21.Location = new Point(97, 148);
+            groupBox21.Location = new Point(153, 207);
+            groupBox21.Margin = new Padding(4, 4, 4, 4);
             groupBox21.Name = "groupBox21";
-            groupBox21.Size = new Size(72, 38);
+            groupBox21.Padding = new Padding(4, 4, 4, 4);
+            groupBox21.Size = new Size(113, 53);
             groupBox21.TabIndex = 42;
             groupBox21.TabStop = false;
             // 
             // radioButton35
             // 
             radioButton35.AutoSize = true;
-            radioButton35.Location = new Point(51, 15);
+            radioButton35.Location = new Point(80, 21);
+            radioButton35.Margin = new Padding(4, 4, 4, 4);
             radioButton35.Name = "radioButton35";
-            radioButton35.Size = new Size(14, 13);
+            radioButton35.Size = new Size(21, 20);
             radioButton35.TabIndex = 3;
             radioButton35.TabStop = true;
             radioButton35.UseVisualStyleBackColor = true;
@@ -503,9 +540,10 @@
             // radioButton36
             // 
             radioButton36.AutoSize = true;
-            radioButton36.Location = new Point(14, 15);
+            radioButton36.Location = new Point(22, 21);
+            radioButton36.Margin = new Padding(4, 4, 4, 4);
             radioButton36.Name = "radioButton36";
-            radioButton36.Size = new Size(14, 13);
+            radioButton36.Size = new Size(21, 20);
             radioButton36.TabIndex = 0;
             radioButton36.TabStop = true;
             radioButton36.UseVisualStyleBackColor = true;
@@ -514,18 +552,21 @@
             // 
             groupBox22.Controls.Add(radioButton39);
             groupBox22.Controls.Add(radioButton40);
-            groupBox22.Location = new Point(97, 60);
+            groupBox22.Location = new Point(153, 84);
+            groupBox22.Margin = new Padding(4, 4, 4, 4);
             groupBox22.Name = "groupBox22";
-            groupBox22.Size = new Size(72, 38);
+            groupBox22.Padding = new Padding(4, 4, 4, 4);
+            groupBox22.Size = new Size(113, 53);
             groupBox22.TabIndex = 39;
             groupBox22.TabStop = false;
             // 
             // radioButton39
             // 
             radioButton39.AutoSize = true;
-            radioButton39.Location = new Point(51, 15);
+            radioButton39.Location = new Point(80, 21);
+            radioButton39.Margin = new Padding(4, 4, 4, 4);
             radioButton39.Name = "radioButton39";
-            radioButton39.Size = new Size(14, 13);
+            radioButton39.Size = new Size(21, 20);
             radioButton39.TabIndex = 3;
             radioButton39.TabStop = true;
             radioButton39.UseVisualStyleBackColor = true;
@@ -533,9 +574,10 @@
             // radioButton40
             // 
             radioButton40.AutoSize = true;
-            radioButton40.Location = new Point(14, 15);
+            radioButton40.Location = new Point(22, 21);
+            radioButton40.Margin = new Padding(4, 4, 4, 4);
             radioButton40.Name = "radioButton40";
-            radioButton40.Size = new Size(14, 13);
+            radioButton40.Size = new Size(21, 20);
             radioButton40.TabIndex = 0;
             radioButton40.TabStop = true;
             radioButton40.UseVisualStyleBackColor = true;
@@ -543,162 +585,180 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(440, 222);
+            label5.Location = new Point(692, 311);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(42, 15);
+            label5.Size = new Size(74, 21);
             label5.TabIndex = 45;
             label5.Text = "R.C.I.U";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(440, 266);
+            label6.Location = new Point(692, 372);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(161, 15);
+            label6.Size = new Size(269, 21);
             label6.TabIndex = 44;
             label6.Text = "Rotura Prem. de Membranas ";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(440, 310);
+            label7.Location = new Point(692, 434);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(48, 15);
+            label7.Size = new Size(77, 21);
             label7.TabIndex = 43;
             label7.Text = "Anemia";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(440, 178);
+            label9.Location = new Point(692, 249);
+            label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
-            label9.Size = new Size(121, 15);
+            label9.Size = new Size(206, 21);
             label9.TabIndex = 42;
             label9.Text = "Amenaza Parto Preter";
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(440, 135);
+            label10.Location = new Point(692, 189);
+            label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
-            label10.Size = new Size(81, 15);
+            label10.Size = new Size(135, 21);
             label10.TabIndex = 41;
             label10.Text = "HTA Inducida ";
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(440, 90);
+            label11.Location = new Point(692, 126);
+            label11.Margin = new Padding(4, 0, 4, 0);
             label11.Name = "label11";
-            label11.Size = new Size(78, 15);
+            label11.Size = new Size(131, 21);
             label11.TabIndex = 40;
             label11.Text = "Infec. Obular ";
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(440, 354);
+            label12.Location = new Point(692, 496);
+            label12.Margin = new Padding(4, 0, 4, 0);
             label12.Name = "label12";
-            label12.Size = new Size(98, 15);
+            label12.Size = new Size(165, 21);
             label12.TabIndex = 39;
             label12.Text = "Otra Cond. Grave";
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(41, 222);
+            label13.Location = new Point(65, 311);
+            label13.Margin = new Padding(4, 0, 4, 0);
             label13.Name = "label13";
-            label13.Size = new Size(60, 15);
+            label13.Size = new Size(102, 21);
             label13.TabIndex = 38;
             label13.Text = "Eclampsia";
             // 
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(33, 266);
+            label14.Location = new Point(52, 372);
+            label14.Margin = new Padding(4, 0, 4, 0);
             label14.Name = "label14";
-            label14.Size = new Size(68, 15);
+            label14.Size = new Size(113, 21);
             label14.TabIndex = 37;
             label14.Text = "Cardiopatia";
             // 
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(38, 310);
+            label15.Location = new Point(59, 434);
+            label15.Margin = new Padding(4, 0, 4, 0);
             label15.Name = "label15";
-            label15.Size = new Size(63, 15);
+            label15.Size = new Size(104, 21);
             label15.TabIndex = 36;
             label15.Text = "Nefropatía";
             // 
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(24, 179);
+            label16.Location = new Point(37, 250);
+            label16.Margin = new Padding(4, 0, 4, 0);
             label16.Name = "label16";
-            label16.Size = new Size(77, 15);
+            label16.Size = new Size(132, 21);
             label16.TabIndex = 35;
             label16.Text = "Preeclampsia";
             // 
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(20, 129);
+            label17.Location = new Point(32, 181);
+            label17.Margin = new Padding(4, 0, 4, 0);
             label17.Name = "label17";
-            label17.Size = new Size(81, 30);
+            label17.Size = new Size(135, 42);
             label17.TabIndex = 34;
             label17.Text = "HTA Inducida \r\nEmbarazo";
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(37, 92);
+            label18.Location = new Point(58, 129);
+            label18.Margin = new Padding(4, 0, 4, 0);
             label18.Name = "label18";
-            label18.Size = new Size(64, 15);
+            label18.Size = new Size(110, 21);
             label18.TabIndex = 33;
             label18.Text = "HTA Previa";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(49, 356);
+            label8.Location = new Point(77, 498);
+            label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
-            label8.Size = new Size(52, 15);
+            label8.Size = new Size(88, 21);
             label8.TabIndex = 32;
             label8.Text = "Diabetes";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(411, 59);
+            label1.Location = new Point(646, 82);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(16, 15);
+            label1.Size = new Size(27, 21);
             label1.TabIndex = 31;
             label1.Text = "Si";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(374, 59);
+            label2.Location = new Point(587, 82);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(23, 15);
+            label2.Size = new Size(35, 21);
             label2.TabIndex = 30;
             label2.Text = "No";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(156, 61);
+            label3.Location = new Point(245, 86);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(16, 15);
+            label3.Size = new Size(27, 21);
             label3.TabIndex = 29;
             label3.Text = "Si";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(119, 61);
+            label4.Location = new Point(187, 86);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(23, 15);
+            label4.Size = new Size(35, 21);
             label4.TabIndex = 28;
             label4.Text = "No";
             // 
@@ -706,18 +766,21 @@
             // 
             groupBox7.Controls.Add(radioButton9);
             groupBox7.Controls.Add(radioButton10);
-            groupBox7.Location = new Point(362, 209);
+            groupBox7.Location = new Point(569, 292);
+            groupBox7.Margin = new Padding(4, 4, 4, 4);
             groupBox7.Name = "groupBox7";
-            groupBox7.Size = new Size(72, 38);
+            groupBox7.Padding = new Padding(4, 4, 4, 4);
+            groupBox7.Size = new Size(113, 53);
             groupBox7.TabIndex = 24;
             groupBox7.TabStop = false;
             // 
             // radioButton9
             // 
             radioButton9.AutoSize = true;
-            radioButton9.Location = new Point(51, 15);
+            radioButton9.Location = new Point(80, 21);
+            radioButton9.Margin = new Padding(4, 4, 4, 4);
             radioButton9.Name = "radioButton9";
-            radioButton9.Size = new Size(14, 13);
+            radioButton9.Size = new Size(21, 20);
             radioButton9.TabIndex = 3;
             radioButton9.TabStop = true;
             radioButton9.UseVisualStyleBackColor = true;
@@ -725,9 +788,10 @@
             // radioButton10
             // 
             radioButton10.AutoSize = true;
-            radioButton10.Location = new Point(14, 15);
+            radioButton10.Location = new Point(22, 21);
+            radioButton10.Margin = new Padding(4, 4, 4, 4);
             radioButton10.Name = "radioButton10";
-            radioButton10.Size = new Size(14, 13);
+            radioButton10.Size = new Size(21, 20);
             radioButton10.TabIndex = 0;
             radioButton10.TabStop = true;
             radioButton10.UseVisualStyleBackColor = true;
@@ -736,18 +800,21 @@
             // 
             groupBox8.Controls.Add(radioButton11);
             groupBox8.Controls.Add(radioButton12);
-            groupBox8.Location = new Point(362, 165);
+            groupBox8.Location = new Point(569, 231);
+            groupBox8.Margin = new Padding(4, 4, 4, 4);
             groupBox8.Name = "groupBox8";
-            groupBox8.Size = new Size(72, 38);
+            groupBox8.Padding = new Padding(4, 4, 4, 4);
+            groupBox8.Size = new Size(113, 53);
             groupBox8.TabIndex = 25;
             groupBox8.TabStop = false;
             // 
             // radioButton11
             // 
             radioButton11.AutoSize = true;
-            radioButton11.Location = new Point(51, 15);
+            radioButton11.Location = new Point(80, 21);
+            radioButton11.Margin = new Padding(4, 4, 4, 4);
             radioButton11.Name = "radioButton11";
-            radioButton11.Size = new Size(14, 13);
+            radioButton11.Size = new Size(21, 20);
             radioButton11.TabIndex = 3;
             radioButton11.TabStop = true;
             radioButton11.UseVisualStyleBackColor = true;
@@ -755,9 +822,10 @@
             // radioButton12
             // 
             radioButton12.AutoSize = true;
-            radioButton12.Location = new Point(14, 15);
+            radioButton12.Location = new Point(22, 21);
+            radioButton12.Margin = new Padding(4, 4, 4, 4);
             radioButton12.Name = "radioButton12";
-            radioButton12.Size = new Size(14, 13);
+            radioButton12.Size = new Size(21, 20);
             radioButton12.TabIndex = 0;
             radioButton12.TabStop = true;
             radioButton12.UseVisualStyleBackColor = true;
@@ -766,18 +834,21 @@
             // 
             groupBox9.Controls.Add(radioButton25);
             groupBox9.Controls.Add(radioButton26);
-            groupBox9.Location = new Point(362, 121);
+            groupBox9.Location = new Point(569, 170);
+            groupBox9.Margin = new Padding(4, 4, 4, 4);
             groupBox9.Name = "groupBox9";
-            groupBox9.Size = new Size(72, 38);
+            groupBox9.Padding = new Padding(4, 4, 4, 4);
+            groupBox9.Size = new Size(113, 53);
             groupBox9.TabIndex = 26;
             groupBox9.TabStop = false;
             // 
             // radioButton25
             // 
             radioButton25.AutoSize = true;
-            radioButton25.Location = new Point(51, 15);
+            radioButton25.Location = new Point(80, 21);
+            radioButton25.Margin = new Padding(4, 4, 4, 4);
             radioButton25.Name = "radioButton25";
-            radioButton25.Size = new Size(14, 13);
+            radioButton25.Size = new Size(21, 20);
             radioButton25.TabIndex = 3;
             radioButton25.TabStop = true;
             radioButton25.UseVisualStyleBackColor = true;
@@ -785,9 +856,10 @@
             // radioButton26
             // 
             radioButton26.AutoSize = true;
-            radioButton26.Location = new Point(14, 15);
+            radioButton26.Location = new Point(22, 21);
+            radioButton26.Margin = new Padding(4, 4, 4, 4);
             radioButton26.Name = "radioButton26";
-            radioButton26.Size = new Size(14, 13);
+            radioButton26.Size = new Size(21, 20);
             radioButton26.TabIndex = 0;
             radioButton26.TabStop = true;
             radioButton26.UseVisualStyleBackColor = true;
@@ -796,18 +868,21 @@
             // 
             groupBox16.Controls.Add(radioButton27);
             groupBox16.Controls.Add(radioButton28);
-            groupBox16.Location = new Point(362, 77);
+            groupBox16.Location = new Point(569, 108);
+            groupBox16.Margin = new Padding(4, 4, 4, 4);
             groupBox16.Name = "groupBox16";
-            groupBox16.Size = new Size(72, 38);
+            groupBox16.Padding = new Padding(4, 4, 4, 4);
+            groupBox16.Size = new Size(113, 53);
             groupBox16.TabIndex = 27;
             groupBox16.TabStop = false;
             // 
             // radioButton27
             // 
             radioButton27.AutoSize = true;
-            radioButton27.Location = new Point(51, 15);
+            radioButton27.Location = new Point(80, 21);
+            radioButton27.Margin = new Padding(4, 4, 4, 4);
             radioButton27.Name = "radioButton27";
-            radioButton27.Size = new Size(14, 13);
+            radioButton27.Size = new Size(21, 20);
             radioButton27.TabIndex = 3;
             radioButton27.TabStop = true;
             radioButton27.UseVisualStyleBackColor = true;
@@ -815,9 +890,10 @@
             // radioButton28
             // 
             radioButton28.AutoSize = true;
-            radioButton28.Location = new Point(14, 15);
+            radioButton28.Location = new Point(22, 21);
+            radioButton28.Margin = new Padding(4, 4, 4, 4);
             radioButton28.Name = "radioButton28";
-            radioButton28.Size = new Size(14, 13);
+            radioButton28.Size = new Size(21, 20);
             radioButton28.TabIndex = 0;
             radioButton28.TabStop = true;
             radioButton28.UseVisualStyleBackColor = true;
@@ -826,18 +902,21 @@
             // 
             groupBox3.Controls.Add(radioButton1);
             groupBox3.Controls.Add(radioButton2);
-            groupBox3.Location = new Point(362, 341);
+            groupBox3.Location = new Point(569, 477);
+            groupBox3.Margin = new Padding(4, 4, 4, 4);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(72, 38);
+            groupBox3.Padding = new Padding(4, 4, 4, 4);
+            groupBox3.Size = new Size(113, 53);
             groupBox3.TabIndex = 20;
             groupBox3.TabStop = false;
             // 
             // radioButton1
             // 
             radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(51, 15);
+            radioButton1.Location = new Point(80, 21);
+            radioButton1.Margin = new Padding(4, 4, 4, 4);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(14, 13);
+            radioButton1.Size = new Size(21, 20);
             radioButton1.TabIndex = 3;
             radioButton1.TabStop = true;
             radioButton1.UseVisualStyleBackColor = true;
@@ -845,9 +924,10 @@
             // radioButton2
             // 
             radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(14, 15);
+            radioButton2.Location = new Point(22, 21);
+            radioButton2.Margin = new Padding(4, 4, 4, 4);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(14, 13);
+            radioButton2.Size = new Size(21, 20);
             radioButton2.TabIndex = 0;
             radioButton2.TabStop = true;
             radioButton2.UseVisualStyleBackColor = true;
@@ -856,18 +936,21 @@
             // 
             groupBox4.Controls.Add(radioButton3);
             groupBox4.Controls.Add(radioButton4);
-            groupBox4.Location = new Point(362, 297);
+            groupBox4.Location = new Point(569, 416);
+            groupBox4.Margin = new Padding(4, 4, 4, 4);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(72, 38);
+            groupBox4.Padding = new Padding(4, 4, 4, 4);
+            groupBox4.Size = new Size(113, 53);
             groupBox4.TabIndex = 21;
             groupBox4.TabStop = false;
             // 
             // radioButton3
             // 
             radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(51, 15);
+            radioButton3.Location = new Point(80, 21);
+            radioButton3.Margin = new Padding(4, 4, 4, 4);
             radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(14, 13);
+            radioButton3.Size = new Size(21, 20);
             radioButton3.TabIndex = 3;
             radioButton3.TabStop = true;
             radioButton3.UseVisualStyleBackColor = true;
@@ -875,9 +958,10 @@
             // radioButton4
             // 
             radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(14, 15);
+            radioButton4.Location = new Point(22, 21);
+            radioButton4.Margin = new Padding(4, 4, 4, 4);
             radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(14, 13);
+            radioButton4.Size = new Size(21, 20);
             radioButton4.TabIndex = 0;
             radioButton4.TabStop = true;
             radioButton4.UseVisualStyleBackColor = true;
@@ -886,18 +970,21 @@
             // 
             groupBox5.Controls.Add(radioButton5);
             groupBox5.Controls.Add(radioButton6);
-            groupBox5.Location = new Point(362, 253);
+            groupBox5.Location = new Point(569, 354);
+            groupBox5.Margin = new Padding(4, 4, 4, 4);
             groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(72, 38);
+            groupBox5.Padding = new Padding(4, 4, 4, 4);
+            groupBox5.Size = new Size(113, 53);
             groupBox5.TabIndex = 22;
             groupBox5.TabStop = false;
             // 
             // radioButton5
             // 
             radioButton5.AutoSize = true;
-            radioButton5.Location = new Point(51, 15);
+            radioButton5.Location = new Point(80, 21);
+            radioButton5.Margin = new Padding(4, 4, 4, 4);
             radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(14, 13);
+            radioButton5.Size = new Size(21, 20);
             radioButton5.TabIndex = 3;
             radioButton5.TabStop = true;
             radioButton5.UseVisualStyleBackColor = true;
@@ -905,9 +992,10 @@
             // radioButton6
             // 
             radioButton6.AutoSize = true;
-            radioButton6.Location = new Point(14, 15);
+            radioButton6.Location = new Point(22, 21);
+            radioButton6.Margin = new Padding(4, 4, 4, 4);
             radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(14, 13);
+            radioButton6.Size = new Size(21, 20);
             radioButton6.TabIndex = 0;
             radioButton6.TabStop = true;
             radioButton6.UseVisualStyleBackColor = true;
@@ -916,18 +1004,21 @@
             // 
             groupBox6.Controls.Add(radioButton7);
             groupBox6.Controls.Add(radioButton8);
-            groupBox6.Location = new Point(107, 121);
+            groupBox6.Location = new Point(168, 170);
+            groupBox6.Margin = new Padding(4, 4, 4, 4);
             groupBox6.Name = "groupBox6";
-            groupBox6.Size = new Size(72, 38);
+            groupBox6.Padding = new Padding(4, 4, 4, 4);
+            groupBox6.Size = new Size(113, 53);
             groupBox6.TabIndex = 23;
             groupBox6.TabStop = false;
             // 
             // radioButton7
             // 
             radioButton7.AutoSize = true;
-            radioButton7.Location = new Point(51, 15);
+            radioButton7.Location = new Point(80, 21);
+            radioButton7.Margin = new Padding(4, 4, 4, 4);
             radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(14, 13);
+            radioButton7.Size = new Size(21, 20);
             radioButton7.TabIndex = 3;
             radioButton7.TabStop = true;
             radioButton7.UseVisualStyleBackColor = true;
@@ -935,9 +1026,10 @@
             // radioButton8
             // 
             radioButton8.AutoSize = true;
-            radioButton8.Location = new Point(14, 15);
+            radioButton8.Location = new Point(22, 21);
+            radioButton8.Margin = new Padding(4, 4, 4, 4);
             radioButton8.Name = "radioButton8";
-            radioButton8.Size = new Size(14, 13);
+            radioButton8.Size = new Size(21, 20);
             radioButton8.TabIndex = 0;
             radioButton8.TabStop = true;
             radioButton8.UseVisualStyleBackColor = true;
@@ -946,18 +1038,21 @@
             // 
             groupBox10.Controls.Add(radioButton13);
             groupBox10.Controls.Add(radioButton14);
-            groupBox10.Location = new Point(107, 297);
+            groupBox10.Location = new Point(168, 416);
+            groupBox10.Margin = new Padding(4, 4, 4, 4);
             groupBox10.Name = "groupBox10";
-            groupBox10.Size = new Size(72, 38);
+            groupBox10.Padding = new Padding(4, 4, 4, 4);
+            groupBox10.Size = new Size(113, 53);
             groupBox10.TabIndex = 15;
             groupBox10.TabStop = false;
             // 
             // radioButton13
             // 
             radioButton13.AutoSize = true;
-            radioButton13.Location = new Point(51, 15);
+            radioButton13.Location = new Point(80, 21);
+            radioButton13.Margin = new Padding(4, 4, 4, 4);
             radioButton13.Name = "radioButton13";
-            radioButton13.Size = new Size(14, 13);
+            radioButton13.Size = new Size(21, 20);
             radioButton13.TabIndex = 3;
             radioButton13.TabStop = true;
             radioButton13.UseVisualStyleBackColor = true;
@@ -965,9 +1060,10 @@
             // radioButton14
             // 
             radioButton14.AutoSize = true;
-            radioButton14.Location = new Point(14, 15);
+            radioButton14.Location = new Point(22, 21);
+            radioButton14.Margin = new Padding(4, 4, 4, 4);
             radioButton14.Name = "radioButton14";
-            radioButton14.Size = new Size(14, 13);
+            radioButton14.Size = new Size(21, 20);
             radioButton14.TabIndex = 0;
             radioButton14.TabStop = true;
             radioButton14.UseVisualStyleBackColor = true;
@@ -976,18 +1072,21 @@
             // 
             groupBox11.Controls.Add(radioButton15);
             groupBox11.Controls.Add(radioButton16);
-            groupBox11.Location = new Point(107, 253);
+            groupBox11.Location = new Point(168, 354);
+            groupBox11.Margin = new Padding(4, 4, 4, 4);
             groupBox11.Name = "groupBox11";
-            groupBox11.Size = new Size(72, 38);
+            groupBox11.Padding = new Padding(4, 4, 4, 4);
+            groupBox11.Size = new Size(113, 53);
             groupBox11.TabIndex = 16;
             groupBox11.TabStop = false;
             // 
             // radioButton15
             // 
             radioButton15.AutoSize = true;
-            radioButton15.Location = new Point(51, 15);
+            radioButton15.Location = new Point(80, 21);
+            radioButton15.Margin = new Padding(4, 4, 4, 4);
             radioButton15.Name = "radioButton15";
-            radioButton15.Size = new Size(14, 13);
+            radioButton15.Size = new Size(21, 20);
             radioButton15.TabIndex = 3;
             radioButton15.TabStop = true;
             radioButton15.UseVisualStyleBackColor = true;
@@ -995,9 +1094,10 @@
             // radioButton16
             // 
             radioButton16.AutoSize = true;
-            radioButton16.Location = new Point(14, 15);
+            radioButton16.Location = new Point(22, 21);
+            radioButton16.Margin = new Padding(4, 4, 4, 4);
             radioButton16.Name = "radioButton16";
-            radioButton16.Size = new Size(14, 13);
+            radioButton16.Size = new Size(21, 20);
             radioButton16.TabIndex = 0;
             radioButton16.TabStop = true;
             radioButton16.UseVisualStyleBackColor = true;
@@ -1006,18 +1106,21 @@
             // 
             groupBox12.Controls.Add(radioButton17);
             groupBox12.Controls.Add(radioButton18);
-            groupBox12.Location = new Point(107, 209);
+            groupBox12.Location = new Point(168, 292);
+            groupBox12.Margin = new Padding(4, 4, 4, 4);
             groupBox12.Name = "groupBox12";
-            groupBox12.Size = new Size(72, 38);
+            groupBox12.Padding = new Padding(4, 4, 4, 4);
+            groupBox12.Size = new Size(113, 53);
             groupBox12.TabIndex = 17;
             groupBox12.TabStop = false;
             // 
             // radioButton17
             // 
             radioButton17.AutoSize = true;
-            radioButton17.Location = new Point(51, 15);
+            radioButton17.Location = new Point(80, 21);
+            radioButton17.Margin = new Padding(4, 4, 4, 4);
             radioButton17.Name = "radioButton17";
-            radioButton17.Size = new Size(14, 13);
+            radioButton17.Size = new Size(21, 20);
             radioButton17.TabIndex = 3;
             radioButton17.TabStop = true;
             radioButton17.UseVisualStyleBackColor = true;
@@ -1025,9 +1128,10 @@
             // radioButton18
             // 
             radioButton18.AutoSize = true;
-            radioButton18.Location = new Point(14, 15);
+            radioButton18.Location = new Point(22, 21);
+            radioButton18.Margin = new Padding(4, 4, 4, 4);
             radioButton18.Name = "radioButton18";
-            radioButton18.Size = new Size(14, 13);
+            radioButton18.Size = new Size(21, 20);
             radioButton18.TabIndex = 0;
             radioButton18.TabStop = true;
             radioButton18.UseVisualStyleBackColor = true;
@@ -1036,18 +1140,21 @@
             // 
             groupBox13.Controls.Add(radioButton19);
             groupBox13.Controls.Add(radioButton20);
-            groupBox13.Location = new Point(107, 165);
+            groupBox13.Location = new Point(168, 231);
+            groupBox13.Margin = new Padding(4, 4, 4, 4);
             groupBox13.Name = "groupBox13";
-            groupBox13.Size = new Size(72, 38);
+            groupBox13.Padding = new Padding(4, 4, 4, 4);
+            groupBox13.Size = new Size(113, 53);
             groupBox13.TabIndex = 18;
             groupBox13.TabStop = false;
             // 
             // radioButton19
             // 
             radioButton19.AutoSize = true;
-            radioButton19.Location = new Point(51, 15);
+            radioButton19.Location = new Point(80, 21);
+            radioButton19.Margin = new Padding(4, 4, 4, 4);
             radioButton19.Name = "radioButton19";
-            radioButton19.Size = new Size(14, 13);
+            radioButton19.Size = new Size(21, 20);
             radioButton19.TabIndex = 3;
             radioButton19.TabStop = true;
             radioButton19.UseVisualStyleBackColor = true;
@@ -1055,9 +1162,10 @@
             // radioButton20
             // 
             radioButton20.AutoSize = true;
-            radioButton20.Location = new Point(14, 15);
+            radioButton20.Location = new Point(22, 21);
+            radioButton20.Margin = new Padding(4, 4, 4, 4);
             radioButton20.Name = "radioButton20";
-            radioButton20.Size = new Size(14, 13);
+            radioButton20.Size = new Size(21, 20);
             radioButton20.TabIndex = 0;
             radioButton20.TabStop = true;
             radioButton20.UseVisualStyleBackColor = true;
@@ -1068,18 +1176,21 @@
             groupBox14.Controls.Add(radioButton38);
             groupBox14.Controls.Add(radioButton21);
             groupBox14.Controls.Add(radioButton22);
-            groupBox14.Location = new Point(107, 341);
+            groupBox14.Location = new Point(168, 477);
+            groupBox14.Margin = new Padding(4, 4, 4, 4);
             groupBox14.Name = "groupBox14";
-            groupBox14.Size = new Size(158, 38);
+            groupBox14.Padding = new Padding(4, 4, 4, 4);
+            groupBox14.Size = new Size(249, 53);
             groupBox14.TabIndex = 19;
             groupBox14.TabStop = false;
             // 
             // radioButton37
             // 
             radioButton37.AutoSize = true;
-            radioButton37.Location = new Point(119, 11);
+            radioButton37.Location = new Point(187, 15);
+            radioButton37.Margin = new Padding(4, 4, 4, 4);
             radioButton37.Name = "radioButton37";
-            radioButton37.Size = new Size(33, 19);
+            radioButton37.Size = new Size(49, 25);
             radioButton37.TabIndex = 5;
             radioButton37.TabStop = true;
             radioButton37.Text = "G";
@@ -1088,9 +1199,10 @@
             // radioButton38
             // 
             radioButton38.AutoSize = true;
-            radioButton38.Location = new Point(82, 11);
+            radioButton38.Location = new Point(129, 15);
+            radioButton38.Margin = new Padding(4, 4, 4, 4);
             radioButton38.Name = "radioButton38";
-            radioButton38.Size = new Size(31, 19);
+            radioButton38.Size = new Size(47, 25);
             radioButton38.TabIndex = 4;
             radioButton38.TabStop = true;
             radioButton38.Text = "II";
@@ -1099,9 +1211,10 @@
             // radioButton21
             // 
             radioButton21.AutoSize = true;
-            radioButton21.Location = new Point(50, 11);
+            radioButton21.Location = new Point(78, 15);
+            radioButton21.Margin = new Padding(4, 4, 4, 4);
             radioButton21.Name = "radioButton21";
-            radioButton21.Size = new Size(28, 19);
+            radioButton21.Size = new Size(41, 25);
             radioButton21.TabIndex = 3;
             radioButton21.TabStop = true;
             radioButton21.Text = "I";
@@ -1110,9 +1223,10 @@
             // radioButton22
             // 
             radioButton22.AutoSize = true;
-            radioButton22.Location = new Point(14, 15);
+            radioButton22.Location = new Point(22, 21);
+            radioButton22.Margin = new Padding(4, 4, 4, 4);
             radioButton22.Name = "radioButton22";
-            radioButton22.Size = new Size(14, 13);
+            radioButton22.Size = new Size(21, 20);
             radioButton22.TabIndex = 0;
             radioButton22.TabStop = true;
             radioButton22.UseVisualStyleBackColor = true;
@@ -1121,18 +1235,21 @@
             // 
             groupBox15.Controls.Add(radioButton23);
             groupBox15.Controls.Add(radioButton24);
-            groupBox15.Location = new Point(107, 77);
+            groupBox15.Location = new Point(168, 108);
+            groupBox15.Margin = new Padding(4, 4, 4, 4);
             groupBox15.Name = "groupBox15";
-            groupBox15.Size = new Size(72, 38);
+            groupBox15.Padding = new Padding(4, 4, 4, 4);
+            groupBox15.Size = new Size(113, 53);
             groupBox15.TabIndex = 14;
             groupBox15.TabStop = false;
             // 
             // radioButton23
             // 
             radioButton23.AutoSize = true;
-            radioButton23.Location = new Point(51, 15);
+            radioButton23.Location = new Point(80, 21);
+            radioButton23.Margin = new Padding(4, 4, 4, 4);
             radioButton23.Name = "radioButton23";
-            radioButton23.Size = new Size(14, 13);
+            radioButton23.Size = new Size(21, 20);
             radioButton23.TabIndex = 3;
             radioButton23.TabStop = true;
             radioButton23.UseVisualStyleBackColor = true;
@@ -1140,24 +1257,28 @@
             // radioButton24
             // 
             radioButton24.AutoSize = true;
-            radioButton24.Location = new Point(14, 15);
+            radioButton24.Location = new Point(22, 21);
+            radioButton24.Margin = new Padding(4, 4, 4, 4);
             radioButton24.Name = "radioButton24";
-            radioButton24.Size = new Size(14, 13);
+            radioButton24.Size = new Size(21, 20);
             radioButton24.TabIndex = 0;
             radioButton24.TabStop = true;
             radioButton24.UseVisualStyleBackColor = true;
             // 
             // groupBox23
             // 
+            groupBox23.BackColor = SystemColors.GradientInactiveCaption;
             groupBox23.Controls.Add(groupBox26);
             groupBox23.Controls.Add(label30);
             groupBox23.Controls.Add(label31);
             groupBox23.Controls.Add(label28);
             groupBox23.Controls.Add(label29);
             groupBox23.Controls.Add(groupBox25);
-            groupBox23.Location = new Point(12, 444);
+            groupBox23.Location = new Point(19, 622);
+            groupBox23.Margin = new Padding(4, 4, 4, 4);
             groupBox23.Name = "groupBox23";
-            groupBox23.Size = new Size(226, 129);
+            groupBox23.Padding = new Padding(4, 4, 4, 4);
+            groupBox23.Size = new Size(355, 181);
             groupBox23.TabIndex = 1;
             groupBox23.TabStop = false;
             groupBox23.Text = "TDP PRUEBA";
@@ -1169,27 +1290,31 @@
             groupBox26.Controls.Add(radioButton48);
             groupBox26.Controls.Add(radioButton49);
             groupBox26.Controls.Add(radioButton50);
-            groupBox26.Location = new Point(12, 72);
+            groupBox26.Location = new Point(19, 101);
+            groupBox26.Margin = new Padding(4, 4, 4, 4);
             groupBox26.Name = "groupBox26";
-            groupBox26.Size = new Size(185, 38);
+            groupBox26.Padding = new Padding(4, 4, 4, 4);
+            groupBox26.Size = new Size(290, 53);
             groupBox26.TabIndex = 38;
             groupBox26.TabStop = false;
             // 
             // label32
             // 
             label32.AutoSize = true;
-            label32.Location = new Point(14, 18);
+            label32.Location = new Point(22, 25);
+            label32.Margin = new Padding(4, 0, 4, 0);
             label32.Name = "label32";
-            label32.Size = new Size(26, 15);
+            label32.Size = new Size(42, 21);
             label32.TabIndex = 34;
             label32.Text = "VIH";
             // 
             // radioButton47
             // 
             radioButton47.AutoSize = true;
-            radioButton47.Location = new Point(151, 20);
+            radioButton47.Location = new Point(238, 28);
+            radioButton47.Margin = new Padding(4, 4, 4, 4);
             radioButton47.Name = "radioButton47";
-            radioButton47.Size = new Size(14, 13);
+            radioButton47.Size = new Size(21, 20);
             radioButton47.TabIndex = 5;
             radioButton47.TabStop = true;
             radioButton47.UseVisualStyleBackColor = true;
@@ -1197,9 +1322,10 @@
             // radioButton48
             // 
             radioButton48.AutoSize = true;
-            radioButton48.Location = new Point(116, 20);
+            radioButton48.Location = new Point(183, 28);
+            radioButton48.Margin = new Padding(4, 4, 4, 4);
             radioButton48.Name = "radioButton48";
-            radioButton48.Size = new Size(14, 13);
+            radioButton48.Size = new Size(21, 20);
             radioButton48.TabIndex = 4;
             radioButton48.TabStop = true;
             radioButton48.UseVisualStyleBackColor = true;
@@ -1207,9 +1333,10 @@
             // radioButton49
             // 
             radioButton49.AutoSize = true;
-            radioButton49.Location = new Point(81, 20);
+            radioButton49.Location = new Point(128, 28);
+            radioButton49.Margin = new Padding(4, 4, 4, 4);
             radioButton49.Name = "radioButton49";
-            radioButton49.Size = new Size(14, 13);
+            radioButton49.Size = new Size(21, 20);
             radioButton49.TabIndex = 3;
             radioButton49.TabStop = true;
             radioButton49.UseVisualStyleBackColor = true;
@@ -1217,9 +1344,10 @@
             // radioButton50
             // 
             radioButton50.AutoSize = true;
-            radioButton50.Location = new Point(46, 20);
+            radioButton50.Location = new Point(73, 28);
+            radioButton50.Margin = new Padding(4, 4, 4, 4);
             radioButton50.Name = "radioButton50";
-            radioButton50.Size = new Size(14, 13);
+            radioButton50.Size = new Size(21, 20);
             radioButton50.TabIndex = 0;
             radioButton50.TabStop = true;
             radioButton50.UseVisualStyleBackColor = true;
@@ -1227,36 +1355,40 @@
             // label30
             // 
             label30.AutoSize = true;
-            label30.Location = new Point(158, 19);
+            label30.Location = new Point(249, 27);
+            label30.Margin = new Padding(4, 0, 4, 0);
             label30.Name = "label30";
-            label30.Size = new Size(25, 15);
+            label30.Size = new Size(37, 21);
             label30.TabIndex = 37;
             label30.Text = "n/c";
             // 
             // label31
             // 
             label31.AutoSize = true;
-            label31.Location = new Point(120, 19);
+            label31.Location = new Point(188, 27);
+            label31.Margin = new Padding(4, 0, 4, 0);
             label31.Name = "label31";
-            label31.Size = new Size(23, 15);
+            label31.Size = new Size(34, 21);
             label31.TabIndex = 36;
             label31.Text = "n/r";
             // 
             // label28
             // 
             label28.AutoSize = true;
-            label28.Location = new Point(93, 19);
+            label28.Location = new Point(146, 27);
+            label28.Margin = new Padding(4, 0, 4, 0);
             label28.Name = "label28";
-            label28.Size = new Size(15, 15);
+            label28.Size = new Size(20, 21);
             label28.TabIndex = 35;
             label28.Text = "+";
             // 
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(58, 19);
+            label29.Location = new Point(91, 27);
+            label29.Margin = new Padding(4, 0, 4, 0);
             label29.Name = "label29";
-            label29.Size = new Size(12, 15);
+            label29.Size = new Size(16, 21);
             label29.TabIndex = 34;
             label29.Text = "-";
             // 
@@ -1267,27 +1399,31 @@
             groupBox25.Controls.Add(radioButton44);
             groupBox25.Controls.Add(radioButton45);
             groupBox25.Controls.Add(radioButton46);
-            groupBox25.Location = new Point(12, 33);
+            groupBox25.Location = new Point(19, 46);
+            groupBox25.Margin = new Padding(4, 4, 4, 4);
             groupBox25.Name = "groupBox25";
-            groupBox25.Size = new Size(185, 38);
+            groupBox25.Padding = new Padding(4, 4, 4, 4);
+            groupBox25.Size = new Size(290, 53);
             groupBox25.TabIndex = 33;
             groupBox25.TabStop = false;
             // 
             // label27
             // 
             label27.AutoSize = true;
-            label27.Location = new Point(6, 18);
+            label27.Location = new Point(10, 25);
+            label27.Margin = new Padding(4, 0, 4, 0);
             label27.Name = "label27";
-            label27.Size = new Size(34, 15);
+            label27.Size = new Size(58, 21);
             label27.TabIndex = 34;
             label27.Text = "Sifilis";
             // 
             // radioButton43
             // 
             radioButton43.AutoSize = true;
-            radioButton43.Location = new Point(151, 20);
+            radioButton43.Location = new Point(238, 28);
+            radioButton43.Margin = new Padding(4, 4, 4, 4);
             radioButton43.Name = "radioButton43";
-            radioButton43.Size = new Size(14, 13);
+            radioButton43.Size = new Size(21, 20);
             radioButton43.TabIndex = 5;
             radioButton43.TabStop = true;
             radioButton43.UseVisualStyleBackColor = true;
@@ -1295,9 +1431,10 @@
             // radioButton44
             // 
             radioButton44.AutoSize = true;
-            radioButton44.Location = new Point(116, 20);
+            radioButton44.Location = new Point(183, 28);
+            radioButton44.Margin = new Padding(4, 4, 4, 4);
             radioButton44.Name = "radioButton44";
-            radioButton44.Size = new Size(14, 13);
+            radioButton44.Size = new Size(21, 20);
             radioButton44.TabIndex = 4;
             radioButton44.TabStop = true;
             radioButton44.UseVisualStyleBackColor = true;
@@ -1305,9 +1442,10 @@
             // radioButton45
             // 
             radioButton45.AutoSize = true;
-            radioButton45.Location = new Point(81, 20);
+            radioButton45.Location = new Point(128, 28);
+            radioButton45.Margin = new Padding(4, 4, 4, 4);
             radioButton45.Name = "radioButton45";
-            radioButton45.Size = new Size(14, 13);
+            radioButton45.Size = new Size(21, 20);
             radioButton45.TabIndex = 3;
             radioButton45.TabStop = true;
             radioButton45.UseVisualStyleBackColor = true;
@@ -1315,21 +1453,25 @@
             // radioButton46
             // 
             radioButton46.AutoSize = true;
-            radioButton46.Location = new Point(46, 20);
+            radioButton46.Location = new Point(73, 28);
+            radioButton46.Margin = new Padding(4, 4, 4, 4);
             radioButton46.Name = "radioButton46";
-            radioButton46.Size = new Size(14, 13);
+            radioButton46.Size = new Size(21, 20);
             radioButton46.TabIndex = 0;
             radioButton46.TabStop = true;
             radioButton46.UseVisualStyleBackColor = true;
             // 
             // groupBox24
             // 
+            groupBox24.BackColor = SystemColors.GradientInactiveCaption;
             groupBox24.Controls.Add(radioButton52);
             groupBox24.Controls.Add(radioButton53);
             groupBox24.Controls.Add(radioButton54);
-            groupBox24.Location = new Point(252, 444);
+            groupBox24.Location = new Point(396, 622);
+            groupBox24.Margin = new Padding(4, 4, 4, 4);
             groupBox24.Name = "groupBox24";
-            groupBox24.Size = new Size(67, 129);
+            groupBox24.Padding = new Padding(4, 4, 4, 4);
+            groupBox24.Size = new Size(106, 181);
             groupBox24.TabIndex = 2;
             groupBox24.TabStop = false;
             groupBox24.Text = "TARV";
@@ -1337,9 +1479,10 @@
             // radioButton52
             // 
             radioButton52.AutoSize = true;
-            radioButton52.Location = new Point(6, 63);
+            radioButton52.Location = new Point(10, 88);
+            radioButton52.Margin = new Padding(4, 4, 4, 4);
             radioButton52.Name = "radioButton52";
-            radioButton52.Size = new Size(41, 19);
+            radioButton52.Size = new Size(60, 25);
             radioButton52.TabIndex = 8;
             radioButton52.TabStop = true;
             radioButton52.Text = "No";
@@ -1348,9 +1491,10 @@
             // radioButton53
             // 
             radioButton53.AutoSize = true;
-            radioButton53.Location = new Point(6, 104);
+            radioButton53.Location = new Point(10, 145);
+            radioButton53.Margin = new Padding(4, 4, 4, 4);
             radioButton53.Name = "radioButton53";
-            radioButton53.Size = new Size(43, 19);
+            radioButton53.Size = new Size(62, 25);
             radioButton53.TabIndex = 7;
             radioButton53.TabStop = true;
             radioButton53.Text = "n/c";
@@ -1359,9 +1503,10 @@
             // radioButton54
             // 
             radioButton54.AutoSize = true;
-            radioButton54.Location = new Point(6, 22);
+            radioButton54.Location = new Point(10, 31);
+            radioButton54.Margin = new Padding(4, 4, 4, 4);
             radioButton54.Name = "radioButton54";
-            radioButton54.Size = new Size(34, 19);
+            radioButton54.Size = new Size(52, 25);
             radioButton54.TabIndex = 6;
             radioButton54.TabStop = true;
             radioButton54.Text = "Si";
@@ -1369,30 +1514,39 @@
             // 
             // btnRegresar
             // 
-            btnRegresar.Location = new Point(432, 589);
+            btnRegresar.BackColor = Color.LightSkyBlue;
+            btnRegresar.ForeColor = Color.White;
+            btnRegresar.Location = new Point(543, 829);
+            btnRegresar.Margin = new Padding(4, 4, 4, 4);
             btnRegresar.Name = "btnRegresar";
-            btnRegresar.Size = new Size(147, 23);
+            btnRegresar.Size = new Size(231, 32);
             btnRegresar.TabIndex = 15;
             btnRegresar.Text = "REGRESAR AL MENU";
-            btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.UseVisualStyleBackColor = false;
             // 
             // btnContinuar
             // 
-            btnContinuar.Location = new Point(666, 589);
+            btnContinuar.BackColor = Color.MidnightBlue;
+            btnContinuar.ForeColor = Color.White;
+            btnContinuar.Location = new Point(1060, 825);
+            btnContinuar.Margin = new Padding(4, 4, 4, 4);
             btnContinuar.Name = "btnContinuar";
-            btnContinuar.Size = new Size(110, 23);
+            btnContinuar.Size = new Size(173, 32);
             btnContinuar.TabIndex = 14;
             btnContinuar.Text = "FINALIZAR";
-            btnContinuar.UseVisualStyleBackColor = true;
+            btnContinuar.UseVisualStyleBackColor = false;
             // 
             // btnCerrar
             // 
-            btnCerrar.Location = new Point(203, 589);
+            btnCerrar.BackColor = Color.LightSkyBlue;
+            btnCerrar.ForeColor = Color.White;
+            btnCerrar.Location = new Point(48, 825);
+            btnCerrar.Margin = new Padding(4, 4, 4, 4);
             btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(142, 23);
+            btnCerrar.Size = new Size(223, 32);
             btnCerrar.TabIndex = 13;
             btnCerrar.Text = "CERRAR SESIÓN";
-            btnCerrar.UseVisualStyleBackColor = true;
+            btnCerrar.UseVisualStyleBackColor = false;
             // 
             // erpNumeros
             // 
@@ -1404,15 +1558,18 @@
             // 
             // Enfermedades
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(11F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(980, 624);
+            BackColor = Color.White;
+            ClientSize = new Size(1540, 874);
             Controls.Add(btnRegresar);
             Controls.Add(btnContinuar);
             Controls.Add(btnCerrar);
             Controls.Add(groupBox24);
             Controls.Add(groupBox23);
             Controls.Add(groupBox1);
+            Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Enfermedades";
             Text = "Enfermedades";
             groupBox1.ResumeLayout(false);
