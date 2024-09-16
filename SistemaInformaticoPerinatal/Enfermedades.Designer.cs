@@ -29,268 +29,268 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            groupBox1 = new GroupBox();
-            groupBox2 = new GroupBox();
-            radioButton41 = new RadioButton();
-            radioButton42 = new RadioButton();
-            groupBox17 = new GroupBox();
+            gbxPatologíasMaternas = new GroupBox();
+            gbxEnfermedades = new GroupBox();
+            rbnEnfermedadesNinguna = new RadioButton();
+            rbnEnfermedades1oMas = new RadioButton();
+            gbxHemorragia = new GroupBox();
             label26 = new Label();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
-            label22 = new Label();
-            label23 = new Label();
+            txtCardiopatia = new TextBox();
+            txtPreeclampsia = new TextBox();
+            txtEclampsia = new TextBox();
+            txtHTAInducEmbara = new TextBox();
+            txtHTAPrevia = new TextBox();
+            lblEclampsia2 = new Label();
+            lblCardiopatia2 = new Label();
+            lblPreeclampsia2 = new Label();
+            lblHTAInduEmba2 = new Label();
+            lblHTAPrevia2 = new Label();
             label24 = new Label();
             label25 = new Label();
-            groupBox18 = new GroupBox();
-            radioButton29 = new RadioButton();
-            radioButton30 = new RadioButton();
-            groupBox19 = new GroupBox();
-            radioButton31 = new RadioButton();
-            radioButton32 = new RadioButton();
-            groupBox20 = new GroupBox();
-            radioButton33 = new RadioButton();
-            radioButton34 = new RadioButton();
-            groupBox21 = new GroupBox();
-            radioButton35 = new RadioButton();
-            radioButton36 = new RadioButton();
-            groupBox22 = new GroupBox();
-            radioButton39 = new RadioButton();
-            radioButton40 = new RadioButton();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
-            label17 = new Label();
-            label18 = new Label();
-            label8 = new Label();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            groupBox7 = new GroupBox();
-            radioButton9 = new RadioButton();
-            radioButton10 = new RadioButton();
-            groupBox8 = new GroupBox();
-            radioButton11 = new RadioButton();
-            radioButton12 = new RadioButton();
-            groupBox9 = new GroupBox();
-            radioButton25 = new RadioButton();
-            radioButton26 = new RadioButton();
-            groupBox16 = new GroupBox();
-            radioButton27 = new RadioButton();
-            radioButton28 = new RadioButton();
-            groupBox3 = new GroupBox();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            groupBox4 = new GroupBox();
-            radioButton3 = new RadioButton();
-            radioButton4 = new RadioButton();
-            groupBox5 = new GroupBox();
-            radioButton5 = new RadioButton();
-            radioButton6 = new RadioButton();
-            groupBox6 = new GroupBox();
-            radioButton7 = new RadioButton();
-            radioButton8 = new RadioButton();
-            groupBox10 = new GroupBox();
-            radioButton13 = new RadioButton();
-            radioButton14 = new RadioButton();
-            groupBox11 = new GroupBox();
-            radioButton15 = new RadioButton();
-            radioButton16 = new RadioButton();
-            groupBox12 = new GroupBox();
-            radioButton17 = new RadioButton();
-            radioButton18 = new RadioButton();
-            groupBox13 = new GroupBox();
-            radioButton19 = new RadioButton();
-            radioButton20 = new RadioButton();
-            groupBox14 = new GroupBox();
-            radioButton37 = new RadioButton();
-            radioButton38 = new RadioButton();
-            radioButton21 = new RadioButton();
-            radioButton22 = new RadioButton();
-            groupBox15 = new GroupBox();
-            radioButton23 = new RadioButton();
-            radioButton24 = new RadioButton();
-            groupBox23 = new GroupBox();
+            gbxHTAInduEmba2 = new GroupBox();
+            rbnHTAindEmbaSi2 = new RadioButton();
+            rbnHTAindEmbaNo2 = new RadioButton();
+            gbxCardiopatía2 = new GroupBox();
+            rbnCardiopatiaSi2 = new RadioButton();
+            rbnCardiopatiaNo2 = new RadioButton();
+            gbxEclampsia2 = new GroupBox();
+            rbnEclampsiaSi2 = new RadioButton();
+            rbnEclampsiaNo2 = new RadioButton();
+            gbxPreeclampsia2 = new GroupBox();
+            rbnPreeclampsiaSi2 = new RadioButton();
+            rbnPreeclampsiaNo2 = new RadioButton();
+            gbxHTAprevia2 = new GroupBox();
+            rbnHTApreviaSi2 = new RadioButton();
+            rbnHTApreviaNo2 = new RadioButton();
+            lblRCIU = new Label();
+            lblRoturaPremMem = new Label();
+            lblAnemia = new Label();
+            lblAmenzaPartoP = new Label();
+            lblHTAInducida = new Label();
+            lblInfecObular = new Label();
+            lblOtraCondGrave = new Label();
+            lblEclampsia = new Label();
+            lblCardiopatia = new Label();
+            lblNefropatia = new Label();
+            lblPreeclampsia = new Label();
+            lblHTAindEmba = new Label();
+            lblHTAprevia = new Label();
+            lblDiabetes = new Label();
+            lblEnfermedadesSi = new Label();
+            lblEnfermedadesNo = new Label();
+            lblEnfermSi = new Label();
+            lblEnfermNo = new Label();
+            gbxRCIU = new GroupBox();
+            rbnRCIUSi = new RadioButton();
+            rbnRCIUNo = new RadioButton();
+            gbxAmenazaPartoP = new GroupBox();
+            rbnAmenzaPartoPSi = new RadioButton();
+            rbnAmenzaPartoPNo = new RadioButton();
+            gbxHTAInducida = new GroupBox();
+            rbnHTAInducidaSi = new RadioButton();
+            rbnHTAInducidaNo = new RadioButton();
+            gbxInfecObular = new GroupBox();
+            rbnInfecObularSi = new RadioButton();
+            rbnInfecObularNo = new RadioButton();
+            gbxOtraCondGrave = new GroupBox();
+            rbnOtraCondGraveSi = new RadioButton();
+            rbnOtraCondGraveNo = new RadioButton();
+            gbxAnemia = new GroupBox();
+            rbnAnemiaSi = new RadioButton();
+            rbnAnemiaNo = new RadioButton();
+            gbxRoturaPremM = new GroupBox();
+            rbnRoturaPremMemSi = new RadioButton();
+            rbnRoturaPremMemNo = new RadioButton();
+            gbxHTAInduEmba = new GroupBox();
+            rbnHTAindEmbaSi = new RadioButton();
+            rbnHTAindEmbaNo = new RadioButton();
+            gbxNefropatia = new GroupBox();
+            rbnNefropatiaSi = new RadioButton();
+            rbnNefropatiaNo = new RadioButton();
+            gbxCardiopatía = new GroupBox();
+            rbnCardiopatiaSi = new RadioButton();
+            rbnCardiopatiaNo = new RadioButton();
+            gbxEclampsia = new GroupBox();
+            rbnEclampsiaSi = new RadioButton();
+            rbnEclampsiaNo = new RadioButton();
+            gbxPreeclampsia = new GroupBox();
+            rbnPreeclampsiaSi = new RadioButton();
+            rbnPreeclampsiaNo = new RadioButton();
+            gbxDiabetes = new GroupBox();
+            rbnDiabetesG = new RadioButton();
+            rbnDiabetesII = new RadioButton();
+            rbnDiabetesI = new RadioButton();
+            rbnDiabetesNo = new RadioButton();
+            gbxHTAprevia = new GroupBox();
+            rbnHTApreviaSi = new RadioButton();
+            rbnHTApreviaNo = new RadioButton();
+            gbxTDPprueba = new GroupBox();
             groupBox26 = new GroupBox();
-            label32 = new Label();
-            radioButton47 = new RadioButton();
-            radioButton48 = new RadioButton();
-            radioButton49 = new RadioButton();
-            radioButton50 = new RadioButton();
-            label30 = new Label();
-            label31 = new Label();
-            label28 = new Label();
-            label29 = new Label();
+            lblVIH = new Label();
+            rbnVIHNc = new RadioButton();
+            rbnVIHNr = new RadioButton();
+            rbnVIHMas = new RadioButton();
+            rbnVIHMenos = new RadioButton();
+            lblNc = new Label();
+            lblNr = new Label();
+            lblMas = new Label();
+            lblMenos = new Label();
             groupBox25 = new GroupBox();
-            label27 = new Label();
-            radioButton43 = new RadioButton();
-            radioButton44 = new RadioButton();
-            radioButton45 = new RadioButton();
-            radioButton46 = new RadioButton();
-            groupBox24 = new GroupBox();
-            radioButton52 = new RadioButton();
-            radioButton53 = new RadioButton();
-            radioButton54 = new RadioButton();
+            lblSifilis = new Label();
+            rbnSifilisNc = new RadioButton();
+            rbnSifilisNr = new RadioButton();
+            rbnSifilisMas = new RadioButton();
+            rbnSifilisMenos = new RadioButton();
+            gbxTARV = new GroupBox();
+            rbnTARVNo = new RadioButton();
+            rbnTARVNc = new RadioButton();
+            rbnTARVSi = new RadioButton();
             btnRegresar = new Button();
             btnContinuar = new Button();
             btnCerrar = new Button();
             erpNumeros = new ErrorProvider(components);
             erpBoton = new ErrorProvider(components);
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            groupBox17.SuspendLayout();
-            groupBox18.SuspendLayout();
-            groupBox19.SuspendLayout();
-            groupBox20.SuspendLayout();
-            groupBox21.SuspendLayout();
-            groupBox22.SuspendLayout();
-            groupBox7.SuspendLayout();
-            groupBox8.SuspendLayout();
-            groupBox9.SuspendLayout();
-            groupBox16.SuspendLayout();
-            groupBox3.SuspendLayout();
-            groupBox4.SuspendLayout();
-            groupBox5.SuspendLayout();
-            groupBox6.SuspendLayout();
-            groupBox10.SuspendLayout();
-            groupBox11.SuspendLayout();
-            groupBox12.SuspendLayout();
-            groupBox13.SuspendLayout();
-            groupBox14.SuspendLayout();
-            groupBox15.SuspendLayout();
-            groupBox23.SuspendLayout();
+            gbxPatologíasMaternas.SuspendLayout();
+            gbxEnfermedades.SuspendLayout();
+            gbxHemorragia.SuspendLayout();
+            gbxHTAInduEmba2.SuspendLayout();
+            gbxCardiopatía2.SuspendLayout();
+            gbxEclampsia2.SuspendLayout();
+            gbxPreeclampsia2.SuspendLayout();
+            gbxHTAprevia2.SuspendLayout();
+            gbxRCIU.SuspendLayout();
+            gbxAmenazaPartoP.SuspendLayout();
+            gbxHTAInducida.SuspendLayout();
+            gbxInfecObular.SuspendLayout();
+            gbxOtraCondGrave.SuspendLayout();
+            gbxAnemia.SuspendLayout();
+            gbxRoturaPremM.SuspendLayout();
+            gbxHTAInduEmba.SuspendLayout();
+            gbxNefropatia.SuspendLayout();
+            gbxCardiopatía.SuspendLayout();
+            gbxEclampsia.SuspendLayout();
+            gbxPreeclampsia.SuspendLayout();
+            gbxDiabetes.SuspendLayout();
+            gbxHTAprevia.SuspendLayout();
+            gbxTDPprueba.SuspendLayout();
             groupBox26.SuspendLayout();
             groupBox25.SuspendLayout();
-            groupBox24.SuspendLayout();
+            gbxTARV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)erpNumeros).BeginInit();
             ((System.ComponentModel.ISupportInitialize)erpBoton).BeginInit();
             SuspendLayout();
             // 
-            // groupBox1
+            // gbxPatologíasMaternas
             // 
-            groupBox1.BackColor = SystemColors.GradientInactiveCaption;
-            groupBox1.Controls.Add(groupBox2);
-            groupBox1.Location = new Point(19, 17);
-            groupBox1.Margin = new Padding(4);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(4);
-            groupBox1.Size = new Size(1511, 596);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "ENFERMEDADES (PATOLOGÍAS MATERNAS)";
+            gbxPatologíasMaternas.BackColor = SystemColors.GradientInactiveCaption;
+            gbxPatologíasMaternas.Controls.Add(gbxEnfermedades);
+            gbxPatologíasMaternas.Location = new Point(19, 17);
+            gbxPatologíasMaternas.Margin = new Padding(4);
+            gbxPatologíasMaternas.Name = "gbxPatologíasMaternas";
+            gbxPatologíasMaternas.Padding = new Padding(4);
+            gbxPatologíasMaternas.Size = new Size(1511, 596);
+            gbxPatologíasMaternas.TabIndex = 0;
+            gbxPatologíasMaternas.TabStop = false;
+            gbxPatologíasMaternas.Text = "ENFERMEDADES (PATOLOGÍAS MATERNAS)";
             // 
-            // groupBox2
+            // gbxEnfermedades
             // 
-            groupBox2.Controls.Add(radioButton41);
-            groupBox2.Controls.Add(radioButton42);
-            groupBox2.Controls.Add(groupBox17);
-            groupBox2.Controls.Add(label5);
-            groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(label7);
-            groupBox2.Controls.Add(label9);
-            groupBox2.Controls.Add(label10);
-            groupBox2.Controls.Add(label11);
-            groupBox2.Controls.Add(label12);
-            groupBox2.Controls.Add(label13);
-            groupBox2.Controls.Add(label14);
-            groupBox2.Controls.Add(label15);
-            groupBox2.Controls.Add(label16);
-            groupBox2.Controls.Add(label17);
-            groupBox2.Controls.Add(label18);
-            groupBox2.Controls.Add(label8);
-            groupBox2.Controls.Add(label1);
-            groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(label3);
-            groupBox2.Controls.Add(label4);
-            groupBox2.Controls.Add(groupBox7);
-            groupBox2.Controls.Add(groupBox8);
-            groupBox2.Controls.Add(groupBox9);
-            groupBox2.Controls.Add(groupBox16);
-            groupBox2.Controls.Add(groupBox3);
-            groupBox2.Controls.Add(groupBox4);
-            groupBox2.Controls.Add(groupBox5);
-            groupBox2.Controls.Add(groupBox6);
-            groupBox2.Controls.Add(groupBox10);
-            groupBox2.Controls.Add(groupBox11);
-            groupBox2.Controls.Add(groupBox12);
-            groupBox2.Controls.Add(groupBox13);
-            groupBox2.Controls.Add(groupBox14);
-            groupBox2.Controls.Add(groupBox15);
-            groupBox2.Location = new Point(10, 31);
-            groupBox2.Margin = new Padding(4);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(4);
-            groupBox2.Size = new Size(1482, 557);
-            groupBox2.TabIndex = 0;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "ENFERMEDADES";
+            gbxEnfermedades.Controls.Add(rbnEnfermedadesNinguna);
+            gbxEnfermedades.Controls.Add(rbnEnfermedades1oMas);
+            gbxEnfermedades.Controls.Add(gbxHemorragia);
+            gbxEnfermedades.Controls.Add(lblRCIU);
+            gbxEnfermedades.Controls.Add(lblRoturaPremMem);
+            gbxEnfermedades.Controls.Add(lblAnemia);
+            gbxEnfermedades.Controls.Add(lblAmenzaPartoP);
+            gbxEnfermedades.Controls.Add(lblHTAInducida);
+            gbxEnfermedades.Controls.Add(lblInfecObular);
+            gbxEnfermedades.Controls.Add(lblOtraCondGrave);
+            gbxEnfermedades.Controls.Add(lblEclampsia);
+            gbxEnfermedades.Controls.Add(lblCardiopatia);
+            gbxEnfermedades.Controls.Add(lblNefropatia);
+            gbxEnfermedades.Controls.Add(lblPreeclampsia);
+            gbxEnfermedades.Controls.Add(lblHTAindEmba);
+            gbxEnfermedades.Controls.Add(lblHTAprevia);
+            gbxEnfermedades.Controls.Add(lblDiabetes);
+            gbxEnfermedades.Controls.Add(lblEnfermedadesSi);
+            gbxEnfermedades.Controls.Add(lblEnfermedadesNo);
+            gbxEnfermedades.Controls.Add(lblEnfermSi);
+            gbxEnfermedades.Controls.Add(lblEnfermNo);
+            gbxEnfermedades.Controls.Add(gbxRCIU);
+            gbxEnfermedades.Controls.Add(gbxAmenazaPartoP);
+            gbxEnfermedades.Controls.Add(gbxHTAInducida);
+            gbxEnfermedades.Controls.Add(gbxInfecObular);
+            gbxEnfermedades.Controls.Add(gbxOtraCondGrave);
+            gbxEnfermedades.Controls.Add(gbxAnemia);
+            gbxEnfermedades.Controls.Add(gbxRoturaPremM);
+            gbxEnfermedades.Controls.Add(gbxHTAInduEmba);
+            gbxEnfermedades.Controls.Add(gbxNefropatia);
+            gbxEnfermedades.Controls.Add(gbxCardiopatía);
+            gbxEnfermedades.Controls.Add(gbxEclampsia);
+            gbxEnfermedades.Controls.Add(gbxPreeclampsia);
+            gbxEnfermedades.Controls.Add(gbxDiabetes);
+            gbxEnfermedades.Controls.Add(gbxHTAprevia);
+            gbxEnfermedades.Location = new Point(10, 31);
+            gbxEnfermedades.Margin = new Padding(4);
+            gbxEnfermedades.Name = "gbxEnfermedades";
+            gbxEnfermedades.Padding = new Padding(4);
+            gbxEnfermedades.Size = new Size(1482, 557);
+            gbxEnfermedades.TabIndex = 0;
+            gbxEnfermedades.TabStop = false;
+            gbxEnfermedades.Text = "ENFERMEDADES";
             // 
-            // radioButton41
+            // rbnEnfermedadesNinguna
             // 
-            radioButton41.AutoSize = true;
-            radioButton41.Location = new Point(436, 31);
-            radioButton41.Margin = new Padding(4);
-            radioButton41.Name = "radioButton41";
-            radioButton41.Size = new Size(73, 18);
-            radioButton41.TabIndex = 48;
-            radioButton41.TabStop = true;
-            radioButton41.Text = "Ninguna";
-            radioButton41.UseVisualStyleBackColor = true;
+            rbnEnfermedadesNinguna.AutoSize = true;
+            rbnEnfermedadesNinguna.Location = new Point(436, 31);
+            rbnEnfermedadesNinguna.Margin = new Padding(4);
+            rbnEnfermedadesNinguna.Name = "rbnEnfermedadesNinguna";
+            rbnEnfermedadesNinguna.Size = new Size(109, 25);
+            rbnEnfermedadesNinguna.TabIndex = 48;
+            rbnEnfermedadesNinguna.TabStop = true;
+            rbnEnfermedadesNinguna.Text = "Ninguna";
+            rbnEnfermedadesNinguna.UseVisualStyleBackColor = true;
             // 
-            // radioButton42
+            // rbnEnfermedades1oMas
             // 
-            radioButton42.AutoSize = true;
-            radioButton42.Location = new Point(297, 31);
-            radioButton42.Margin = new Padding(4);
-            radioButton42.Name = "radioButton42";
-            radioButton42.Size = new Size(69, 18);
-            radioButton42.TabIndex = 47;
-            radioButton42.TabStop = true;
-            radioButton42.Text = "1 o Más";
-            radioButton42.UseVisualStyleBackColor = true;
+            rbnEnfermedades1oMas.AutoSize = true;
+            rbnEnfermedades1oMas.Location = new Point(297, 31);
+            rbnEnfermedades1oMas.Margin = new Padding(4);
+            rbnEnfermedades1oMas.Name = "rbnEnfermedades1oMas";
+            rbnEnfermedades1oMas.Size = new Size(103, 25);
+            rbnEnfermedades1oMas.TabIndex = 47;
+            rbnEnfermedades1oMas.TabStop = true;
+            rbnEnfermedades1oMas.Text = "1 o Más";
+            rbnEnfermedades1oMas.UseVisualStyleBackColor = true;
             // 
-            // groupBox17
+            // gbxHemorragia
             // 
-            groupBox17.Controls.Add(label26);
-            groupBox17.Controls.Add(textBox8);
-            groupBox17.Controls.Add(textBox9);
-            groupBox17.Controls.Add(textBox3);
-            groupBox17.Controls.Add(textBox2);
-            groupBox17.Controls.Add(textBox1);
-            groupBox17.Controls.Add(label19);
-            groupBox17.Controls.Add(label20);
-            groupBox17.Controls.Add(label21);
-            groupBox17.Controls.Add(label22);
-            groupBox17.Controls.Add(label23);
-            groupBox17.Controls.Add(label24);
-            groupBox17.Controls.Add(label25);
-            groupBox17.Controls.Add(groupBox18);
-            groupBox17.Controls.Add(groupBox19);
-            groupBox17.Controls.Add(groupBox20);
-            groupBox17.Controls.Add(groupBox21);
-            groupBox17.Controls.Add(groupBox22);
-            groupBox17.Location = new Point(1031, 21);
-            groupBox17.Margin = new Padding(4);
-            groupBox17.Name = "groupBox17";
-            groupBox17.Padding = new Padding(4);
-            groupBox17.Size = new Size(441, 528);
-            groupBox17.TabIndex = 46;
-            groupBox17.TabStop = false;
-            groupBox17.Text = "HEMORRAGIA";
+            gbxHemorragia.Controls.Add(label26);
+            gbxHemorragia.Controls.Add(txtCardiopatia);
+            gbxHemorragia.Controls.Add(txtPreeclampsia);
+            gbxHemorragia.Controls.Add(txtEclampsia);
+            gbxHemorragia.Controls.Add(txtHTAInducEmbara);
+            gbxHemorragia.Controls.Add(txtHTAPrevia);
+            gbxHemorragia.Controls.Add(lblEclampsia2);
+            gbxHemorragia.Controls.Add(lblCardiopatia2);
+            gbxHemorragia.Controls.Add(lblPreeclampsia2);
+            gbxHemorragia.Controls.Add(lblHTAInduEmba2);
+            gbxHemorragia.Controls.Add(lblHTAPrevia2);
+            gbxHemorragia.Controls.Add(label24);
+            gbxHemorragia.Controls.Add(label25);
+            gbxHemorragia.Controls.Add(gbxHTAInduEmba2);
+            gbxHemorragia.Controls.Add(gbxCardiopatía2);
+            gbxHemorragia.Controls.Add(gbxEclampsia2);
+            gbxHemorragia.Controls.Add(gbxPreeclampsia2);
+            gbxHemorragia.Controls.Add(gbxHTAprevia2);
+            gbxHemorragia.Location = new Point(1031, 21);
+            gbxHemorragia.Margin = new Padding(4);
+            gbxHemorragia.Name = "gbxHemorragia";
+            gbxHemorragia.Padding = new Padding(4);
+            gbxHemorragia.Size = new Size(441, 528);
+            gbxHemorragia.TabIndex = 46;
+            gbxHemorragia.TabStop = false;
+            gbxHemorragia.Text = "HEMORRAGIA";
             // 
             // label26
             // 
@@ -298,99 +298,99 @@
             label26.Location = new Point(320, 61);
             label26.Margin = new Padding(4, 0, 4, 0);
             label26.Name = "label26";
-            label26.Size = new Size(49, 14);
+            label26.Size = new Size(72, 21);
             label26.TabIndex = 56;
             label26.Text = "Codigo";
             // 
-            // textBox8
+            // txtCardiopatia
             // 
-            textBox8.Location = new Point(320, 344);
-            textBox8.Margin = new Padding(4);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(52, 21);
-            textBox8.TabIndex = 55;
+            txtCardiopatia.Location = new Point(320, 344);
+            txtCardiopatia.Margin = new Padding(4);
+            txtCardiopatia.Name = "txtCardiopatia";
+            txtCardiopatia.Size = new Size(52, 28);
+            txtCardiopatia.TabIndex = 55;
             // 
-            // textBox9
+            // txtPreeclampsia
             // 
-            textBox9.Location = new Point(320, 223);
-            textBox9.Margin = new Padding(4);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(52, 21);
-            textBox9.TabIndex = 54;
+            txtPreeclampsia.Location = new Point(320, 223);
+            txtPreeclampsia.Margin = new Padding(4);
+            txtPreeclampsia.Name = "txtPreeclampsia";
+            txtPreeclampsia.Size = new Size(52, 28);
+            txtPreeclampsia.TabIndex = 54;
             // 
-            // textBox3
+            // txtEclampsia
             // 
-            textBox3.Location = new Point(320, 283);
-            textBox3.Margin = new Padding(4);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(52, 21);
-            textBox3.TabIndex = 53;
+            txtEclampsia.Location = new Point(320, 283);
+            txtEclampsia.Margin = new Padding(4);
+            txtEclampsia.Name = "txtEclampsia";
+            txtEclampsia.Size = new Size(52, 28);
+            txtEclampsia.TabIndex = 53;
             // 
-            // textBox2
+            // txtHTAInducEmbara
             // 
-            textBox2.Location = new Point(320, 161);
-            textBox2.Margin = new Padding(4);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(52, 21);
-            textBox2.TabIndex = 52;
+            txtHTAInducEmbara.Location = new Point(320, 161);
+            txtHTAInducEmbara.Margin = new Padding(4);
+            txtHTAInducEmbara.Name = "txtHTAInducEmbara";
+            txtHTAInducEmbara.Size = new Size(52, 28);
+            txtHTAInducEmbara.TabIndex = 52;
             // 
-            // textBox1
+            // txtHTAPrevia
             // 
-            textBox1.Location = new Point(320, 99);
-            textBox1.Margin = new Padding(4);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(52, 21);
-            textBox1.TabIndex = 51;
+            txtHTAPrevia.Location = new Point(320, 99);
+            txtHTAPrevia.Margin = new Padding(4);
+            txtHTAPrevia.Name = "txtHTAPrevia";
+            txtHTAPrevia.Size = new Size(52, 28);
+            txtHTAPrevia.TabIndex = 51;
             // 
-            // label19
+            // lblEclampsia2
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(48, 287);
-            label19.Margin = new Padding(4, 0, 4, 0);
-            label19.Name = "label19";
-            label19.Size = new Size(68, 14);
-            label19.TabIndex = 50;
-            label19.Text = "Eclampsia";
+            lblEclampsia2.AutoSize = true;
+            lblEclampsia2.Location = new Point(48, 287);
+            lblEclampsia2.Margin = new Padding(4, 0, 4, 0);
+            lblEclampsia2.Name = "lblEclampsia2";
+            lblEclampsia2.Size = new Size(102, 21);
+            lblEclampsia2.TabIndex = 50;
+            lblEclampsia2.Text = "Eclampsia";
             // 
-            // label20
+            // lblCardiopatia2
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(36, 349);
-            label20.Margin = new Padding(4, 0, 4, 0);
-            label20.Name = "label20";
-            label20.Size = new Size(75, 14);
-            label20.TabIndex = 49;
-            label20.Text = "Cardiopatia";
+            lblCardiopatia2.AutoSize = true;
+            lblCardiopatia2.Location = new Point(36, 349);
+            lblCardiopatia2.Margin = new Padding(4, 0, 4, 0);
+            lblCardiopatia2.Name = "lblCardiopatia2";
+            lblCardiopatia2.Size = new Size(113, 21);
+            lblCardiopatia2.TabIndex = 49;
+            lblCardiopatia2.Text = "Cardiopatia";
             // 
-            // label21
+            // lblPreeclampsia2
             // 
-            label21.AutoSize = true;
-            label21.Location = new Point(22, 227);
-            label21.Margin = new Padding(4, 0, 4, 0);
-            label21.Name = "label21";
-            label21.Size = new Size(87, 14);
-            label21.TabIndex = 48;
-            label21.Text = "Preeclampsia";
+            lblPreeclampsia2.AutoSize = true;
+            lblPreeclampsia2.Location = new Point(22, 227);
+            lblPreeclampsia2.Margin = new Padding(4, 0, 4, 0);
+            lblPreeclampsia2.Name = "lblPreeclampsia2";
+            lblPreeclampsia2.Size = new Size(132, 21);
+            lblPreeclampsia2.TabIndex = 48;
+            lblPreeclampsia2.Text = "Preeclampsia";
             // 
-            // label22
+            // lblHTAInduEmba2
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(15, 157);
-            label22.Margin = new Padding(4, 0, 4, 0);
-            label22.Name = "label22";
-            label22.Size = new Size(90, 28);
-            label22.TabIndex = 47;
-            label22.Text = "HTA Inducida \r\nEmbarazo";
+            lblHTAInduEmba2.AutoSize = true;
+            lblHTAInduEmba2.Location = new Point(15, 157);
+            lblHTAInduEmba2.Margin = new Padding(4, 0, 4, 0);
+            lblHTAInduEmba2.Name = "lblHTAInduEmba2";
+            lblHTAInduEmba2.Size = new Size(135, 42);
+            lblHTAInduEmba2.TabIndex = 47;
+            lblHTAInduEmba2.Text = "HTA Inducida \r\nEmbarazo";
             // 
-            // label23
+            // lblHTAPrevia2
             // 
-            label23.AutoSize = true;
-            label23.Location = new Point(43, 105);
-            label23.Margin = new Padding(4, 0, 4, 0);
-            label23.Name = "label23";
-            label23.Size = new Size(73, 14);
-            label23.TabIndex = 46;
-            label23.Text = "HTA Previa";
+            lblHTAPrevia2.AutoSize = true;
+            lblHTAPrevia2.Location = new Point(43, 105);
+            lblHTAPrevia2.Margin = new Padding(4, 0, 4, 0);
+            lblHTAPrevia2.Name = "lblHTAPrevia2";
+            lblHTAPrevia2.Size = new Size(110, 21);
+            lblHTAPrevia2.TabIndex = 46;
+            lblHTAPrevia2.Text = "HTA Previa";
             // 
             // label24
             // 
@@ -398,7 +398,7 @@
             label24.Location = new Point(230, 61);
             label24.Margin = new Padding(4, 0, 4, 0);
             label24.Name = "label24";
-            label24.Size = new Size(18, 14);
+            label24.Size = new Size(27, 21);
             label24.TabIndex = 45;
             label24.Text = "Si";
             // 
@@ -408,888 +408,888 @@
             label25.Location = new Point(172, 61);
             label25.Margin = new Padding(4, 0, 4, 0);
             label25.Name = "label25";
-            label25.Size = new Size(23, 14);
+            label25.Size = new Size(35, 21);
             label25.TabIndex = 44;
             label25.Text = "No";
             // 
-            // groupBox18
-            // 
-            groupBox18.Controls.Add(radioButton29);
-            groupBox18.Controls.Add(radioButton30);
-            groupBox18.Location = new Point(153, 145);
-            groupBox18.Margin = new Padding(4);
-            groupBox18.Name = "groupBox18";
-            groupBox18.Padding = new Padding(4);
-            groupBox18.Size = new Size(113, 53);
-            groupBox18.TabIndex = 43;
-            groupBox18.TabStop = false;
-            // 
-            // radioButton29
-            // 
-            radioButton29.AutoSize = true;
-            radioButton29.Location = new Point(80, 21);
-            radioButton29.Margin = new Padding(4);
-            radioButton29.Name = "radioButton29";
-            radioButton29.Size = new Size(14, 13);
-            radioButton29.TabIndex = 3;
-            radioButton29.TabStop = true;
-            radioButton29.UseVisualStyleBackColor = true;
-            // 
-            // radioButton30
-            // 
-            radioButton30.AutoSize = true;
-            radioButton30.Location = new Point(22, 21);
-            radioButton30.Margin = new Padding(4);
-            radioButton30.Name = "radioButton30";
-            radioButton30.Size = new Size(14, 13);
-            radioButton30.TabIndex = 0;
-            radioButton30.TabStop = true;
-            radioButton30.UseVisualStyleBackColor = true;
-            // 
-            // groupBox19
-            // 
-            groupBox19.Controls.Add(radioButton31);
-            groupBox19.Controls.Add(radioButton32);
-            groupBox19.Location = new Point(153, 330);
-            groupBox19.Margin = new Padding(4);
-            groupBox19.Name = "groupBox19";
-            groupBox19.Padding = new Padding(4);
-            groupBox19.Size = new Size(113, 53);
-            groupBox19.TabIndex = 40;
-            groupBox19.TabStop = false;
-            // 
-            // radioButton31
-            // 
-            radioButton31.AutoSize = true;
-            radioButton31.Location = new Point(80, 21);
-            radioButton31.Margin = new Padding(4);
-            radioButton31.Name = "radioButton31";
-            radioButton31.Size = new Size(14, 13);
-            radioButton31.TabIndex = 3;
-            radioButton31.TabStop = true;
-            radioButton31.UseVisualStyleBackColor = true;
-            // 
-            // radioButton32
-            // 
-            radioButton32.AutoSize = true;
-            radioButton32.Location = new Point(22, 21);
-            radioButton32.Margin = new Padding(4);
-            radioButton32.Name = "radioButton32";
-            radioButton32.Size = new Size(14, 13);
-            radioButton32.TabIndex = 0;
-            radioButton32.TabStop = true;
-            radioButton32.UseVisualStyleBackColor = true;
-            // 
-            // groupBox20
-            // 
-            groupBox20.Controls.Add(radioButton33);
-            groupBox20.Controls.Add(radioButton34);
-            groupBox20.Location = new Point(153, 269);
-            groupBox20.Margin = new Padding(4);
-            groupBox20.Name = "groupBox20";
-            groupBox20.Padding = new Padding(4);
-            groupBox20.Size = new Size(113, 53);
-            groupBox20.TabIndex = 41;
-            groupBox20.TabStop = false;
-            // 
-            // radioButton33
-            // 
-            radioButton33.AutoSize = true;
-            radioButton33.Location = new Point(80, 21);
-            radioButton33.Margin = new Padding(4);
-            radioButton33.Name = "radioButton33";
-            radioButton33.Size = new Size(14, 13);
-            radioButton33.TabIndex = 3;
-            radioButton33.TabStop = true;
-            radioButton33.UseVisualStyleBackColor = true;
-            // 
-            // radioButton34
-            // 
-            radioButton34.AutoSize = true;
-            radioButton34.Location = new Point(22, 21);
-            radioButton34.Margin = new Padding(4);
-            radioButton34.Name = "radioButton34";
-            radioButton34.Size = new Size(14, 13);
-            radioButton34.TabIndex = 0;
-            radioButton34.TabStop = true;
-            radioButton34.UseVisualStyleBackColor = true;
-            // 
-            // groupBox21
-            // 
-            groupBox21.Controls.Add(radioButton35);
-            groupBox21.Controls.Add(radioButton36);
-            groupBox21.Location = new Point(153, 207);
-            groupBox21.Margin = new Padding(4);
-            groupBox21.Name = "groupBox21";
-            groupBox21.Padding = new Padding(4);
-            groupBox21.Size = new Size(113, 53);
-            groupBox21.TabIndex = 42;
-            groupBox21.TabStop = false;
-            // 
-            // radioButton35
-            // 
-            radioButton35.AutoSize = true;
-            radioButton35.Location = new Point(80, 21);
-            radioButton35.Margin = new Padding(4);
-            radioButton35.Name = "radioButton35";
-            radioButton35.Size = new Size(14, 13);
-            radioButton35.TabIndex = 3;
-            radioButton35.TabStop = true;
-            radioButton35.UseVisualStyleBackColor = true;
-            // 
-            // radioButton36
-            // 
-            radioButton36.AutoSize = true;
-            radioButton36.Location = new Point(22, 21);
-            radioButton36.Margin = new Padding(4);
-            radioButton36.Name = "radioButton36";
-            radioButton36.Size = new Size(14, 13);
-            radioButton36.TabIndex = 0;
-            radioButton36.TabStop = true;
-            radioButton36.UseVisualStyleBackColor = true;
-            // 
-            // groupBox22
-            // 
-            groupBox22.Controls.Add(radioButton39);
-            groupBox22.Controls.Add(radioButton40);
-            groupBox22.Location = new Point(153, 84);
-            groupBox22.Margin = new Padding(4);
-            groupBox22.Name = "groupBox22";
-            groupBox22.Padding = new Padding(4);
-            groupBox22.Size = new Size(113, 53);
-            groupBox22.TabIndex = 39;
-            groupBox22.TabStop = false;
-            // 
-            // radioButton39
-            // 
-            radioButton39.AutoSize = true;
-            radioButton39.Location = new Point(80, 21);
-            radioButton39.Margin = new Padding(4);
-            radioButton39.Name = "radioButton39";
-            radioButton39.Size = new Size(14, 13);
-            radioButton39.TabIndex = 3;
-            radioButton39.TabStop = true;
-            radioButton39.UseVisualStyleBackColor = true;
-            // 
-            // radioButton40
-            // 
-            radioButton40.AutoSize = true;
-            radioButton40.Location = new Point(22, 21);
-            radioButton40.Margin = new Padding(4);
-            radioButton40.Name = "radioButton40";
-            radioButton40.Size = new Size(14, 13);
-            radioButton40.TabIndex = 0;
-            radioButton40.TabStop = true;
-            radioButton40.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(692, 311);
-            label5.Margin = new Padding(4, 0, 4, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(50, 14);
-            label5.TabIndex = 45;
-            label5.Text = "R.C.I.U";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(692, 372);
-            label6.Margin = new Padding(4, 0, 4, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(177, 14);
-            label6.TabIndex = 44;
-            label6.Text = "Rotura Prem. de Membranas ";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(692, 434);
-            label7.Margin = new Padding(4, 0, 4, 0);
-            label7.Name = "label7";
-            label7.Size = new Size(51, 14);
-            label7.TabIndex = 43;
-            label7.Text = "Anemia";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(692, 249);
-            label9.Margin = new Padding(4, 0, 4, 0);
-            label9.Name = "label9";
-            label9.Size = new Size(134, 14);
-            label9.TabIndex = 42;
-            label9.Text = "Amenaza Parto Preter";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(692, 189);
-            label10.Margin = new Padding(4, 0, 4, 0);
-            label10.Name = "label10";
-            label10.Size = new Size(90, 14);
-            label10.TabIndex = 41;
-            label10.Text = "HTA Inducida ";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(692, 126);
-            label11.Margin = new Padding(4, 0, 4, 0);
-            label11.Name = "label11";
-            label11.Size = new Size(86, 14);
-            label11.TabIndex = 40;
-            label11.Text = "Infec. Obular ";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Location = new Point(692, 496);
-            label12.Margin = new Padding(4, 0, 4, 0);
-            label12.Name = "label12";
-            label12.Size = new Size(110, 14);
-            label12.TabIndex = 39;
-            label12.Text = "Otra Cond. Grave";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(65, 311);
-            label13.Margin = new Padding(4, 0, 4, 0);
-            label13.Name = "label13";
-            label13.Size = new Size(68, 14);
-            label13.TabIndex = 38;
-            label13.Text = "Eclampsia";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Location = new Point(52, 372);
-            label14.Margin = new Padding(4, 0, 4, 0);
-            label14.Name = "label14";
-            label14.Size = new Size(75, 14);
-            label14.TabIndex = 37;
-            label14.Text = "Cardiopatia";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Location = new Point(59, 434);
-            label15.Margin = new Padding(4, 0, 4, 0);
-            label15.Name = "label15";
-            label15.Size = new Size(68, 14);
-            label15.TabIndex = 36;
-            label15.Text = "Nefropatía";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Location = new Point(37, 250);
-            label16.Margin = new Padding(4, 0, 4, 0);
-            label16.Name = "label16";
-            label16.Size = new Size(87, 14);
-            label16.TabIndex = 35;
-            label16.Text = "Preeclampsia";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Location = new Point(32, 181);
-            label17.Margin = new Padding(4, 0, 4, 0);
-            label17.Name = "label17";
-            label17.Size = new Size(90, 28);
-            label17.TabIndex = 34;
-            label17.Text = "HTA Inducida \r\nEmbarazo";
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(58, 129);
-            label18.Margin = new Padding(4, 0, 4, 0);
-            label18.Name = "label18";
-            label18.Size = new Size(73, 14);
-            label18.TabIndex = 33;
-            label18.Text = "HTA Previa";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(77, 498);
-            label8.Margin = new Padding(4, 0, 4, 0);
-            label8.Name = "label8";
-            label8.Size = new Size(59, 14);
-            label8.TabIndex = 32;
-            label8.Text = "Diabetes";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(646, 82);
-            label1.Margin = new Padding(4, 0, 4, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(18, 14);
-            label1.TabIndex = 31;
-            label1.Text = "Si";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(587, 82);
-            label2.Margin = new Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(23, 14);
-            label2.TabIndex = 30;
-            label2.Text = "No";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(245, 86);
-            label3.Margin = new Padding(4, 0, 4, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(18, 14);
-            label3.TabIndex = 29;
-            label3.Text = "Si";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(187, 86);
-            label4.Margin = new Padding(4, 0, 4, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(23, 14);
-            label4.TabIndex = 28;
-            label4.Text = "No";
-            // 
-            // groupBox7
-            // 
-            groupBox7.Controls.Add(radioButton9);
-            groupBox7.Controls.Add(radioButton10);
-            groupBox7.Location = new Point(569, 292);
-            groupBox7.Margin = new Padding(4);
-            groupBox7.Name = "groupBox7";
-            groupBox7.Padding = new Padding(4);
-            groupBox7.Size = new Size(113, 53);
-            groupBox7.TabIndex = 24;
-            groupBox7.TabStop = false;
-            // 
-            // radioButton9
-            // 
-            radioButton9.AutoSize = true;
-            radioButton9.Location = new Point(80, 21);
-            radioButton9.Margin = new Padding(4);
-            radioButton9.Name = "radioButton9";
-            radioButton9.Size = new Size(14, 13);
-            radioButton9.TabIndex = 3;
-            radioButton9.TabStop = true;
-            radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            radioButton10.AutoSize = true;
-            radioButton10.Location = new Point(22, 21);
-            radioButton10.Margin = new Padding(4);
-            radioButton10.Name = "radioButton10";
-            radioButton10.Size = new Size(14, 13);
-            radioButton10.TabIndex = 0;
-            radioButton10.TabStop = true;
-            radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // groupBox8
-            // 
-            groupBox8.Controls.Add(radioButton11);
-            groupBox8.Controls.Add(radioButton12);
-            groupBox8.Location = new Point(569, 231);
-            groupBox8.Margin = new Padding(4);
-            groupBox8.Name = "groupBox8";
-            groupBox8.Padding = new Padding(4);
-            groupBox8.Size = new Size(113, 53);
-            groupBox8.TabIndex = 25;
-            groupBox8.TabStop = false;
-            // 
-            // radioButton11
-            // 
-            radioButton11.AutoSize = true;
-            radioButton11.Location = new Point(80, 21);
-            radioButton11.Margin = new Padding(4);
-            radioButton11.Name = "radioButton11";
-            radioButton11.Size = new Size(14, 13);
-            radioButton11.TabIndex = 3;
-            radioButton11.TabStop = true;
-            radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            radioButton12.AutoSize = true;
-            radioButton12.Location = new Point(22, 21);
-            radioButton12.Margin = new Padding(4);
-            radioButton12.Name = "radioButton12";
-            radioButton12.Size = new Size(14, 13);
-            radioButton12.TabIndex = 0;
-            radioButton12.TabStop = true;
-            radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // groupBox9
-            // 
-            groupBox9.Controls.Add(radioButton25);
-            groupBox9.Controls.Add(radioButton26);
-            groupBox9.Location = new Point(569, 170);
-            groupBox9.Margin = new Padding(4);
-            groupBox9.Name = "groupBox9";
-            groupBox9.Padding = new Padding(4);
-            groupBox9.Size = new Size(113, 53);
-            groupBox9.TabIndex = 26;
-            groupBox9.TabStop = false;
-            // 
-            // radioButton25
-            // 
-            radioButton25.AutoSize = true;
-            radioButton25.Location = new Point(80, 21);
-            radioButton25.Margin = new Padding(4);
-            radioButton25.Name = "radioButton25";
-            radioButton25.Size = new Size(14, 13);
-            radioButton25.TabIndex = 3;
-            radioButton25.TabStop = true;
-            radioButton25.UseVisualStyleBackColor = true;
-            // 
-            // radioButton26
-            // 
-            radioButton26.AutoSize = true;
-            radioButton26.Location = new Point(22, 21);
-            radioButton26.Margin = new Padding(4);
-            radioButton26.Name = "radioButton26";
-            radioButton26.Size = new Size(14, 13);
-            radioButton26.TabIndex = 0;
-            radioButton26.TabStop = true;
-            radioButton26.UseVisualStyleBackColor = true;
-            // 
-            // groupBox16
-            // 
-            groupBox16.Controls.Add(radioButton27);
-            groupBox16.Controls.Add(radioButton28);
-            groupBox16.Location = new Point(569, 108);
-            groupBox16.Margin = new Padding(4);
-            groupBox16.Name = "groupBox16";
-            groupBox16.Padding = new Padding(4);
-            groupBox16.Size = new Size(113, 53);
-            groupBox16.TabIndex = 27;
-            groupBox16.TabStop = false;
-            // 
-            // radioButton27
-            // 
-            radioButton27.AutoSize = true;
-            radioButton27.Location = new Point(80, 21);
-            radioButton27.Margin = new Padding(4);
-            radioButton27.Name = "radioButton27";
-            radioButton27.Size = new Size(14, 13);
-            radioButton27.TabIndex = 3;
-            radioButton27.TabStop = true;
-            radioButton27.UseVisualStyleBackColor = true;
-            // 
-            // radioButton28
-            // 
-            radioButton28.AutoSize = true;
-            radioButton28.Location = new Point(22, 21);
-            radioButton28.Margin = new Padding(4);
-            radioButton28.Name = "radioButton28";
-            radioButton28.Size = new Size(14, 13);
-            radioButton28.TabIndex = 0;
-            radioButton28.TabStop = true;
-            radioButton28.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            groupBox3.Controls.Add(radioButton1);
-            groupBox3.Controls.Add(radioButton2);
-            groupBox3.Location = new Point(569, 477);
-            groupBox3.Margin = new Padding(4);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Padding = new Padding(4);
-            groupBox3.Size = new Size(113, 53);
-            groupBox3.TabIndex = 20;
-            groupBox3.TabStop = false;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(80, 21);
-            radioButton1.Margin = new Padding(4);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(14, 13);
-            radioButton1.TabIndex = 3;
-            radioButton1.TabStop = true;
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(22, 21);
-            radioButton2.Margin = new Padding(4);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(14, 13);
-            radioButton2.TabIndex = 0;
-            radioButton2.TabStop = true;
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            groupBox4.Controls.Add(radioButton3);
-            groupBox4.Controls.Add(radioButton4);
-            groupBox4.Location = new Point(569, 416);
-            groupBox4.Margin = new Padding(4);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Padding = new Padding(4);
-            groupBox4.Size = new Size(113, 53);
-            groupBox4.TabIndex = 21;
-            groupBox4.TabStop = false;
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(80, 21);
-            radioButton3.Margin = new Padding(4);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(14, 13);
-            radioButton3.TabIndex = 3;
-            radioButton3.TabStop = true;
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(22, 21);
-            radioButton4.Margin = new Padding(4);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(14, 13);
-            radioButton4.TabIndex = 0;
-            radioButton4.TabStop = true;
-            radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // groupBox5
-            // 
-            groupBox5.Controls.Add(radioButton5);
-            groupBox5.Controls.Add(radioButton6);
-            groupBox5.Location = new Point(569, 354);
-            groupBox5.Margin = new Padding(4);
-            groupBox5.Name = "groupBox5";
-            groupBox5.Padding = new Padding(4);
-            groupBox5.Size = new Size(113, 53);
-            groupBox5.TabIndex = 22;
-            groupBox5.TabStop = false;
-            // 
-            // radioButton5
-            // 
-            radioButton5.AutoSize = true;
-            radioButton5.Location = new Point(80, 21);
-            radioButton5.Margin = new Padding(4);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(14, 13);
-            radioButton5.TabIndex = 3;
-            radioButton5.TabStop = true;
-            radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            radioButton6.AutoSize = true;
-            radioButton6.Location = new Point(22, 21);
-            radioButton6.Margin = new Padding(4);
-            radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(14, 13);
-            radioButton6.TabIndex = 0;
-            radioButton6.TabStop = true;
-            radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // groupBox6
-            // 
-            groupBox6.Controls.Add(radioButton7);
-            groupBox6.Controls.Add(radioButton8);
-            groupBox6.Location = new Point(168, 170);
-            groupBox6.Margin = new Padding(4);
-            groupBox6.Name = "groupBox6";
-            groupBox6.Padding = new Padding(4);
-            groupBox6.Size = new Size(113, 53);
-            groupBox6.TabIndex = 23;
-            groupBox6.TabStop = false;
-            // 
-            // radioButton7
-            // 
-            radioButton7.AutoSize = true;
-            radioButton7.Location = new Point(80, 21);
-            radioButton7.Margin = new Padding(4);
-            radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(14, 13);
-            radioButton7.TabIndex = 3;
-            radioButton7.TabStop = true;
-            radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            radioButton8.AutoSize = true;
-            radioButton8.Location = new Point(22, 21);
-            radioButton8.Margin = new Padding(4);
-            radioButton8.Name = "radioButton8";
-            radioButton8.Size = new Size(14, 13);
-            radioButton8.TabIndex = 0;
-            radioButton8.TabStop = true;
-            radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // groupBox10
-            // 
-            groupBox10.Controls.Add(radioButton13);
-            groupBox10.Controls.Add(radioButton14);
-            groupBox10.Location = new Point(168, 416);
-            groupBox10.Margin = new Padding(4);
-            groupBox10.Name = "groupBox10";
-            groupBox10.Padding = new Padding(4);
-            groupBox10.Size = new Size(113, 53);
-            groupBox10.TabIndex = 15;
-            groupBox10.TabStop = false;
-            // 
-            // radioButton13
-            // 
-            radioButton13.AutoSize = true;
-            radioButton13.Location = new Point(80, 21);
-            radioButton13.Margin = new Padding(4);
-            radioButton13.Name = "radioButton13";
-            radioButton13.Size = new Size(14, 13);
-            radioButton13.TabIndex = 3;
-            radioButton13.TabStop = true;
-            radioButton13.UseVisualStyleBackColor = true;
-            // 
-            // radioButton14
-            // 
-            radioButton14.AutoSize = true;
-            radioButton14.Location = new Point(22, 21);
-            radioButton14.Margin = new Padding(4);
-            radioButton14.Name = "radioButton14";
-            radioButton14.Size = new Size(14, 13);
-            radioButton14.TabIndex = 0;
-            radioButton14.TabStop = true;
-            radioButton14.UseVisualStyleBackColor = true;
-            // 
-            // groupBox11
-            // 
-            groupBox11.Controls.Add(radioButton15);
-            groupBox11.Controls.Add(radioButton16);
-            groupBox11.Location = new Point(168, 354);
-            groupBox11.Margin = new Padding(4);
-            groupBox11.Name = "groupBox11";
-            groupBox11.Padding = new Padding(4);
-            groupBox11.Size = new Size(113, 53);
-            groupBox11.TabIndex = 16;
-            groupBox11.TabStop = false;
-            // 
-            // radioButton15
-            // 
-            radioButton15.AutoSize = true;
-            radioButton15.Location = new Point(80, 21);
-            radioButton15.Margin = new Padding(4);
-            radioButton15.Name = "radioButton15";
-            radioButton15.Size = new Size(14, 13);
-            radioButton15.TabIndex = 3;
-            radioButton15.TabStop = true;
-            radioButton15.UseVisualStyleBackColor = true;
-            // 
-            // radioButton16
-            // 
-            radioButton16.AutoSize = true;
-            radioButton16.Location = new Point(22, 21);
-            radioButton16.Margin = new Padding(4);
-            radioButton16.Name = "radioButton16";
-            radioButton16.Size = new Size(14, 13);
-            radioButton16.TabIndex = 0;
-            radioButton16.TabStop = true;
-            radioButton16.UseVisualStyleBackColor = true;
-            // 
-            // groupBox12
-            // 
-            groupBox12.Controls.Add(radioButton17);
-            groupBox12.Controls.Add(radioButton18);
-            groupBox12.Location = new Point(168, 292);
-            groupBox12.Margin = new Padding(4);
-            groupBox12.Name = "groupBox12";
-            groupBox12.Padding = new Padding(4);
-            groupBox12.Size = new Size(113, 53);
-            groupBox12.TabIndex = 17;
-            groupBox12.TabStop = false;
-            // 
-            // radioButton17
-            // 
-            radioButton17.AutoSize = true;
-            radioButton17.Location = new Point(80, 21);
-            radioButton17.Margin = new Padding(4);
-            radioButton17.Name = "radioButton17";
-            radioButton17.Size = new Size(14, 13);
-            radioButton17.TabIndex = 3;
-            radioButton17.TabStop = true;
-            radioButton17.UseVisualStyleBackColor = true;
-            // 
-            // radioButton18
-            // 
-            radioButton18.AutoSize = true;
-            radioButton18.Location = new Point(22, 21);
-            radioButton18.Margin = new Padding(4);
-            radioButton18.Name = "radioButton18";
-            radioButton18.Size = new Size(14, 13);
-            radioButton18.TabIndex = 0;
-            radioButton18.TabStop = true;
-            radioButton18.UseVisualStyleBackColor = true;
-            // 
-            // groupBox13
-            // 
-            groupBox13.Controls.Add(radioButton19);
-            groupBox13.Controls.Add(radioButton20);
-            groupBox13.Location = new Point(168, 231);
-            groupBox13.Margin = new Padding(4);
-            groupBox13.Name = "groupBox13";
-            groupBox13.Padding = new Padding(4);
-            groupBox13.Size = new Size(113, 53);
-            groupBox13.TabIndex = 18;
-            groupBox13.TabStop = false;
-            // 
-            // radioButton19
-            // 
-            radioButton19.AutoSize = true;
-            radioButton19.Location = new Point(80, 21);
-            radioButton19.Margin = new Padding(4);
-            radioButton19.Name = "radioButton19";
-            radioButton19.Size = new Size(14, 13);
-            radioButton19.TabIndex = 3;
-            radioButton19.TabStop = true;
-            radioButton19.UseVisualStyleBackColor = true;
-            // 
-            // radioButton20
-            // 
-            radioButton20.AutoSize = true;
-            radioButton20.Location = new Point(22, 21);
-            radioButton20.Margin = new Padding(4);
-            radioButton20.Name = "radioButton20";
-            radioButton20.Size = new Size(14, 13);
-            radioButton20.TabIndex = 0;
-            radioButton20.TabStop = true;
-            radioButton20.UseVisualStyleBackColor = true;
-            // 
-            // groupBox14
-            // 
-            groupBox14.Controls.Add(radioButton37);
-            groupBox14.Controls.Add(radioButton38);
-            groupBox14.Controls.Add(radioButton21);
-            groupBox14.Controls.Add(radioButton22);
-            groupBox14.Location = new Point(168, 477);
-            groupBox14.Margin = new Padding(4);
-            groupBox14.Name = "groupBox14";
-            groupBox14.Padding = new Padding(4);
-            groupBox14.Size = new Size(249, 53);
-            groupBox14.TabIndex = 19;
-            groupBox14.TabStop = false;
-            // 
-            // radioButton37
-            // 
-            radioButton37.AutoSize = true;
-            radioButton37.Location = new Point(187, 15);
-            radioButton37.Margin = new Padding(4);
-            radioButton37.Name = "radioButton37";
-            radioButton37.Size = new Size(35, 18);
-            radioButton37.TabIndex = 5;
-            radioButton37.TabStop = true;
-            radioButton37.Text = "G";
-            radioButton37.UseVisualStyleBackColor = true;
-            // 
-            // radioButton38
-            // 
-            radioButton38.AutoSize = true;
-            radioButton38.Location = new Point(129, 15);
-            radioButton38.Margin = new Padding(4);
-            radioButton38.Name = "radioButton38";
-            radioButton38.Size = new Size(33, 18);
-            radioButton38.TabIndex = 4;
-            radioButton38.TabStop = true;
-            radioButton38.Text = "II";
-            radioButton38.UseVisualStyleBackColor = true;
-            // 
-            // radioButton21
-            // 
-            radioButton21.AutoSize = true;
-            radioButton21.Location = new Point(78, 15);
-            radioButton21.Margin = new Padding(4);
-            radioButton21.Name = "radioButton21";
-            radioButton21.Size = new Size(29, 18);
-            radioButton21.TabIndex = 3;
-            radioButton21.TabStop = true;
-            radioButton21.Text = "I";
-            radioButton21.UseVisualStyleBackColor = true;
-            // 
-            // radioButton22
-            // 
-            radioButton22.AutoSize = true;
-            radioButton22.Location = new Point(22, 21);
-            radioButton22.Margin = new Padding(4);
-            radioButton22.Name = "radioButton22";
-            radioButton22.Size = new Size(14, 13);
-            radioButton22.TabIndex = 0;
-            radioButton22.TabStop = true;
-            radioButton22.UseVisualStyleBackColor = true;
-            // 
-            // groupBox15
-            // 
-            groupBox15.Controls.Add(radioButton23);
-            groupBox15.Controls.Add(radioButton24);
-            groupBox15.Location = new Point(168, 108);
-            groupBox15.Margin = new Padding(4);
-            groupBox15.Name = "groupBox15";
-            groupBox15.Padding = new Padding(4);
-            groupBox15.Size = new Size(113, 53);
-            groupBox15.TabIndex = 14;
-            groupBox15.TabStop = false;
-            // 
-            // radioButton23
-            // 
-            radioButton23.AutoSize = true;
-            radioButton23.Location = new Point(80, 21);
-            radioButton23.Margin = new Padding(4);
-            radioButton23.Name = "radioButton23";
-            radioButton23.Size = new Size(14, 13);
-            radioButton23.TabIndex = 3;
-            radioButton23.TabStop = true;
-            radioButton23.UseVisualStyleBackColor = true;
-            // 
-            // radioButton24
-            // 
-            radioButton24.AutoSize = true;
-            radioButton24.Location = new Point(22, 21);
-            radioButton24.Margin = new Padding(4);
-            radioButton24.Name = "radioButton24";
-            radioButton24.Size = new Size(14, 13);
-            radioButton24.TabIndex = 0;
-            radioButton24.TabStop = true;
-            radioButton24.UseVisualStyleBackColor = true;
-            // 
-            // groupBox23
-            // 
-            groupBox23.BackColor = SystemColors.GradientInactiveCaption;
-            groupBox23.Controls.Add(groupBox26);
-            groupBox23.Controls.Add(label30);
-            groupBox23.Controls.Add(label31);
-            groupBox23.Controls.Add(label28);
-            groupBox23.Controls.Add(label29);
-            groupBox23.Controls.Add(groupBox25);
-            groupBox23.Location = new Point(19, 622);
-            groupBox23.Margin = new Padding(4);
-            groupBox23.Name = "groupBox23";
-            groupBox23.Padding = new Padding(4);
-            groupBox23.Size = new Size(355, 181);
-            groupBox23.TabIndex = 1;
-            groupBox23.TabStop = false;
-            groupBox23.Text = "TDP PRUEBA";
+            // gbxHTAInduEmba2
+            // 
+            gbxHTAInduEmba2.Controls.Add(rbnHTAindEmbaSi2);
+            gbxHTAInduEmba2.Controls.Add(rbnHTAindEmbaNo2);
+            gbxHTAInduEmba2.Location = new Point(153, 145);
+            gbxHTAInduEmba2.Margin = new Padding(4);
+            gbxHTAInduEmba2.Name = "gbxHTAInduEmba2";
+            gbxHTAInduEmba2.Padding = new Padding(4);
+            gbxHTAInduEmba2.Size = new Size(113, 53);
+            gbxHTAInduEmba2.TabIndex = 43;
+            gbxHTAInduEmba2.TabStop = false;
+            // 
+            // rbnHTAindEmbaSi2
+            // 
+            rbnHTAindEmbaSi2.AutoSize = true;
+            rbnHTAindEmbaSi2.Location = new Point(80, 21);
+            rbnHTAindEmbaSi2.Margin = new Padding(4);
+            rbnHTAindEmbaSi2.Name = "rbnHTAindEmbaSi2";
+            rbnHTAindEmbaSi2.Size = new Size(21, 20);
+            rbnHTAindEmbaSi2.TabIndex = 3;
+            rbnHTAindEmbaSi2.TabStop = true;
+            rbnHTAindEmbaSi2.UseVisualStyleBackColor = true;
+            // 
+            // rbnHTAindEmbaNo2
+            // 
+            rbnHTAindEmbaNo2.AutoSize = true;
+            rbnHTAindEmbaNo2.Location = new Point(22, 21);
+            rbnHTAindEmbaNo2.Margin = new Padding(4);
+            rbnHTAindEmbaNo2.Name = "rbnHTAindEmbaNo2";
+            rbnHTAindEmbaNo2.Size = new Size(21, 20);
+            rbnHTAindEmbaNo2.TabIndex = 0;
+            rbnHTAindEmbaNo2.TabStop = true;
+            rbnHTAindEmbaNo2.UseVisualStyleBackColor = true;
+            // 
+            // gbxCardiopatía2
+            // 
+            gbxCardiopatía2.Controls.Add(rbnCardiopatiaSi2);
+            gbxCardiopatía2.Controls.Add(rbnCardiopatiaNo2);
+            gbxCardiopatía2.Location = new Point(153, 330);
+            gbxCardiopatía2.Margin = new Padding(4);
+            gbxCardiopatía2.Name = "gbxCardiopatía2";
+            gbxCardiopatía2.Padding = new Padding(4);
+            gbxCardiopatía2.Size = new Size(113, 53);
+            gbxCardiopatía2.TabIndex = 40;
+            gbxCardiopatía2.TabStop = false;
+            // 
+            // rbnCardiopatiaSi2
+            // 
+            rbnCardiopatiaSi2.AutoSize = true;
+            rbnCardiopatiaSi2.Location = new Point(80, 21);
+            rbnCardiopatiaSi2.Margin = new Padding(4);
+            rbnCardiopatiaSi2.Name = "rbnCardiopatiaSi2";
+            rbnCardiopatiaSi2.Size = new Size(21, 20);
+            rbnCardiopatiaSi2.TabIndex = 3;
+            rbnCardiopatiaSi2.TabStop = true;
+            rbnCardiopatiaSi2.UseVisualStyleBackColor = true;
+            // 
+            // rbnCardiopatiaNo2
+            // 
+            rbnCardiopatiaNo2.AutoSize = true;
+            rbnCardiopatiaNo2.Location = new Point(22, 21);
+            rbnCardiopatiaNo2.Margin = new Padding(4);
+            rbnCardiopatiaNo2.Name = "rbnCardiopatiaNo2";
+            rbnCardiopatiaNo2.Size = new Size(21, 20);
+            rbnCardiopatiaNo2.TabIndex = 0;
+            rbnCardiopatiaNo2.TabStop = true;
+            rbnCardiopatiaNo2.UseVisualStyleBackColor = true;
+            // 
+            // gbxEclampsia2
+            // 
+            gbxEclampsia2.Controls.Add(rbnEclampsiaSi2);
+            gbxEclampsia2.Controls.Add(rbnEclampsiaNo2);
+            gbxEclampsia2.Location = new Point(153, 269);
+            gbxEclampsia2.Margin = new Padding(4);
+            gbxEclampsia2.Name = "gbxEclampsia2";
+            gbxEclampsia2.Padding = new Padding(4);
+            gbxEclampsia2.Size = new Size(113, 53);
+            gbxEclampsia2.TabIndex = 41;
+            gbxEclampsia2.TabStop = false;
+            // 
+            // rbnEclampsiaSi2
+            // 
+            rbnEclampsiaSi2.AutoSize = true;
+            rbnEclampsiaSi2.Location = new Point(80, 21);
+            rbnEclampsiaSi2.Margin = new Padding(4);
+            rbnEclampsiaSi2.Name = "rbnEclampsiaSi2";
+            rbnEclampsiaSi2.Size = new Size(21, 20);
+            rbnEclampsiaSi2.TabIndex = 3;
+            rbnEclampsiaSi2.TabStop = true;
+            rbnEclampsiaSi2.UseVisualStyleBackColor = true;
+            // 
+            // rbnEclampsiaNo2
+            // 
+            rbnEclampsiaNo2.AutoSize = true;
+            rbnEclampsiaNo2.Location = new Point(22, 21);
+            rbnEclampsiaNo2.Margin = new Padding(4);
+            rbnEclampsiaNo2.Name = "rbnEclampsiaNo2";
+            rbnEclampsiaNo2.Size = new Size(21, 20);
+            rbnEclampsiaNo2.TabIndex = 0;
+            rbnEclampsiaNo2.TabStop = true;
+            rbnEclampsiaNo2.UseVisualStyleBackColor = true;
+            // 
+            // gbxPreeclampsia2
+            // 
+            gbxPreeclampsia2.Controls.Add(rbnPreeclampsiaSi2);
+            gbxPreeclampsia2.Controls.Add(rbnPreeclampsiaNo2);
+            gbxPreeclampsia2.Location = new Point(153, 207);
+            gbxPreeclampsia2.Margin = new Padding(4);
+            gbxPreeclampsia2.Name = "gbxPreeclampsia2";
+            gbxPreeclampsia2.Padding = new Padding(4);
+            gbxPreeclampsia2.Size = new Size(113, 53);
+            gbxPreeclampsia2.TabIndex = 42;
+            gbxPreeclampsia2.TabStop = false;
+            // 
+            // rbnPreeclampsiaSi2
+            // 
+            rbnPreeclampsiaSi2.AutoSize = true;
+            rbnPreeclampsiaSi2.Location = new Point(80, 21);
+            rbnPreeclampsiaSi2.Margin = new Padding(4);
+            rbnPreeclampsiaSi2.Name = "rbnPreeclampsiaSi2";
+            rbnPreeclampsiaSi2.Size = new Size(21, 20);
+            rbnPreeclampsiaSi2.TabIndex = 3;
+            rbnPreeclampsiaSi2.TabStop = true;
+            rbnPreeclampsiaSi2.UseVisualStyleBackColor = true;
+            // 
+            // rbnPreeclampsiaNo2
+            // 
+            rbnPreeclampsiaNo2.AutoSize = true;
+            rbnPreeclampsiaNo2.Location = new Point(22, 21);
+            rbnPreeclampsiaNo2.Margin = new Padding(4);
+            rbnPreeclampsiaNo2.Name = "rbnPreeclampsiaNo2";
+            rbnPreeclampsiaNo2.Size = new Size(21, 20);
+            rbnPreeclampsiaNo2.TabIndex = 0;
+            rbnPreeclampsiaNo2.TabStop = true;
+            rbnPreeclampsiaNo2.UseVisualStyleBackColor = true;
+            // 
+            // gbxHTAprevia2
+            // 
+            gbxHTAprevia2.Controls.Add(rbnHTApreviaSi2);
+            gbxHTAprevia2.Controls.Add(rbnHTApreviaNo2);
+            gbxHTAprevia2.Location = new Point(153, 84);
+            gbxHTAprevia2.Margin = new Padding(4);
+            gbxHTAprevia2.Name = "gbxHTAprevia2";
+            gbxHTAprevia2.Padding = new Padding(4);
+            gbxHTAprevia2.Size = new Size(113, 53);
+            gbxHTAprevia2.TabIndex = 39;
+            gbxHTAprevia2.TabStop = false;
+            // 
+            // rbnHTApreviaSi2
+            // 
+            rbnHTApreviaSi2.AutoSize = true;
+            rbnHTApreviaSi2.Location = new Point(80, 21);
+            rbnHTApreviaSi2.Margin = new Padding(4);
+            rbnHTApreviaSi2.Name = "rbnHTApreviaSi2";
+            rbnHTApreviaSi2.Size = new Size(21, 20);
+            rbnHTApreviaSi2.TabIndex = 3;
+            rbnHTApreviaSi2.TabStop = true;
+            rbnHTApreviaSi2.UseVisualStyleBackColor = true;
+            // 
+            // rbnHTApreviaNo2
+            // 
+            rbnHTApreviaNo2.AutoSize = true;
+            rbnHTApreviaNo2.Location = new Point(22, 21);
+            rbnHTApreviaNo2.Margin = new Padding(4);
+            rbnHTApreviaNo2.Name = "rbnHTApreviaNo2";
+            rbnHTApreviaNo2.Size = new Size(21, 20);
+            rbnHTApreviaNo2.TabIndex = 0;
+            rbnHTApreviaNo2.TabStop = true;
+            rbnHTApreviaNo2.UseVisualStyleBackColor = true;
+            // 
+            // lblRCIU
+            // 
+            lblRCIU.AutoSize = true;
+            lblRCIU.Location = new Point(692, 311);
+            lblRCIU.Margin = new Padding(4, 0, 4, 0);
+            lblRCIU.Name = "lblRCIU";
+            lblRCIU.Size = new Size(74, 21);
+            lblRCIU.TabIndex = 45;
+            lblRCIU.Text = "R.C.I.U";
+            // 
+            // lblRoturaPremMem
+            // 
+            lblRoturaPremMem.AutoSize = true;
+            lblRoturaPremMem.Location = new Point(692, 372);
+            lblRoturaPremMem.Margin = new Padding(4, 0, 4, 0);
+            lblRoturaPremMem.Name = "lblRoturaPremMem";
+            lblRoturaPremMem.Size = new Size(269, 21);
+            lblRoturaPremMem.TabIndex = 44;
+            lblRoturaPremMem.Text = "Rotura Prem. de Membranas ";
+            // 
+            // lblAnemia
+            // 
+            lblAnemia.AutoSize = true;
+            lblAnemia.Location = new Point(692, 434);
+            lblAnemia.Margin = new Padding(4, 0, 4, 0);
+            lblAnemia.Name = "lblAnemia";
+            lblAnemia.Size = new Size(77, 21);
+            lblAnemia.TabIndex = 43;
+            lblAnemia.Text = "Anemia";
+            // 
+            // lblAmenzaPartoP
+            // 
+            lblAmenzaPartoP.AutoSize = true;
+            lblAmenzaPartoP.Location = new Point(692, 249);
+            lblAmenzaPartoP.Margin = new Padding(4, 0, 4, 0);
+            lblAmenzaPartoP.Name = "lblAmenzaPartoP";
+            lblAmenzaPartoP.Size = new Size(206, 21);
+            lblAmenzaPartoP.TabIndex = 42;
+            lblAmenzaPartoP.Text = "Amenaza Parto Preter";
+            // 
+            // lblHTAInducida
+            // 
+            lblHTAInducida.AutoSize = true;
+            lblHTAInducida.Location = new Point(692, 189);
+            lblHTAInducida.Margin = new Padding(4, 0, 4, 0);
+            lblHTAInducida.Name = "lblHTAInducida";
+            lblHTAInducida.Size = new Size(135, 21);
+            lblHTAInducida.TabIndex = 41;
+            lblHTAInducida.Text = "HTA Inducida ";
+            // 
+            // lblInfecObular
+            // 
+            lblInfecObular.AutoSize = true;
+            lblInfecObular.Location = new Point(692, 126);
+            lblInfecObular.Margin = new Padding(4, 0, 4, 0);
+            lblInfecObular.Name = "lblInfecObular";
+            lblInfecObular.Size = new Size(131, 21);
+            lblInfecObular.TabIndex = 40;
+            lblInfecObular.Text = "Infec. Obular ";
+            // 
+            // lblOtraCondGrave
+            // 
+            lblOtraCondGrave.AutoSize = true;
+            lblOtraCondGrave.Location = new Point(692, 496);
+            lblOtraCondGrave.Margin = new Padding(4, 0, 4, 0);
+            lblOtraCondGrave.Name = "lblOtraCondGrave";
+            lblOtraCondGrave.Size = new Size(165, 21);
+            lblOtraCondGrave.TabIndex = 39;
+            lblOtraCondGrave.Text = "Otra Cond. Grave";
+            // 
+            // lblEclampsia
+            // 
+            lblEclampsia.AutoSize = true;
+            lblEclampsia.Location = new Point(65, 311);
+            lblEclampsia.Margin = new Padding(4, 0, 4, 0);
+            lblEclampsia.Name = "lblEclampsia";
+            lblEclampsia.Size = new Size(102, 21);
+            lblEclampsia.TabIndex = 38;
+            lblEclampsia.Text = "Eclampsia";
+            // 
+            // lblCardiopatia
+            // 
+            lblCardiopatia.AutoSize = true;
+            lblCardiopatia.Location = new Point(52, 372);
+            lblCardiopatia.Margin = new Padding(4, 0, 4, 0);
+            lblCardiopatia.Name = "lblCardiopatia";
+            lblCardiopatia.Size = new Size(113, 21);
+            lblCardiopatia.TabIndex = 37;
+            lblCardiopatia.Text = "Cardiopatia";
+            // 
+            // lblNefropatia
+            // 
+            lblNefropatia.AutoSize = true;
+            lblNefropatia.Location = new Point(59, 434);
+            lblNefropatia.Margin = new Padding(4, 0, 4, 0);
+            lblNefropatia.Name = "lblNefropatia";
+            lblNefropatia.Size = new Size(104, 21);
+            lblNefropatia.TabIndex = 36;
+            lblNefropatia.Text = "Nefropatía";
+            // 
+            // lblPreeclampsia
+            // 
+            lblPreeclampsia.AutoSize = true;
+            lblPreeclampsia.Location = new Point(37, 250);
+            lblPreeclampsia.Margin = new Padding(4, 0, 4, 0);
+            lblPreeclampsia.Name = "lblPreeclampsia";
+            lblPreeclampsia.Size = new Size(132, 21);
+            lblPreeclampsia.TabIndex = 35;
+            lblPreeclampsia.Text = "Preeclampsia";
+            // 
+            // lblHTAindEmba
+            // 
+            lblHTAindEmba.AutoSize = true;
+            lblHTAindEmba.Location = new Point(32, 181);
+            lblHTAindEmba.Margin = new Padding(4, 0, 4, 0);
+            lblHTAindEmba.Name = "lblHTAindEmba";
+            lblHTAindEmba.Size = new Size(135, 42);
+            lblHTAindEmba.TabIndex = 34;
+            lblHTAindEmba.Text = "HTA Inducida \r\nEmbarazo";
+            // 
+            // lblHTAprevia
+            // 
+            lblHTAprevia.AutoSize = true;
+            lblHTAprevia.Location = new Point(58, 129);
+            lblHTAprevia.Margin = new Padding(4, 0, 4, 0);
+            lblHTAprevia.Name = "lblHTAprevia";
+            lblHTAprevia.Size = new Size(110, 21);
+            lblHTAprevia.TabIndex = 33;
+            lblHTAprevia.Text = "HTA Previa";
+            // 
+            // lblDiabetes
+            // 
+            lblDiabetes.AutoSize = true;
+            lblDiabetes.Location = new Point(77, 498);
+            lblDiabetes.Margin = new Padding(4, 0, 4, 0);
+            lblDiabetes.Name = "lblDiabetes";
+            lblDiabetes.Size = new Size(88, 21);
+            lblDiabetes.TabIndex = 32;
+            lblDiabetes.Text = "Diabetes";
+            // 
+            // lblEnfermedadesSi
+            // 
+            lblEnfermedadesSi.AutoSize = true;
+            lblEnfermedadesSi.Location = new Point(646, 82);
+            lblEnfermedadesSi.Margin = new Padding(4, 0, 4, 0);
+            lblEnfermedadesSi.Name = "lblEnfermedadesSi";
+            lblEnfermedadesSi.Size = new Size(27, 21);
+            lblEnfermedadesSi.TabIndex = 31;
+            lblEnfermedadesSi.Text = "Si";
+            // 
+            // lblEnfermedadesNo
+            // 
+            lblEnfermedadesNo.AutoSize = true;
+            lblEnfermedadesNo.Location = new Point(587, 82);
+            lblEnfermedadesNo.Margin = new Padding(4, 0, 4, 0);
+            lblEnfermedadesNo.Name = "lblEnfermedadesNo";
+            lblEnfermedadesNo.Size = new Size(35, 21);
+            lblEnfermedadesNo.TabIndex = 30;
+            lblEnfermedadesNo.Text = "No";
+            // 
+            // lblEnfermSi
+            // 
+            lblEnfermSi.AutoSize = true;
+            lblEnfermSi.Location = new Point(245, 86);
+            lblEnfermSi.Margin = new Padding(4, 0, 4, 0);
+            lblEnfermSi.Name = "lblEnfermSi";
+            lblEnfermSi.Size = new Size(27, 21);
+            lblEnfermSi.TabIndex = 29;
+            lblEnfermSi.Text = "Si";
+            // 
+            // lblEnfermNo
+            // 
+            lblEnfermNo.AutoSize = true;
+            lblEnfermNo.Location = new Point(187, 86);
+            lblEnfermNo.Margin = new Padding(4, 0, 4, 0);
+            lblEnfermNo.Name = "lblEnfermNo";
+            lblEnfermNo.Size = new Size(35, 21);
+            lblEnfermNo.TabIndex = 28;
+            lblEnfermNo.Text = "No";
+            // 
+            // gbxRCIU
+            // 
+            gbxRCIU.Controls.Add(rbnRCIUSi);
+            gbxRCIU.Controls.Add(rbnRCIUNo);
+            gbxRCIU.Location = new Point(569, 292);
+            gbxRCIU.Margin = new Padding(4);
+            gbxRCIU.Name = "gbxRCIU";
+            gbxRCIU.Padding = new Padding(4);
+            gbxRCIU.Size = new Size(113, 53);
+            gbxRCIU.TabIndex = 24;
+            gbxRCIU.TabStop = false;
+            // 
+            // rbnRCIUSi
+            // 
+            rbnRCIUSi.AutoSize = true;
+            rbnRCIUSi.Location = new Point(80, 21);
+            rbnRCIUSi.Margin = new Padding(4);
+            rbnRCIUSi.Name = "rbnRCIUSi";
+            rbnRCIUSi.Size = new Size(21, 20);
+            rbnRCIUSi.TabIndex = 3;
+            rbnRCIUSi.TabStop = true;
+            rbnRCIUSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnRCIUNo
+            // 
+            rbnRCIUNo.AutoSize = true;
+            rbnRCIUNo.Location = new Point(22, 21);
+            rbnRCIUNo.Margin = new Padding(4);
+            rbnRCIUNo.Name = "rbnRCIUNo";
+            rbnRCIUNo.Size = new Size(21, 20);
+            rbnRCIUNo.TabIndex = 0;
+            rbnRCIUNo.TabStop = true;
+            rbnRCIUNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxAmenazaPartoP
+            // 
+            gbxAmenazaPartoP.Controls.Add(rbnAmenzaPartoPSi);
+            gbxAmenazaPartoP.Controls.Add(rbnAmenzaPartoPNo);
+            gbxAmenazaPartoP.Location = new Point(569, 231);
+            gbxAmenazaPartoP.Margin = new Padding(4);
+            gbxAmenazaPartoP.Name = "gbxAmenazaPartoP";
+            gbxAmenazaPartoP.Padding = new Padding(4);
+            gbxAmenazaPartoP.Size = new Size(113, 53);
+            gbxAmenazaPartoP.TabIndex = 25;
+            gbxAmenazaPartoP.TabStop = false;
+            // 
+            // rbnAmenzaPartoPSi
+            // 
+            rbnAmenzaPartoPSi.AutoSize = true;
+            rbnAmenzaPartoPSi.Location = new Point(80, 21);
+            rbnAmenzaPartoPSi.Margin = new Padding(4);
+            rbnAmenzaPartoPSi.Name = "rbnAmenzaPartoPSi";
+            rbnAmenzaPartoPSi.Size = new Size(21, 20);
+            rbnAmenzaPartoPSi.TabIndex = 3;
+            rbnAmenzaPartoPSi.TabStop = true;
+            rbnAmenzaPartoPSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnAmenzaPartoPNo
+            // 
+            rbnAmenzaPartoPNo.AutoSize = true;
+            rbnAmenzaPartoPNo.Location = new Point(22, 21);
+            rbnAmenzaPartoPNo.Margin = new Padding(4);
+            rbnAmenzaPartoPNo.Name = "rbnAmenzaPartoPNo";
+            rbnAmenzaPartoPNo.Size = new Size(21, 20);
+            rbnAmenzaPartoPNo.TabIndex = 0;
+            rbnAmenzaPartoPNo.TabStop = true;
+            rbnAmenzaPartoPNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxHTAInducida
+            // 
+            gbxHTAInducida.Controls.Add(rbnHTAInducidaSi);
+            gbxHTAInducida.Controls.Add(rbnHTAInducidaNo);
+            gbxHTAInducida.Location = new Point(569, 170);
+            gbxHTAInducida.Margin = new Padding(4);
+            gbxHTAInducida.Name = "gbxHTAInducida";
+            gbxHTAInducida.Padding = new Padding(4);
+            gbxHTAInducida.Size = new Size(113, 53);
+            gbxHTAInducida.TabIndex = 26;
+            gbxHTAInducida.TabStop = false;
+            // 
+            // rbnHTAInducidaSi
+            // 
+            rbnHTAInducidaSi.AutoSize = true;
+            rbnHTAInducidaSi.Location = new Point(80, 21);
+            rbnHTAInducidaSi.Margin = new Padding(4);
+            rbnHTAInducidaSi.Name = "rbnHTAInducidaSi";
+            rbnHTAInducidaSi.Size = new Size(21, 20);
+            rbnHTAInducidaSi.TabIndex = 3;
+            rbnHTAInducidaSi.TabStop = true;
+            rbnHTAInducidaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnHTAInducidaNo
+            // 
+            rbnHTAInducidaNo.AutoSize = true;
+            rbnHTAInducidaNo.Location = new Point(22, 21);
+            rbnHTAInducidaNo.Margin = new Padding(4);
+            rbnHTAInducidaNo.Name = "rbnHTAInducidaNo";
+            rbnHTAInducidaNo.Size = new Size(21, 20);
+            rbnHTAInducidaNo.TabIndex = 0;
+            rbnHTAInducidaNo.TabStop = true;
+            rbnHTAInducidaNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxInfecObular
+            // 
+            gbxInfecObular.Controls.Add(rbnInfecObularSi);
+            gbxInfecObular.Controls.Add(rbnInfecObularNo);
+            gbxInfecObular.Location = new Point(569, 108);
+            gbxInfecObular.Margin = new Padding(4);
+            gbxInfecObular.Name = "gbxInfecObular";
+            gbxInfecObular.Padding = new Padding(4);
+            gbxInfecObular.Size = new Size(113, 53);
+            gbxInfecObular.TabIndex = 27;
+            gbxInfecObular.TabStop = false;
+            // 
+            // rbnInfecObularSi
+            // 
+            rbnInfecObularSi.AutoSize = true;
+            rbnInfecObularSi.Location = new Point(80, 21);
+            rbnInfecObularSi.Margin = new Padding(4);
+            rbnInfecObularSi.Name = "rbnInfecObularSi";
+            rbnInfecObularSi.Size = new Size(21, 20);
+            rbnInfecObularSi.TabIndex = 3;
+            rbnInfecObularSi.TabStop = true;
+            rbnInfecObularSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnInfecObularNo
+            // 
+            rbnInfecObularNo.AutoSize = true;
+            rbnInfecObularNo.Location = new Point(22, 21);
+            rbnInfecObularNo.Margin = new Padding(4);
+            rbnInfecObularNo.Name = "rbnInfecObularNo";
+            rbnInfecObularNo.Size = new Size(21, 20);
+            rbnInfecObularNo.TabIndex = 0;
+            rbnInfecObularNo.TabStop = true;
+            rbnInfecObularNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxOtraCondGrave
+            // 
+            gbxOtraCondGrave.Controls.Add(rbnOtraCondGraveSi);
+            gbxOtraCondGrave.Controls.Add(rbnOtraCondGraveNo);
+            gbxOtraCondGrave.Location = new Point(569, 477);
+            gbxOtraCondGrave.Margin = new Padding(4);
+            gbxOtraCondGrave.Name = "gbxOtraCondGrave";
+            gbxOtraCondGrave.Padding = new Padding(4);
+            gbxOtraCondGrave.Size = new Size(113, 53);
+            gbxOtraCondGrave.TabIndex = 20;
+            gbxOtraCondGrave.TabStop = false;
+            // 
+            // rbnOtraCondGraveSi
+            // 
+            rbnOtraCondGraveSi.AutoSize = true;
+            rbnOtraCondGraveSi.Location = new Point(80, 21);
+            rbnOtraCondGraveSi.Margin = new Padding(4);
+            rbnOtraCondGraveSi.Name = "rbnOtraCondGraveSi";
+            rbnOtraCondGraveSi.Size = new Size(21, 20);
+            rbnOtraCondGraveSi.TabIndex = 3;
+            rbnOtraCondGraveSi.TabStop = true;
+            rbnOtraCondGraveSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnOtraCondGraveNo
+            // 
+            rbnOtraCondGraveNo.AutoSize = true;
+            rbnOtraCondGraveNo.Location = new Point(22, 21);
+            rbnOtraCondGraveNo.Margin = new Padding(4);
+            rbnOtraCondGraveNo.Name = "rbnOtraCondGraveNo";
+            rbnOtraCondGraveNo.Size = new Size(21, 20);
+            rbnOtraCondGraveNo.TabIndex = 0;
+            rbnOtraCondGraveNo.TabStop = true;
+            rbnOtraCondGraveNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxAnemia
+            // 
+            gbxAnemia.Controls.Add(rbnAnemiaSi);
+            gbxAnemia.Controls.Add(rbnAnemiaNo);
+            gbxAnemia.Location = new Point(569, 416);
+            gbxAnemia.Margin = new Padding(4);
+            gbxAnemia.Name = "gbxAnemia";
+            gbxAnemia.Padding = new Padding(4);
+            gbxAnemia.Size = new Size(113, 53);
+            gbxAnemia.TabIndex = 21;
+            gbxAnemia.TabStop = false;
+            // 
+            // rbnAnemiaSi
+            // 
+            rbnAnemiaSi.AutoSize = true;
+            rbnAnemiaSi.Location = new Point(80, 21);
+            rbnAnemiaSi.Margin = new Padding(4);
+            rbnAnemiaSi.Name = "rbnAnemiaSi";
+            rbnAnemiaSi.Size = new Size(21, 20);
+            rbnAnemiaSi.TabIndex = 3;
+            rbnAnemiaSi.TabStop = true;
+            rbnAnemiaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnAnemiaNo
+            // 
+            rbnAnemiaNo.AutoSize = true;
+            rbnAnemiaNo.Location = new Point(22, 21);
+            rbnAnemiaNo.Margin = new Padding(4);
+            rbnAnemiaNo.Name = "rbnAnemiaNo";
+            rbnAnemiaNo.Size = new Size(21, 20);
+            rbnAnemiaNo.TabIndex = 0;
+            rbnAnemiaNo.TabStop = true;
+            rbnAnemiaNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxRoturaPremM
+            // 
+            gbxRoturaPremM.Controls.Add(rbnRoturaPremMemSi);
+            gbxRoturaPremM.Controls.Add(rbnRoturaPremMemNo);
+            gbxRoturaPremM.Location = new Point(569, 354);
+            gbxRoturaPremM.Margin = new Padding(4);
+            gbxRoturaPremM.Name = "gbxRoturaPremM";
+            gbxRoturaPremM.Padding = new Padding(4);
+            gbxRoturaPremM.Size = new Size(113, 53);
+            gbxRoturaPremM.TabIndex = 22;
+            gbxRoturaPremM.TabStop = false;
+            // 
+            // rbnRoturaPremMemSi
+            // 
+            rbnRoturaPremMemSi.AutoSize = true;
+            rbnRoturaPremMemSi.Location = new Point(80, 21);
+            rbnRoturaPremMemSi.Margin = new Padding(4);
+            rbnRoturaPremMemSi.Name = "rbnRoturaPremMemSi";
+            rbnRoturaPremMemSi.Size = new Size(21, 20);
+            rbnRoturaPremMemSi.TabIndex = 3;
+            rbnRoturaPremMemSi.TabStop = true;
+            rbnRoturaPremMemSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnRoturaPremMemNo
+            // 
+            rbnRoturaPremMemNo.AutoSize = true;
+            rbnRoturaPremMemNo.Location = new Point(22, 21);
+            rbnRoturaPremMemNo.Margin = new Padding(4);
+            rbnRoturaPremMemNo.Name = "rbnRoturaPremMemNo";
+            rbnRoturaPremMemNo.Size = new Size(21, 20);
+            rbnRoturaPremMemNo.TabIndex = 0;
+            rbnRoturaPremMemNo.TabStop = true;
+            rbnRoturaPremMemNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxHTAInduEmba
+            // 
+            gbxHTAInduEmba.Controls.Add(rbnHTAindEmbaSi);
+            gbxHTAInduEmba.Controls.Add(rbnHTAindEmbaNo);
+            gbxHTAInduEmba.Location = new Point(168, 170);
+            gbxHTAInduEmba.Margin = new Padding(4);
+            gbxHTAInduEmba.Name = "gbxHTAInduEmba";
+            gbxHTAInduEmba.Padding = new Padding(4);
+            gbxHTAInduEmba.Size = new Size(113, 53);
+            gbxHTAInduEmba.TabIndex = 23;
+            gbxHTAInduEmba.TabStop = false;
+            // 
+            // rbnHTAindEmbaSi
+            // 
+            rbnHTAindEmbaSi.AutoSize = true;
+            rbnHTAindEmbaSi.Location = new Point(80, 21);
+            rbnHTAindEmbaSi.Margin = new Padding(4);
+            rbnHTAindEmbaSi.Name = "rbnHTAindEmbaSi";
+            rbnHTAindEmbaSi.Size = new Size(21, 20);
+            rbnHTAindEmbaSi.TabIndex = 3;
+            rbnHTAindEmbaSi.TabStop = true;
+            rbnHTAindEmbaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnHTAindEmbaNo
+            // 
+            rbnHTAindEmbaNo.AutoSize = true;
+            rbnHTAindEmbaNo.Location = new Point(22, 21);
+            rbnHTAindEmbaNo.Margin = new Padding(4);
+            rbnHTAindEmbaNo.Name = "rbnHTAindEmbaNo";
+            rbnHTAindEmbaNo.Size = new Size(21, 20);
+            rbnHTAindEmbaNo.TabIndex = 0;
+            rbnHTAindEmbaNo.TabStop = true;
+            rbnHTAindEmbaNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxNefropatia
+            // 
+            gbxNefropatia.Controls.Add(rbnNefropatiaSi);
+            gbxNefropatia.Controls.Add(rbnNefropatiaNo);
+            gbxNefropatia.Location = new Point(168, 416);
+            gbxNefropatia.Margin = new Padding(4);
+            gbxNefropatia.Name = "gbxNefropatia";
+            gbxNefropatia.Padding = new Padding(4);
+            gbxNefropatia.Size = new Size(113, 53);
+            gbxNefropatia.TabIndex = 15;
+            gbxNefropatia.TabStop = false;
+            // 
+            // rbnNefropatiaSi
+            // 
+            rbnNefropatiaSi.AutoSize = true;
+            rbnNefropatiaSi.Location = new Point(80, 21);
+            rbnNefropatiaSi.Margin = new Padding(4);
+            rbnNefropatiaSi.Name = "rbnNefropatiaSi";
+            rbnNefropatiaSi.Size = new Size(21, 20);
+            rbnNefropatiaSi.TabIndex = 3;
+            rbnNefropatiaSi.TabStop = true;
+            rbnNefropatiaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnNefropatiaNo
+            // 
+            rbnNefropatiaNo.AutoSize = true;
+            rbnNefropatiaNo.Location = new Point(22, 21);
+            rbnNefropatiaNo.Margin = new Padding(4);
+            rbnNefropatiaNo.Name = "rbnNefropatiaNo";
+            rbnNefropatiaNo.Size = new Size(21, 20);
+            rbnNefropatiaNo.TabIndex = 0;
+            rbnNefropatiaNo.TabStop = true;
+            rbnNefropatiaNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxCardiopatía
+            // 
+            gbxCardiopatía.Controls.Add(rbnCardiopatiaSi);
+            gbxCardiopatía.Controls.Add(rbnCardiopatiaNo);
+            gbxCardiopatía.Location = new Point(168, 354);
+            gbxCardiopatía.Margin = new Padding(4);
+            gbxCardiopatía.Name = "gbxCardiopatía";
+            gbxCardiopatía.Padding = new Padding(4);
+            gbxCardiopatía.Size = new Size(113, 53);
+            gbxCardiopatía.TabIndex = 16;
+            gbxCardiopatía.TabStop = false;
+            // 
+            // rbnCardiopatiaSi
+            // 
+            rbnCardiopatiaSi.AutoSize = true;
+            rbnCardiopatiaSi.Location = new Point(80, 21);
+            rbnCardiopatiaSi.Margin = new Padding(4);
+            rbnCardiopatiaSi.Name = "rbnCardiopatiaSi";
+            rbnCardiopatiaSi.Size = new Size(21, 20);
+            rbnCardiopatiaSi.TabIndex = 3;
+            rbnCardiopatiaSi.TabStop = true;
+            rbnCardiopatiaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnCardiopatiaNo
+            // 
+            rbnCardiopatiaNo.AutoSize = true;
+            rbnCardiopatiaNo.Location = new Point(22, 21);
+            rbnCardiopatiaNo.Margin = new Padding(4);
+            rbnCardiopatiaNo.Name = "rbnCardiopatiaNo";
+            rbnCardiopatiaNo.Size = new Size(21, 20);
+            rbnCardiopatiaNo.TabIndex = 0;
+            rbnCardiopatiaNo.TabStop = true;
+            rbnCardiopatiaNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxEclampsia
+            // 
+            gbxEclampsia.Controls.Add(rbnEclampsiaSi);
+            gbxEclampsia.Controls.Add(rbnEclampsiaNo);
+            gbxEclampsia.Location = new Point(168, 292);
+            gbxEclampsia.Margin = new Padding(4);
+            gbxEclampsia.Name = "gbxEclampsia";
+            gbxEclampsia.Padding = new Padding(4);
+            gbxEclampsia.Size = new Size(113, 53);
+            gbxEclampsia.TabIndex = 17;
+            gbxEclampsia.TabStop = false;
+            // 
+            // rbnEclampsiaSi
+            // 
+            rbnEclampsiaSi.AutoSize = true;
+            rbnEclampsiaSi.Location = new Point(80, 21);
+            rbnEclampsiaSi.Margin = new Padding(4);
+            rbnEclampsiaSi.Name = "rbnEclampsiaSi";
+            rbnEclampsiaSi.Size = new Size(21, 20);
+            rbnEclampsiaSi.TabIndex = 3;
+            rbnEclampsiaSi.TabStop = true;
+            rbnEclampsiaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnEclampsiaNo
+            // 
+            rbnEclampsiaNo.AutoSize = true;
+            rbnEclampsiaNo.Location = new Point(22, 21);
+            rbnEclampsiaNo.Margin = new Padding(4);
+            rbnEclampsiaNo.Name = "rbnEclampsiaNo";
+            rbnEclampsiaNo.Size = new Size(21, 20);
+            rbnEclampsiaNo.TabIndex = 0;
+            rbnEclampsiaNo.TabStop = true;
+            rbnEclampsiaNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxPreeclampsia
+            // 
+            gbxPreeclampsia.Controls.Add(rbnPreeclampsiaSi);
+            gbxPreeclampsia.Controls.Add(rbnPreeclampsiaNo);
+            gbxPreeclampsia.Location = new Point(168, 231);
+            gbxPreeclampsia.Margin = new Padding(4);
+            gbxPreeclampsia.Name = "gbxPreeclampsia";
+            gbxPreeclampsia.Padding = new Padding(4);
+            gbxPreeclampsia.Size = new Size(113, 53);
+            gbxPreeclampsia.TabIndex = 18;
+            gbxPreeclampsia.TabStop = false;
+            // 
+            // rbnPreeclampsiaSi
+            // 
+            rbnPreeclampsiaSi.AutoSize = true;
+            rbnPreeclampsiaSi.Location = new Point(80, 21);
+            rbnPreeclampsiaSi.Margin = new Padding(4);
+            rbnPreeclampsiaSi.Name = "rbnPreeclampsiaSi";
+            rbnPreeclampsiaSi.Size = new Size(21, 20);
+            rbnPreeclampsiaSi.TabIndex = 3;
+            rbnPreeclampsiaSi.TabStop = true;
+            rbnPreeclampsiaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnPreeclampsiaNo
+            // 
+            rbnPreeclampsiaNo.AutoSize = true;
+            rbnPreeclampsiaNo.Location = new Point(22, 21);
+            rbnPreeclampsiaNo.Margin = new Padding(4);
+            rbnPreeclampsiaNo.Name = "rbnPreeclampsiaNo";
+            rbnPreeclampsiaNo.Size = new Size(21, 20);
+            rbnPreeclampsiaNo.TabIndex = 0;
+            rbnPreeclampsiaNo.TabStop = true;
+            rbnPreeclampsiaNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxDiabetes
+            // 
+            gbxDiabetes.Controls.Add(rbnDiabetesG);
+            gbxDiabetes.Controls.Add(rbnDiabetesII);
+            gbxDiabetes.Controls.Add(rbnDiabetesI);
+            gbxDiabetes.Controls.Add(rbnDiabetesNo);
+            gbxDiabetes.Location = new Point(168, 477);
+            gbxDiabetes.Margin = new Padding(4);
+            gbxDiabetes.Name = "gbxDiabetes";
+            gbxDiabetes.Padding = new Padding(4);
+            gbxDiabetes.Size = new Size(249, 53);
+            gbxDiabetes.TabIndex = 19;
+            gbxDiabetes.TabStop = false;
+            // 
+            // rbnDiabetesG
+            // 
+            rbnDiabetesG.AutoSize = true;
+            rbnDiabetesG.Location = new Point(187, 15);
+            rbnDiabetesG.Margin = new Padding(4);
+            rbnDiabetesG.Name = "rbnDiabetesG";
+            rbnDiabetesG.Size = new Size(49, 25);
+            rbnDiabetesG.TabIndex = 5;
+            rbnDiabetesG.TabStop = true;
+            rbnDiabetesG.Text = "G";
+            rbnDiabetesG.UseVisualStyleBackColor = true;
+            // 
+            // rbnDiabetesII
+            // 
+            rbnDiabetesII.AutoSize = true;
+            rbnDiabetesII.Location = new Point(129, 15);
+            rbnDiabetesII.Margin = new Padding(4);
+            rbnDiabetesII.Name = "rbnDiabetesII";
+            rbnDiabetesII.Size = new Size(47, 25);
+            rbnDiabetesII.TabIndex = 4;
+            rbnDiabetesII.TabStop = true;
+            rbnDiabetesII.Text = "II";
+            rbnDiabetesII.UseVisualStyleBackColor = true;
+            // 
+            // rbnDiabetesI
+            // 
+            rbnDiabetesI.AutoSize = true;
+            rbnDiabetesI.Location = new Point(78, 15);
+            rbnDiabetesI.Margin = new Padding(4);
+            rbnDiabetesI.Name = "rbnDiabetesI";
+            rbnDiabetesI.Size = new Size(41, 25);
+            rbnDiabetesI.TabIndex = 3;
+            rbnDiabetesI.TabStop = true;
+            rbnDiabetesI.Text = "I";
+            rbnDiabetesI.UseVisualStyleBackColor = true;
+            // 
+            // rbnDiabetesNo
+            // 
+            rbnDiabetesNo.AutoSize = true;
+            rbnDiabetesNo.Location = new Point(22, 21);
+            rbnDiabetesNo.Margin = new Padding(4);
+            rbnDiabetesNo.Name = "rbnDiabetesNo";
+            rbnDiabetesNo.Size = new Size(21, 20);
+            rbnDiabetesNo.TabIndex = 0;
+            rbnDiabetesNo.TabStop = true;
+            rbnDiabetesNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxHTAprevia
+            // 
+            gbxHTAprevia.Controls.Add(rbnHTApreviaSi);
+            gbxHTAprevia.Controls.Add(rbnHTApreviaNo);
+            gbxHTAprevia.Location = new Point(168, 108);
+            gbxHTAprevia.Margin = new Padding(4);
+            gbxHTAprevia.Name = "gbxHTAprevia";
+            gbxHTAprevia.Padding = new Padding(4);
+            gbxHTAprevia.Size = new Size(113, 53);
+            gbxHTAprevia.TabIndex = 14;
+            gbxHTAprevia.TabStop = false;
+            // 
+            // rbnHTApreviaSi
+            // 
+            rbnHTApreviaSi.AutoSize = true;
+            rbnHTApreviaSi.Location = new Point(80, 21);
+            rbnHTApreviaSi.Margin = new Padding(4);
+            rbnHTApreviaSi.Name = "rbnHTApreviaSi";
+            rbnHTApreviaSi.Size = new Size(21, 20);
+            rbnHTApreviaSi.TabIndex = 3;
+            rbnHTApreviaSi.TabStop = true;
+            rbnHTApreviaSi.UseVisualStyleBackColor = true;
+            // 
+            // rbnHTApreviaNo
+            // 
+            rbnHTApreviaNo.AutoSize = true;
+            rbnHTApreviaNo.Location = new Point(22, 21);
+            rbnHTApreviaNo.Margin = new Padding(4);
+            rbnHTApreviaNo.Name = "rbnHTApreviaNo";
+            rbnHTApreviaNo.Size = new Size(21, 20);
+            rbnHTApreviaNo.TabIndex = 0;
+            rbnHTApreviaNo.TabStop = true;
+            rbnHTApreviaNo.UseVisualStyleBackColor = true;
+            // 
+            // gbxTDPprueba
+            // 
+            gbxTDPprueba.BackColor = SystemColors.GradientInactiveCaption;
+            gbxTDPprueba.Controls.Add(groupBox26);
+            gbxTDPprueba.Controls.Add(lblNc);
+            gbxTDPprueba.Controls.Add(lblNr);
+            gbxTDPprueba.Controls.Add(lblMas);
+            gbxTDPprueba.Controls.Add(lblMenos);
+            gbxTDPprueba.Controls.Add(groupBox25);
+            gbxTDPprueba.Location = new Point(19, 622);
+            gbxTDPprueba.Margin = new Padding(4);
+            gbxTDPprueba.Name = "gbxTDPprueba";
+            gbxTDPprueba.Padding = new Padding(4);
+            gbxTDPprueba.Size = new Size(355, 181);
+            gbxTDPprueba.TabIndex = 1;
+            gbxTDPprueba.TabStop = false;
+            gbxTDPprueba.Text = "TDP PRUEBA";
             // 
             // groupBox26
             // 
-            groupBox26.Controls.Add(label32);
-            groupBox26.Controls.Add(radioButton47);
-            groupBox26.Controls.Add(radioButton48);
-            groupBox26.Controls.Add(radioButton49);
-            groupBox26.Controls.Add(radioButton50);
+            groupBox26.Controls.Add(lblVIH);
+            groupBox26.Controls.Add(rbnVIHNc);
+            groupBox26.Controls.Add(rbnVIHNr);
+            groupBox26.Controls.Add(rbnVIHMas);
+            groupBox26.Controls.Add(rbnVIHMenos);
             groupBox26.Location = new Point(19, 101);
             groupBox26.Margin = new Padding(4);
             groupBox26.Name = "groupBox26";
@@ -1298,107 +1298,107 @@
             groupBox26.TabIndex = 38;
             groupBox26.TabStop = false;
             // 
-            // label32
+            // lblVIH
             // 
-            label32.AutoSize = true;
-            label32.Location = new Point(22, 25);
-            label32.Margin = new Padding(4, 0, 4, 0);
-            label32.Name = "label32";
-            label32.Size = new Size(28, 14);
-            label32.TabIndex = 34;
-            label32.Text = "VIH";
+            lblVIH.AutoSize = true;
+            lblVIH.Location = new Point(22, 25);
+            lblVIH.Margin = new Padding(4, 0, 4, 0);
+            lblVIH.Name = "lblVIH";
+            lblVIH.Size = new Size(42, 21);
+            lblVIH.TabIndex = 34;
+            lblVIH.Text = "VIH";
             // 
-            // radioButton47
+            // rbnVIHNc
             // 
-            radioButton47.AutoSize = true;
-            radioButton47.Location = new Point(238, 28);
-            radioButton47.Margin = new Padding(4);
-            radioButton47.Name = "radioButton47";
-            radioButton47.Size = new Size(14, 13);
-            radioButton47.TabIndex = 5;
-            radioButton47.TabStop = true;
-            radioButton47.UseVisualStyleBackColor = true;
+            rbnVIHNc.AutoSize = true;
+            rbnVIHNc.Location = new Point(238, 28);
+            rbnVIHNc.Margin = new Padding(4);
+            rbnVIHNc.Name = "rbnVIHNc";
+            rbnVIHNc.Size = new Size(21, 20);
+            rbnVIHNc.TabIndex = 5;
+            rbnVIHNc.TabStop = true;
+            rbnVIHNc.UseVisualStyleBackColor = true;
             // 
-            // radioButton48
+            // rbnVIHNr
             // 
-            radioButton48.AutoSize = true;
-            radioButton48.Location = new Point(183, 28);
-            radioButton48.Margin = new Padding(4);
-            radioButton48.Name = "radioButton48";
-            radioButton48.Size = new Size(14, 13);
-            radioButton48.TabIndex = 4;
-            radioButton48.TabStop = true;
-            radioButton48.UseVisualStyleBackColor = true;
+            rbnVIHNr.AutoSize = true;
+            rbnVIHNr.Location = new Point(183, 28);
+            rbnVIHNr.Margin = new Padding(4);
+            rbnVIHNr.Name = "rbnVIHNr";
+            rbnVIHNr.Size = new Size(21, 20);
+            rbnVIHNr.TabIndex = 4;
+            rbnVIHNr.TabStop = true;
+            rbnVIHNr.UseVisualStyleBackColor = true;
             // 
-            // radioButton49
+            // rbnVIHMas
             // 
-            radioButton49.AutoSize = true;
-            radioButton49.Location = new Point(128, 28);
-            radioButton49.Margin = new Padding(4);
-            radioButton49.Name = "radioButton49";
-            radioButton49.Size = new Size(14, 13);
-            radioButton49.TabIndex = 3;
-            radioButton49.TabStop = true;
-            radioButton49.UseVisualStyleBackColor = true;
+            rbnVIHMas.AutoSize = true;
+            rbnVIHMas.Location = new Point(128, 28);
+            rbnVIHMas.Margin = new Padding(4);
+            rbnVIHMas.Name = "rbnVIHMas";
+            rbnVIHMas.Size = new Size(21, 20);
+            rbnVIHMas.TabIndex = 3;
+            rbnVIHMas.TabStop = true;
+            rbnVIHMas.UseVisualStyleBackColor = true;
             // 
-            // radioButton50
+            // rbnVIHMenos
             // 
-            radioButton50.AutoSize = true;
-            radioButton50.Location = new Point(73, 28);
-            radioButton50.Margin = new Padding(4);
-            radioButton50.Name = "radioButton50";
-            radioButton50.Size = new Size(14, 13);
-            radioButton50.TabIndex = 0;
-            radioButton50.TabStop = true;
-            radioButton50.UseVisualStyleBackColor = true;
+            rbnVIHMenos.AutoSize = true;
+            rbnVIHMenos.Location = new Point(73, 28);
+            rbnVIHMenos.Margin = new Padding(4);
+            rbnVIHMenos.Name = "rbnVIHMenos";
+            rbnVIHMenos.Size = new Size(21, 20);
+            rbnVIHMenos.TabIndex = 0;
+            rbnVIHMenos.TabStop = true;
+            rbnVIHMenos.UseVisualStyleBackColor = true;
             // 
-            // label30
+            // lblNc
             // 
-            label30.AutoSize = true;
-            label30.Location = new Point(249, 27);
-            label30.Margin = new Padding(4, 0, 4, 0);
-            label30.Name = "label30";
-            label30.Size = new Size(24, 14);
-            label30.TabIndex = 37;
-            label30.Text = "n/c";
+            lblNc.AutoSize = true;
+            lblNc.Location = new Point(249, 27);
+            lblNc.Margin = new Padding(4, 0, 4, 0);
+            lblNc.Name = "lblNc";
+            lblNc.Size = new Size(37, 21);
+            lblNc.TabIndex = 37;
+            lblNc.Text = "n/c";
             // 
-            // label31
+            // lblNr
             // 
-            label31.AutoSize = true;
-            label31.Location = new Point(188, 27);
-            label31.Margin = new Padding(4, 0, 4, 0);
-            label31.Name = "label31";
-            label31.Size = new Size(22, 14);
-            label31.TabIndex = 36;
-            label31.Text = "n/r";
+            lblNr.AutoSize = true;
+            lblNr.Location = new Point(188, 27);
+            lblNr.Margin = new Padding(4, 0, 4, 0);
+            lblNr.Name = "lblNr";
+            lblNr.Size = new Size(34, 21);
+            lblNr.TabIndex = 36;
+            lblNr.Text = "n/r";
             // 
-            // label28
+            // lblMas
             // 
-            label28.AutoSize = true;
-            label28.Location = new Point(146, 27);
-            label28.Margin = new Padding(4, 0, 4, 0);
-            label28.Name = "label28";
-            label28.Size = new Size(14, 14);
-            label28.TabIndex = 35;
-            label28.Text = "+";
+            lblMas.AutoSize = true;
+            lblMas.Location = new Point(146, 27);
+            lblMas.Margin = new Padding(4, 0, 4, 0);
+            lblMas.Name = "lblMas";
+            lblMas.Size = new Size(20, 21);
+            lblMas.TabIndex = 35;
+            lblMas.Text = "+";
             // 
-            // label29
+            // lblMenos
             // 
-            label29.AutoSize = true;
-            label29.Location = new Point(91, 27);
-            label29.Margin = new Padding(4, 0, 4, 0);
-            label29.Name = "label29";
-            label29.Size = new Size(11, 14);
-            label29.TabIndex = 34;
-            label29.Text = "-";
+            lblMenos.AutoSize = true;
+            lblMenos.Location = new Point(91, 27);
+            lblMenos.Margin = new Padding(4, 0, 4, 0);
+            lblMenos.Name = "lblMenos";
+            lblMenos.Size = new Size(16, 21);
+            lblMenos.TabIndex = 34;
+            lblMenos.Text = "-";
             // 
             // groupBox25
             // 
-            groupBox25.Controls.Add(label27);
-            groupBox25.Controls.Add(radioButton43);
-            groupBox25.Controls.Add(radioButton44);
-            groupBox25.Controls.Add(radioButton45);
-            groupBox25.Controls.Add(radioButton46);
+            groupBox25.Controls.Add(lblSifilis);
+            groupBox25.Controls.Add(rbnSifilisNc);
+            groupBox25.Controls.Add(rbnSifilisNr);
+            groupBox25.Controls.Add(rbnSifilisMas);
+            groupBox25.Controls.Add(rbnSifilisMenos);
             groupBox25.Location = new Point(19, 46);
             groupBox25.Margin = new Padding(4);
             groupBox25.Name = "groupBox25";
@@ -1407,110 +1407,110 @@
             groupBox25.TabIndex = 33;
             groupBox25.TabStop = false;
             // 
-            // label27
+            // lblSifilis
             // 
-            label27.AutoSize = true;
-            label27.Location = new Point(10, 25);
-            label27.Margin = new Padding(4, 0, 4, 0);
-            label27.Name = "label27";
-            label27.Size = new Size(38, 14);
-            label27.TabIndex = 34;
-            label27.Text = "Sifilis";
+            lblSifilis.AutoSize = true;
+            lblSifilis.Location = new Point(10, 25);
+            lblSifilis.Margin = new Padding(4, 0, 4, 0);
+            lblSifilis.Name = "lblSifilis";
+            lblSifilis.Size = new Size(58, 21);
+            lblSifilis.TabIndex = 34;
+            lblSifilis.Text = "Sifilis";
             // 
-            // radioButton43
+            // rbnSifilisNc
             // 
-            radioButton43.AutoSize = true;
-            radioButton43.Location = new Point(238, 28);
-            radioButton43.Margin = new Padding(4);
-            radioButton43.Name = "radioButton43";
-            radioButton43.Size = new Size(14, 13);
-            radioButton43.TabIndex = 5;
-            radioButton43.TabStop = true;
-            radioButton43.UseVisualStyleBackColor = true;
+            rbnSifilisNc.AutoSize = true;
+            rbnSifilisNc.Location = new Point(238, 28);
+            rbnSifilisNc.Margin = new Padding(4);
+            rbnSifilisNc.Name = "rbnSifilisNc";
+            rbnSifilisNc.Size = new Size(21, 20);
+            rbnSifilisNc.TabIndex = 5;
+            rbnSifilisNc.TabStop = true;
+            rbnSifilisNc.UseVisualStyleBackColor = true;
             // 
-            // radioButton44
+            // rbnSifilisNr
             // 
-            radioButton44.AutoSize = true;
-            radioButton44.Location = new Point(183, 28);
-            radioButton44.Margin = new Padding(4);
-            radioButton44.Name = "radioButton44";
-            radioButton44.Size = new Size(14, 13);
-            radioButton44.TabIndex = 4;
-            radioButton44.TabStop = true;
-            radioButton44.UseVisualStyleBackColor = true;
+            rbnSifilisNr.AutoSize = true;
+            rbnSifilisNr.Location = new Point(183, 28);
+            rbnSifilisNr.Margin = new Padding(4);
+            rbnSifilisNr.Name = "rbnSifilisNr";
+            rbnSifilisNr.Size = new Size(21, 20);
+            rbnSifilisNr.TabIndex = 4;
+            rbnSifilisNr.TabStop = true;
+            rbnSifilisNr.UseVisualStyleBackColor = true;
             // 
-            // radioButton45
+            // rbnSifilisMas
             // 
-            radioButton45.AutoSize = true;
-            radioButton45.Location = new Point(128, 28);
-            radioButton45.Margin = new Padding(4);
-            radioButton45.Name = "radioButton45";
-            radioButton45.Size = new Size(14, 13);
-            radioButton45.TabIndex = 3;
-            radioButton45.TabStop = true;
-            radioButton45.UseVisualStyleBackColor = true;
+            rbnSifilisMas.AutoSize = true;
+            rbnSifilisMas.Location = new Point(128, 28);
+            rbnSifilisMas.Margin = new Padding(4);
+            rbnSifilisMas.Name = "rbnSifilisMas";
+            rbnSifilisMas.Size = new Size(21, 20);
+            rbnSifilisMas.TabIndex = 3;
+            rbnSifilisMas.TabStop = true;
+            rbnSifilisMas.UseVisualStyleBackColor = true;
             // 
-            // radioButton46
+            // rbnSifilisMenos
             // 
-            radioButton46.AutoSize = true;
-            radioButton46.Location = new Point(73, 28);
-            radioButton46.Margin = new Padding(4);
-            radioButton46.Name = "radioButton46";
-            radioButton46.Size = new Size(14, 13);
-            radioButton46.TabIndex = 0;
-            radioButton46.TabStop = true;
-            radioButton46.UseVisualStyleBackColor = true;
+            rbnSifilisMenos.AutoSize = true;
+            rbnSifilisMenos.Location = new Point(73, 28);
+            rbnSifilisMenos.Margin = new Padding(4);
+            rbnSifilisMenos.Name = "rbnSifilisMenos";
+            rbnSifilisMenos.Size = new Size(21, 20);
+            rbnSifilisMenos.TabIndex = 0;
+            rbnSifilisMenos.TabStop = true;
+            rbnSifilisMenos.UseVisualStyleBackColor = true;
             // 
-            // groupBox24
+            // gbxTARV
             // 
-            groupBox24.BackColor = SystemColors.GradientInactiveCaption;
-            groupBox24.Controls.Add(radioButton52);
-            groupBox24.Controls.Add(radioButton53);
-            groupBox24.Controls.Add(radioButton54);
-            groupBox24.Location = new Point(396, 622);
-            groupBox24.Margin = new Padding(4);
-            groupBox24.Name = "groupBox24";
-            groupBox24.Padding = new Padding(4);
-            groupBox24.Size = new Size(106, 181);
-            groupBox24.TabIndex = 2;
-            groupBox24.TabStop = false;
-            groupBox24.Text = "TARV";
+            gbxTARV.BackColor = SystemColors.GradientInactiveCaption;
+            gbxTARV.Controls.Add(rbnTARVNo);
+            gbxTARV.Controls.Add(rbnTARVNc);
+            gbxTARV.Controls.Add(rbnTARVSi);
+            gbxTARV.Location = new Point(396, 622);
+            gbxTARV.Margin = new Padding(4);
+            gbxTARV.Name = "gbxTARV";
+            gbxTARV.Padding = new Padding(4);
+            gbxTARV.Size = new Size(106, 181);
+            gbxTARV.TabIndex = 2;
+            gbxTARV.TabStop = false;
+            gbxTARV.Text = "TARV";
             // 
-            // radioButton52
+            // rbnTARVNo
             // 
-            radioButton52.AutoSize = true;
-            radioButton52.Location = new Point(10, 88);
-            radioButton52.Margin = new Padding(4);
-            radioButton52.Name = "radioButton52";
-            radioButton52.Size = new Size(41, 18);
-            radioButton52.TabIndex = 8;
-            radioButton52.TabStop = true;
-            radioButton52.Text = "No";
-            radioButton52.UseVisualStyleBackColor = true;
+            rbnTARVNo.AutoSize = true;
+            rbnTARVNo.Location = new Point(10, 88);
+            rbnTARVNo.Margin = new Padding(4);
+            rbnTARVNo.Name = "rbnTARVNo";
+            rbnTARVNo.Size = new Size(60, 25);
+            rbnTARVNo.TabIndex = 8;
+            rbnTARVNo.TabStop = true;
+            rbnTARVNo.Text = "No";
+            rbnTARVNo.UseVisualStyleBackColor = true;
             // 
-            // radioButton53
+            // rbnTARVNc
             // 
-            radioButton53.AutoSize = true;
-            radioButton53.Location = new Point(10, 145);
-            radioButton53.Margin = new Padding(4);
-            radioButton53.Name = "radioButton53";
-            radioButton53.Size = new Size(42, 18);
-            radioButton53.TabIndex = 7;
-            radioButton53.TabStop = true;
-            radioButton53.Text = "n/c";
-            radioButton53.UseVisualStyleBackColor = true;
+            rbnTARVNc.AutoSize = true;
+            rbnTARVNc.Location = new Point(10, 145);
+            rbnTARVNc.Margin = new Padding(4);
+            rbnTARVNc.Name = "rbnTARVNc";
+            rbnTARVNc.Size = new Size(62, 25);
+            rbnTARVNc.TabIndex = 7;
+            rbnTARVNc.TabStop = true;
+            rbnTARVNc.Text = "n/c";
+            rbnTARVNc.UseVisualStyleBackColor = true;
             // 
-            // radioButton54
+            // rbnTARVSi
             // 
-            radioButton54.AutoSize = true;
-            radioButton54.Location = new Point(10, 31);
-            radioButton54.Margin = new Padding(4);
-            radioButton54.Name = "radioButton54";
-            radioButton54.Size = new Size(36, 18);
-            radioButton54.TabIndex = 6;
-            radioButton54.TabStop = true;
-            radioButton54.Text = "Si";
-            radioButton54.UseVisualStyleBackColor = true;
+            rbnTARVSi.AutoSize = true;
+            rbnTARVSi.Location = new Point(10, 31);
+            rbnTARVSi.Margin = new Padding(4);
+            rbnTARVSi.Name = "rbnTARVSi";
+            rbnTARVSi.Size = new Size(52, 25);
+            rbnTARVSi.TabIndex = 6;
+            rbnTARVSi.TabStop = true;
+            rbnTARVSi.Text = "Si";
+            rbnTARVSi.UseVisualStyleBackColor = true;
             // 
             // btnRegresar
             // 
@@ -1558,16 +1558,16 @@
             // 
             // Enfermedades
             // 
-            AutoScaleDimensions = new SizeF(8F, 14F);
+            AutoScaleDimensions = new SizeF(11F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1540, 874);
             Controls.Add(btnRegresar);
             Controls.Add(btnContinuar);
             Controls.Add(btnCerrar);
-            Controls.Add(groupBox24);
-            Controls.Add(groupBox23);
-            Controls.Add(groupBox1);
+            Controls.Add(gbxTARV);
+            Controls.Add(gbxTDPprueba);
+            Controls.Add(gbxPatologíasMaternas);
             Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(4);
             MaximizeBox = false;
@@ -1575,57 +1575,57 @@
             Name = "Enfermedades";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Enfermedades";
-            groupBox1.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            groupBox17.ResumeLayout(false);
-            groupBox17.PerformLayout();
-            groupBox18.ResumeLayout(false);
-            groupBox18.PerformLayout();
-            groupBox19.ResumeLayout(false);
-            groupBox19.PerformLayout();
-            groupBox20.ResumeLayout(false);
-            groupBox20.PerformLayout();
-            groupBox21.ResumeLayout(false);
-            groupBox21.PerformLayout();
-            groupBox22.ResumeLayout(false);
-            groupBox22.PerformLayout();
-            groupBox7.ResumeLayout(false);
-            groupBox7.PerformLayout();
-            groupBox8.ResumeLayout(false);
-            groupBox8.PerformLayout();
-            groupBox9.ResumeLayout(false);
-            groupBox9.PerformLayout();
-            groupBox16.ResumeLayout(false);
-            groupBox16.PerformLayout();
-            groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
-            groupBox4.ResumeLayout(false);
-            groupBox4.PerformLayout();
-            groupBox5.ResumeLayout(false);
-            groupBox5.PerformLayout();
-            groupBox6.ResumeLayout(false);
-            groupBox6.PerformLayout();
-            groupBox10.ResumeLayout(false);
-            groupBox10.PerformLayout();
-            groupBox11.ResumeLayout(false);
-            groupBox11.PerformLayout();
-            groupBox12.ResumeLayout(false);
-            groupBox12.PerformLayout();
-            groupBox13.ResumeLayout(false);
-            groupBox13.PerformLayout();
-            groupBox14.ResumeLayout(false);
-            groupBox14.PerformLayout();
-            groupBox15.ResumeLayout(false);
-            groupBox15.PerformLayout();
-            groupBox23.ResumeLayout(false);
-            groupBox23.PerformLayout();
+            gbxPatologíasMaternas.ResumeLayout(false);
+            gbxEnfermedades.ResumeLayout(false);
+            gbxEnfermedades.PerformLayout();
+            gbxHemorragia.ResumeLayout(false);
+            gbxHemorragia.PerformLayout();
+            gbxHTAInduEmba2.ResumeLayout(false);
+            gbxHTAInduEmba2.PerformLayout();
+            gbxCardiopatía2.ResumeLayout(false);
+            gbxCardiopatía2.PerformLayout();
+            gbxEclampsia2.ResumeLayout(false);
+            gbxEclampsia2.PerformLayout();
+            gbxPreeclampsia2.ResumeLayout(false);
+            gbxPreeclampsia2.PerformLayout();
+            gbxHTAprevia2.ResumeLayout(false);
+            gbxHTAprevia2.PerformLayout();
+            gbxRCIU.ResumeLayout(false);
+            gbxRCIU.PerformLayout();
+            gbxAmenazaPartoP.ResumeLayout(false);
+            gbxAmenazaPartoP.PerformLayout();
+            gbxHTAInducida.ResumeLayout(false);
+            gbxHTAInducida.PerformLayout();
+            gbxInfecObular.ResumeLayout(false);
+            gbxInfecObular.PerformLayout();
+            gbxOtraCondGrave.ResumeLayout(false);
+            gbxOtraCondGrave.PerformLayout();
+            gbxAnemia.ResumeLayout(false);
+            gbxAnemia.PerformLayout();
+            gbxRoturaPremM.ResumeLayout(false);
+            gbxRoturaPremM.PerformLayout();
+            gbxHTAInduEmba.ResumeLayout(false);
+            gbxHTAInduEmba.PerformLayout();
+            gbxNefropatia.ResumeLayout(false);
+            gbxNefropatia.PerformLayout();
+            gbxCardiopatía.ResumeLayout(false);
+            gbxCardiopatía.PerformLayout();
+            gbxEclampsia.ResumeLayout(false);
+            gbxEclampsia.PerformLayout();
+            gbxPreeclampsia.ResumeLayout(false);
+            gbxPreeclampsia.PerformLayout();
+            gbxDiabetes.ResumeLayout(false);
+            gbxDiabetes.PerformLayout();
+            gbxHTAprevia.ResumeLayout(false);
+            gbxHTAprevia.PerformLayout();
+            gbxTDPprueba.ResumeLayout(false);
+            gbxTDPprueba.PerformLayout();
             groupBox26.ResumeLayout(false);
             groupBox26.PerformLayout();
             groupBox25.ResumeLayout(false);
             groupBox25.PerformLayout();
-            groupBox24.ResumeLayout(false);
-            groupBox24.PerformLayout();
+            gbxTARV.ResumeLayout(false);
+            gbxTARV.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)erpNumeros).EndInit();
             ((System.ComponentModel.ISupportInitialize)erpBoton).EndInit();
             ResumeLayout(false);
@@ -1633,122 +1633,122 @@
 
         #endregion
 
-        private GroupBox groupBox1;
-        private GroupBox groupBox2;
-        private GroupBox groupBox7;
-        private RadioButton radioButton9;
-        private RadioButton radioButton10;
-        private GroupBox groupBox8;
-        private RadioButton radioButton11;
-        private RadioButton radioButton12;
-        private GroupBox groupBox9;
-        private RadioButton radioButton25;
-        private RadioButton radioButton26;
-        private GroupBox groupBox16;
-        private RadioButton radioButton27;
-        private RadioButton radioButton28;
-        private GroupBox groupBox3;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private GroupBox groupBox4;
-        private RadioButton radioButton3;
-        private RadioButton radioButton4;
-        private GroupBox groupBox5;
-        private RadioButton radioButton5;
-        private RadioButton radioButton6;
-        private GroupBox groupBox6;
-        private RadioButton radioButton7;
-        private RadioButton radioButton8;
-        private GroupBox groupBox10;
-        private RadioButton radioButton13;
-        private RadioButton radioButton14;
-        private GroupBox groupBox11;
-        private RadioButton radioButton15;
-        private RadioButton radioButton16;
-        private GroupBox groupBox12;
-        private RadioButton radioButton17;
-        private RadioButton radioButton18;
-        private GroupBox groupBox13;
-        private RadioButton radioButton19;
-        private RadioButton radioButton20;
-        private GroupBox groupBox14;
-        private RadioButton radioButton37;
-        private RadioButton radioButton38;
-        private RadioButton radioButton21;
-        private RadioButton radioButton22;
-        private GroupBox groupBox15;
-        private RadioButton radioButton23;
-        private RadioButton radioButton24;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label8;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label16;
-        private Label label17;
-        private Label label18;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label12;
-        private GroupBox groupBox17;
-        private Label label19;
-        private Label label20;
-        private Label label21;
-        private Label label22;
-        private Label label23;
+        private GroupBox gbxPatologíasMaternas;
+        private GroupBox gbxEnfermedades;
+        private GroupBox gbxRCIU;
+        private RadioButton rbnRCIUSi;
+        private RadioButton rbnRCIUNo;
+        private GroupBox gbxAmenazaPartoP;
+        private RadioButton rbnAmenzaPartoPSi;
+        private RadioButton rbnAmenzaPartoPNo;
+        private GroupBox gbxHTAInducida;
+        private RadioButton rbnHTAInducidaSi;
+        private RadioButton rbnHTAInducidaNo;
+        private GroupBox gbxInfecObular;
+        private RadioButton rbnInfecObularSi;
+        private RadioButton rbnInfecObularNo;
+        private GroupBox gbxOtraCondGrave;
+        private RadioButton rbnOtraCondGraveSi;
+        private RadioButton rbnOtraCondGraveNo;
+        private GroupBox gbxAnemia;
+        private RadioButton rbnAnemiaSi;
+        private RadioButton rbnAnemiaNo;
+        private GroupBox gbxRoturaPremM;
+        private RadioButton rbnRoturaPremMemSi;
+        private RadioButton rbnRoturaPremMemNo;
+        private GroupBox gbxHTAInduEmba;
+        private RadioButton rbnHTAindEmbaSi;
+        private RadioButton rbnHTAindEmbaNo;
+        private GroupBox gbxNefropatia;
+        private RadioButton rbnNefropatiaSi;
+        private RadioButton rbnNefropatiaNo;
+        private GroupBox gbxCardiopatía;
+        private RadioButton rbnCardiopatiaSi;
+        private RadioButton rbnCardiopatiaNo;
+        private GroupBox gbxEclampsia;
+        private RadioButton rbnEclampsiaSi;
+        private RadioButton rbnEclampsiaNo;
+        private GroupBox gbxPreeclampsia;
+        private RadioButton rbnPreeclampsiaSi;
+        private RadioButton rbnPreeclampsiaNo;
+        private GroupBox gbxDiabetes;
+        private RadioButton rbnDiabetesG;
+        private RadioButton rbnDiabetesII;
+        private RadioButton rbnDiabetesI;
+        private RadioButton rbnDiabetesNo;
+        private GroupBox gbxHTAprevia;
+        private RadioButton rbnHTApreviaSi;
+        private RadioButton rbnHTApreviaNo;
+        private Label lblEnfermedadesSi;
+        private Label lblEnfermedadesNo;
+        private Label lblEnfermSi;
+        private Label lblEnfermNo;
+        private Label lblDiabetes;
+        private Label lblEclampsia;
+        private Label lblCardiopatia;
+        private Label lblNefropatia;
+        private Label lblPreeclampsia;
+        private Label lblHTAindEmba;
+        private Label lblHTAprevia;
+        private Label lblRCIU;
+        private Label lblRoturaPremMem;
+        private Label lblAnemia;
+        private Label lblAmenzaPartoP;
+        private Label lblHTAInducida;
+        private Label lblInfecObular;
+        private Label lblOtraCondGrave;
+        private GroupBox gbxHemorragia;
+        private Label lblEclampsia2;
+        private Label lblCardiopatia2;
+        private Label lblPreeclampsia2;
+        private Label lblHTAInduEmba2;
+        private Label lblHTAPrevia2;
         private Label label24;
         private Label label25;
-        private GroupBox groupBox18;
-        private RadioButton radioButton29;
-        private RadioButton radioButton30;
-        private GroupBox groupBox19;
-        private RadioButton radioButton31;
-        private RadioButton radioButton32;
-        private GroupBox groupBox20;
-        private RadioButton radioButton33;
-        private RadioButton radioButton34;
-        private GroupBox groupBox21;
-        private RadioButton radioButton35;
-        private RadioButton radioButton36;
-        private GroupBox groupBox22;
-        private RadioButton radioButton39;
-        private RadioButton radioButton40;
+        private GroupBox gbxHTAInduEmba2;
+        private RadioButton rbnHTAindEmbaSi2;
+        private RadioButton rbnHTAindEmbaNo2;
+        private GroupBox gbxCardiopatía2;
+        private RadioButton rbnCardiopatiaSi2;
+        private RadioButton rbnCardiopatiaNo2;
+        private GroupBox gbxEclampsia2;
+        private RadioButton rbnEclampsiaSi2;
+        private RadioButton rbnEclampsiaNo2;
+        private GroupBox gbxPreeclampsia2;
+        private RadioButton rbnPreeclampsiaSi2;
+        private RadioButton rbnPreeclampsiaNo2;
+        private GroupBox gbxHTAprevia2;
+        private RadioButton rbnHTApreviaSi2;
+        private RadioButton rbnHTApreviaNo2;
         private Label label26;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private RadioButton radioButton41;
-        private RadioButton radioButton42;
-        private GroupBox groupBox23;
+        private TextBox txtCardiopatia;
+        private TextBox txtPreeclampsia;
+        private TextBox txtEclampsia;
+        private TextBox txtHTAInducEmbara;
+        private TextBox txtHTAPrevia;
+        private RadioButton rbnEnfermedadesNinguna;
+        private RadioButton rbnEnfermedades1oMas;
+        private GroupBox gbxTDPprueba;
         private GroupBox groupBox25;
-        private Label label27;
-        private RadioButton radioButton43;
-        private RadioButton radioButton44;
-        private RadioButton radioButton45;
-        private RadioButton radioButton46;
-        private GroupBox groupBox24;
+        private Label lblSifilis;
+        private RadioButton rbnSifilisNc;
+        private RadioButton rbnSifilisNr;
+        private RadioButton rbnSifilisMas;
+        private RadioButton rbnSifilisMenos;
+        private GroupBox gbxTARV;
         private GroupBox groupBox26;
-        private Label label32;
-        private RadioButton radioButton47;
-        private RadioButton radioButton48;
-        private RadioButton radioButton49;
-        private RadioButton radioButton50;
-        private Label label30;
-        private Label label31;
-        private Label label28;
-        private Label label29;
-        private RadioButton radioButton52;
-        private RadioButton radioButton53;
-        private RadioButton radioButton54;
+        private Label lblVIH;
+        private RadioButton rbnVIHNc;
+        private RadioButton rbnVIHNr;
+        private RadioButton rbnVIHMas;
+        private RadioButton rbnVIHMenos;
+        private Label lblNc;
+        private Label lblNr;
+        private Label lblMas;
+        private Label lblMenos;
+        private RadioButton rbnTARVNo;
+        private RadioButton rbnTARVNc;
+        private RadioButton rbnTARVSi;
         private Button btnRegresar;
         private Button btnContinuar;
         private Button btnCerrar;
