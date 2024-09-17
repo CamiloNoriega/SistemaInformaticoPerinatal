@@ -35,38 +35,38 @@
             rbnEnfermedades1oMas = new RadioButton();
             gbxHemorragia = new GroupBox();
             label26 = new Label();
-            txtCardiopatia = new TextBox();
-            txtPreeclampsia = new TextBox();
-            txtEclampsia = new TextBox();
-            txtHTAInducEmbara = new TextBox();
-            txtHTAPrevia = new TextBox();
-            lblEclampsia2 = new Label();
-            lblCardiopatia2 = new Label();
-            lblPreeclampsia2 = new Label();
-            lblHTAInduEmba2 = new Label();
-            lblHTAPrevia2 = new Label();
+            txtCodigoInfectP = new TextBox();
+            txtCodigo3erT = new TextBox();
+            txtCodigoPostparto = new TextBox();
+            txtCodigo2doT = new TextBox();
+            txtCodigo1erT = new TextBox();
+            lblPostparto = new Label();
+            lblInfectP = new Label();
+            lbl3erT = new Label();
+            lbl2doT = new Label();
+            lbl1erT = new Label();
             label24 = new Label();
             label25 = new Label();
-            gbxHTAInduEmba2 = new GroupBox();
-            rbnHTAindEmbaSi2 = new RadioButton();
-            rbnHTAindEmbaNo2 = new RadioButton();
-            gbxCardiopatía2 = new GroupBox();
-            rbnCardiopatiaSi2 = new RadioButton();
-            rbnCardiopatiaNo2 = new RadioButton();
-            gbxEclampsia2 = new GroupBox();
-            rbnEclampsiaSi2 = new RadioButton();
-            rbnEclampsiaNo2 = new RadioButton();
-            gbxPreeclampsia2 = new GroupBox();
-            rbnPreeclampsiaSi2 = new RadioButton();
-            rbnPreeclampsiaNo2 = new RadioButton();
-            gbxHTAprevia2 = new GroupBox();
-            rbnHTApreviaSi2 = new RadioButton();
-            rbnHTApreviaNo2 = new RadioButton();
+            gbx2doT = new GroupBox();
+            rbn2doTSi = new RadioButton();
+            rbn2doTNo = new RadioButton();
+            gbxInfectP = new GroupBox();
+            rbnInfectPSi = new RadioButton();
+            rbnInfectPNo = new RadioButton();
+            gbxPostparto = new GroupBox();
+            rbnPostpartoSi = new RadioButton();
+            rbnPostpartoNo = new RadioButton();
+            gbx3erT = new GroupBox();
+            rbn3erTSi = new RadioButton();
+            rbn3erTNo = new RadioButton();
+            gbx1erT = new GroupBox();
+            rbn1erTSi = new RadioButton();
+            rbn1erTNo = new RadioButton();
             lblRCIU = new Label();
             lblRoturaPremMem = new Label();
             lblAnemia = new Label();
             lblAmenzaPartoP = new Label();
-            lblHTAInducida = new Label();
+            lblInfecU = new Label();
             lblInfecObular = new Label();
             lblOtraCondGrave = new Label();
             lblEclampsia = new Label();
@@ -86,9 +86,9 @@
             gbxAmenazaPartoP = new GroupBox();
             rbnAmenzaPartoPSi = new RadioButton();
             rbnAmenzaPartoPNo = new RadioButton();
-            gbxHTAInducida = new GroupBox();
-            rbnHTAInducidaSi = new RadioButton();
-            rbnHTAInducidaNo = new RadioButton();
+            gbxInfecU = new GroupBox();
+            rbnInfecUSi = new RadioButton();
+            rbnInfecUNo = new RadioButton();
             gbxInfecObular = new GroupBox();
             rbnInfecObularSi = new RadioButton();
             rbnInfecObularNo = new RadioButton();
@@ -125,7 +125,7 @@
             rbnHTApreviaSi = new RadioButton();
             rbnHTApreviaNo = new RadioButton();
             gbxTDPprueba = new GroupBox();
-            groupBox26 = new GroupBox();
+            gbxVIH = new GroupBox();
             lblVIH = new Label();
             rbnVIHNc = new RadioButton();
             rbnVIHNr = new RadioButton();
@@ -135,7 +135,7 @@
             lblNr = new Label();
             lblMas = new Label();
             lblMenos = new Label();
-            groupBox25 = new GroupBox();
+            gbxSifilis = new GroupBox();
             lblSifilis = new Label();
             rbnSifilisNc = new RadioButton();
             rbnSifilisNr = new RadioButton();
@@ -153,14 +153,14 @@
             gbxPatologíasMaternas.SuspendLayout();
             gbxEnfermedades.SuspendLayout();
             gbxHemorragia.SuspendLayout();
-            gbxHTAInduEmba2.SuspendLayout();
-            gbxCardiopatía2.SuspendLayout();
-            gbxEclampsia2.SuspendLayout();
-            gbxPreeclampsia2.SuspendLayout();
-            gbxHTAprevia2.SuspendLayout();
+            gbx2doT.SuspendLayout();
+            gbxInfectP.SuspendLayout();
+            gbxPostparto.SuspendLayout();
+            gbx3erT.SuspendLayout();
+            gbx1erT.SuspendLayout();
             gbxRCIU.SuspendLayout();
             gbxAmenazaPartoP.SuspendLayout();
-            gbxHTAInducida.SuspendLayout();
+            gbxInfecU.SuspendLayout();
             gbxInfecObular.SuspendLayout();
             gbxOtraCondGrave.SuspendLayout();
             gbxAnemia.SuspendLayout();
@@ -173,8 +173,8 @@
             gbxDiabetes.SuspendLayout();
             gbxHTAprevia.SuspendLayout();
             gbxTDPprueba.SuspendLayout();
-            groupBox26.SuspendLayout();
-            groupBox25.SuspendLayout();
+            gbxVIH.SuspendLayout();
+            gbxSifilis.SuspendLayout();
             gbxTARV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)erpNumeros).BeginInit();
             ((System.ComponentModel.ISupportInitialize)erpBoton).BeginInit();
@@ -202,7 +202,7 @@
             gbxEnfermedades.Controls.Add(lblRoturaPremMem);
             gbxEnfermedades.Controls.Add(lblAnemia);
             gbxEnfermedades.Controls.Add(lblAmenzaPartoP);
-            gbxEnfermedades.Controls.Add(lblHTAInducida);
+            gbxEnfermedades.Controls.Add(lblInfecU);
             gbxEnfermedades.Controls.Add(lblInfecObular);
             gbxEnfermedades.Controls.Add(lblOtraCondGrave);
             gbxEnfermedades.Controls.Add(lblEclampsia);
@@ -218,7 +218,7 @@
             gbxEnfermedades.Controls.Add(lblEnfermNo);
             gbxEnfermedades.Controls.Add(gbxRCIU);
             gbxEnfermedades.Controls.Add(gbxAmenazaPartoP);
-            gbxEnfermedades.Controls.Add(gbxHTAInducida);
+            gbxEnfermedades.Controls.Add(gbxInfecU);
             gbxEnfermedades.Controls.Add(gbxInfecObular);
             gbxEnfermedades.Controls.Add(gbxOtraCondGrave);
             gbxEnfermedades.Controls.Add(gbxAnemia);
@@ -245,7 +245,7 @@
             rbnEnfermedadesNinguna.Location = new Point(436, 31);
             rbnEnfermedadesNinguna.Margin = new Padding(4);
             rbnEnfermedadesNinguna.Name = "rbnEnfermedadesNinguna";
-            rbnEnfermedadesNinguna.Size = new Size(109, 25);
+            rbnEnfermedadesNinguna.Size = new Size(73, 18);
             rbnEnfermedadesNinguna.TabIndex = 48;
             rbnEnfermedadesNinguna.TabStop = true;
             rbnEnfermedadesNinguna.Text = "Ninguna";
@@ -257,7 +257,7 @@
             rbnEnfermedades1oMas.Location = new Point(297, 31);
             rbnEnfermedades1oMas.Margin = new Padding(4);
             rbnEnfermedades1oMas.Name = "rbnEnfermedades1oMas";
-            rbnEnfermedades1oMas.Size = new Size(103, 25);
+            rbnEnfermedades1oMas.Size = new Size(69, 18);
             rbnEnfermedades1oMas.TabIndex = 47;
             rbnEnfermedades1oMas.TabStop = true;
             rbnEnfermedades1oMas.Text = "1 o Más";
@@ -266,23 +266,23 @@
             // gbxHemorragia
             // 
             gbxHemorragia.Controls.Add(label26);
-            gbxHemorragia.Controls.Add(txtCardiopatia);
-            gbxHemorragia.Controls.Add(txtPreeclampsia);
-            gbxHemorragia.Controls.Add(txtEclampsia);
-            gbxHemorragia.Controls.Add(txtHTAInducEmbara);
-            gbxHemorragia.Controls.Add(txtHTAPrevia);
-            gbxHemorragia.Controls.Add(lblEclampsia2);
-            gbxHemorragia.Controls.Add(lblCardiopatia2);
-            gbxHemorragia.Controls.Add(lblPreeclampsia2);
-            gbxHemorragia.Controls.Add(lblHTAInduEmba2);
-            gbxHemorragia.Controls.Add(lblHTAPrevia2);
+            gbxHemorragia.Controls.Add(txtCodigoInfectP);
+            gbxHemorragia.Controls.Add(txtCodigo3erT);
+            gbxHemorragia.Controls.Add(txtCodigoPostparto);
+            gbxHemorragia.Controls.Add(txtCodigo2doT);
+            gbxHemorragia.Controls.Add(txtCodigo1erT);
+            gbxHemorragia.Controls.Add(lblPostparto);
+            gbxHemorragia.Controls.Add(lblInfectP);
+            gbxHemorragia.Controls.Add(lbl3erT);
+            gbxHemorragia.Controls.Add(lbl2doT);
+            gbxHemorragia.Controls.Add(lbl1erT);
             gbxHemorragia.Controls.Add(label24);
             gbxHemorragia.Controls.Add(label25);
-            gbxHemorragia.Controls.Add(gbxHTAInduEmba2);
-            gbxHemorragia.Controls.Add(gbxCardiopatía2);
-            gbxHemorragia.Controls.Add(gbxEclampsia2);
-            gbxHemorragia.Controls.Add(gbxPreeclampsia2);
-            gbxHemorragia.Controls.Add(gbxHTAprevia2);
+            gbxHemorragia.Controls.Add(gbx2doT);
+            gbxHemorragia.Controls.Add(gbxInfectP);
+            gbxHemorragia.Controls.Add(gbxPostparto);
+            gbxHemorragia.Controls.Add(gbx3erT);
+            gbxHemorragia.Controls.Add(gbx1erT);
             gbxHemorragia.Location = new Point(1031, 21);
             gbxHemorragia.Margin = new Padding(4);
             gbxHemorragia.Name = "gbxHemorragia";
@@ -298,99 +298,104 @@
             label26.Location = new Point(320, 61);
             label26.Margin = new Padding(4, 0, 4, 0);
             label26.Name = "label26";
-            label26.Size = new Size(72, 21);
+            label26.Size = new Size(49, 14);
             label26.TabIndex = 56;
             label26.Text = "Codigo";
             // 
-            // txtCardiopatia
+            // txtCodigoInfectP
             // 
-            txtCardiopatia.Location = new Point(320, 344);
-            txtCardiopatia.Margin = new Padding(4);
-            txtCardiopatia.Name = "txtCardiopatia";
-            txtCardiopatia.Size = new Size(52, 28);
-            txtCardiopatia.TabIndex = 55;
+            txtCodigoInfectP.Location = new Point(320, 344);
+            txtCodigoInfectP.Margin = new Padding(4);
+            txtCodigoInfectP.Name = "txtCodigoInfectP";
+            txtCodigoInfectP.Size = new Size(52, 21);
+            txtCodigoInfectP.TabIndex = 55;
+            txtCodigoInfectP.TextChanged += txtCodigoInfectP_TextChanged;
             // 
-            // txtPreeclampsia
+            // txtCodigo3erT
             // 
-            txtPreeclampsia.Location = new Point(320, 223);
-            txtPreeclampsia.Margin = new Padding(4);
-            txtPreeclampsia.Name = "txtPreeclampsia";
-            txtPreeclampsia.Size = new Size(52, 28);
-            txtPreeclampsia.TabIndex = 54;
+            txtCodigo3erT.Location = new Point(320, 223);
+            txtCodigo3erT.Margin = new Padding(4);
+            txtCodigo3erT.Name = "txtCodigo3erT";
+            txtCodigo3erT.Size = new Size(52, 21);
+            txtCodigo3erT.TabIndex = 54;
+            txtCodigo3erT.TextChanged += txtCodigo3erT_TextChanged;
             // 
-            // txtEclampsia
+            // txtCodigoPostparto
             // 
-            txtEclampsia.Location = new Point(320, 283);
-            txtEclampsia.Margin = new Padding(4);
-            txtEclampsia.Name = "txtEclampsia";
-            txtEclampsia.Size = new Size(52, 28);
-            txtEclampsia.TabIndex = 53;
+            txtCodigoPostparto.Location = new Point(320, 283);
+            txtCodigoPostparto.Margin = new Padding(4);
+            txtCodigoPostparto.Name = "txtCodigoPostparto";
+            txtCodigoPostparto.Size = new Size(52, 21);
+            txtCodigoPostparto.TabIndex = 53;
+            txtCodigoPostparto.TextChanged += txtCodigoPostparto_TextChanged;
             // 
-            // txtHTAInducEmbara
+            // txtCodigo2doT
             // 
-            txtHTAInducEmbara.Location = new Point(320, 161);
-            txtHTAInducEmbara.Margin = new Padding(4);
-            txtHTAInducEmbara.Name = "txtHTAInducEmbara";
-            txtHTAInducEmbara.Size = new Size(52, 28);
-            txtHTAInducEmbara.TabIndex = 52;
+            txtCodigo2doT.Location = new Point(320, 161);
+            txtCodigo2doT.Margin = new Padding(4);
+            txtCodigo2doT.Name = "txtCodigo2doT";
+            txtCodigo2doT.Size = new Size(52, 21);
+            txtCodigo2doT.TabIndex = 52;
+            txtCodigo2doT.TextChanged += txtCodigo2doT_TextChanged;
             // 
-            // txtHTAPrevia
+            // txtCodigo1erT
             // 
-            txtHTAPrevia.Location = new Point(320, 99);
-            txtHTAPrevia.Margin = new Padding(4);
-            txtHTAPrevia.Name = "txtHTAPrevia";
-            txtHTAPrevia.Size = new Size(52, 28);
-            txtHTAPrevia.TabIndex = 51;
+            txtCodigo1erT.Location = new Point(320, 99);
+            txtCodigo1erT.Margin = new Padding(4);
+            txtCodigo1erT.Name = "txtCodigo1erT";
+            txtCodigo1erT.Size = new Size(52, 21);
+            txtCodigo1erT.TabIndex = 51;
+            txtCodigo1erT.TextChanged += txtCodigo1erT_TextChanged;
             // 
-            // lblEclampsia2
+            // lblPostparto
             // 
-            lblEclampsia2.AutoSize = true;
-            lblEclampsia2.Location = new Point(48, 287);
-            lblEclampsia2.Margin = new Padding(4, 0, 4, 0);
-            lblEclampsia2.Name = "lblEclampsia2";
-            lblEclampsia2.Size = new Size(102, 21);
-            lblEclampsia2.TabIndex = 50;
-            lblEclampsia2.Text = "Eclampsia";
+            lblPostparto.AutoSize = true;
+            lblPostparto.Location = new Point(81, 292);
+            lblPostparto.Margin = new Padding(4, 0, 4, 0);
+            lblPostparto.Name = "lblPostparto";
+            lblPostparto.Size = new Size(64, 14);
+            lblPostparto.TabIndex = 50;
+            lblPostparto.Text = "Postparto";
             // 
-            // lblCardiopatia2
+            // lblInfectP
             // 
-            lblCardiopatia2.AutoSize = true;
-            lblCardiopatia2.Location = new Point(36, 349);
-            lblCardiopatia2.Margin = new Padding(4, 0, 4, 0);
-            lblCardiopatia2.Name = "lblCardiopatia2";
-            lblCardiopatia2.Size = new Size(113, 21);
-            lblCardiopatia2.TabIndex = 49;
-            lblCardiopatia2.Text = "Cardiopatia";
+            lblInfectP.AutoSize = true;
+            lblInfectP.Location = new Point(41, 351);
+            lblInfectP.Margin = new Padding(4, 0, 4, 0);
+            lblInfectP.Name = "lblInfectP";
+            lblInfectP.Size = new Size(104, 14);
+            lblInfectP.TabIndex = 49;
+            lblInfectP.Text = "Infect. puerperal";
             // 
-            // lblPreeclampsia2
+            // lbl3erT
             // 
-            lblPreeclampsia2.AutoSize = true;
-            lblPreeclampsia2.Location = new Point(22, 227);
-            lblPreeclampsia2.Margin = new Padding(4, 0, 4, 0);
-            lblPreeclampsia2.Name = "lblPreeclampsia2";
-            lblPreeclampsia2.Size = new Size(132, 21);
-            lblPreeclampsia2.TabIndex = 48;
-            lblPreeclampsia2.Text = "Preeclampsia";
+            lbl3erT.AutoSize = true;
+            lbl3erT.Location = new Point(89, 231);
+            lbl3erT.Margin = new Padding(4, 0, 4, 0);
+            lbl3erT.Name = "lbl3erT";
+            lbl3erT.Size = new Size(56, 14);
+            lbl3erT.TabIndex = 48;
+            lbl3erT.Text = "3er Trim";
             // 
-            // lblHTAInduEmba2
+            // lbl2doT
             // 
-            lblHTAInduEmba2.AutoSize = true;
-            lblHTAInduEmba2.Location = new Point(15, 157);
-            lblHTAInduEmba2.Margin = new Padding(4, 0, 4, 0);
-            lblHTAInduEmba2.Name = "lblHTAInduEmba2";
-            lblHTAInduEmba2.Size = new Size(135, 42);
-            lblHTAInduEmba2.TabIndex = 47;
-            lblHTAInduEmba2.Text = "HTA Inducida \r\nEmbarazo";
+            lbl2doT.AutoSize = true;
+            lbl2doT.Location = new Point(86, 168);
+            lbl2doT.Margin = new Padding(4, 0, 4, 0);
+            lbl2doT.Name = "lbl2doT";
+            lbl2doT.Size = new Size(59, 14);
+            lbl2doT.TabIndex = 47;
+            lbl2doT.Text = "2do Trim";
             // 
-            // lblHTAPrevia2
+            // lbl1erT
             // 
-            lblHTAPrevia2.AutoSize = true;
-            lblHTAPrevia2.Location = new Point(43, 105);
-            lblHTAPrevia2.Margin = new Padding(4, 0, 4, 0);
-            lblHTAPrevia2.Name = "lblHTAPrevia2";
-            lblHTAPrevia2.Size = new Size(110, 21);
-            lblHTAPrevia2.TabIndex = 46;
-            lblHTAPrevia2.Text = "HTA Previa";
+            lbl1erT.AutoSize = true;
+            lbl1erT.Location = new Point(89, 108);
+            lbl1erT.Margin = new Padding(4, 0, 4, 0);
+            lbl1erT.Name = "lbl1erT";
+            lbl1erT.Size = new Size(56, 14);
+            lbl1erT.TabIndex = 46;
+            lbl1erT.Text = "1er Trim";
             // 
             // label24
             // 
@@ -398,7 +403,7 @@
             label24.Location = new Point(230, 61);
             label24.Margin = new Padding(4, 0, 4, 0);
             label24.Name = "label24";
-            label24.Size = new Size(27, 21);
+            label24.Size = new Size(18, 14);
             label24.TabIndex = 45;
             label24.Text = "Si";
             // 
@@ -408,179 +413,179 @@
             label25.Location = new Point(172, 61);
             label25.Margin = new Padding(4, 0, 4, 0);
             label25.Name = "label25";
-            label25.Size = new Size(35, 21);
+            label25.Size = new Size(23, 14);
             label25.TabIndex = 44;
             label25.Text = "No";
             // 
-            // gbxHTAInduEmba2
+            // gbx2doT
             // 
-            gbxHTAInduEmba2.Controls.Add(rbnHTAindEmbaSi2);
-            gbxHTAInduEmba2.Controls.Add(rbnHTAindEmbaNo2);
-            gbxHTAInduEmba2.Location = new Point(153, 145);
-            gbxHTAInduEmba2.Margin = new Padding(4);
-            gbxHTAInduEmba2.Name = "gbxHTAInduEmba2";
-            gbxHTAInduEmba2.Padding = new Padding(4);
-            gbxHTAInduEmba2.Size = new Size(113, 53);
-            gbxHTAInduEmba2.TabIndex = 43;
-            gbxHTAInduEmba2.TabStop = false;
+            gbx2doT.Controls.Add(rbn2doTSi);
+            gbx2doT.Controls.Add(rbn2doTNo);
+            gbx2doT.Location = new Point(153, 145);
+            gbx2doT.Margin = new Padding(4);
+            gbx2doT.Name = "gbx2doT";
+            gbx2doT.Padding = new Padding(4);
+            gbx2doT.Size = new Size(113, 53);
+            gbx2doT.TabIndex = 43;
+            gbx2doT.TabStop = false;
             // 
-            // rbnHTAindEmbaSi2
+            // rbn2doTSi
             // 
-            rbnHTAindEmbaSi2.AutoSize = true;
-            rbnHTAindEmbaSi2.Location = new Point(80, 21);
-            rbnHTAindEmbaSi2.Margin = new Padding(4);
-            rbnHTAindEmbaSi2.Name = "rbnHTAindEmbaSi2";
-            rbnHTAindEmbaSi2.Size = new Size(21, 20);
-            rbnHTAindEmbaSi2.TabIndex = 3;
-            rbnHTAindEmbaSi2.TabStop = true;
-            rbnHTAindEmbaSi2.UseVisualStyleBackColor = true;
+            rbn2doTSi.AutoSize = true;
+            rbn2doTSi.Location = new Point(80, 21);
+            rbn2doTSi.Margin = new Padding(4);
+            rbn2doTSi.Name = "rbn2doTSi";
+            rbn2doTSi.Size = new Size(14, 13);
+            rbn2doTSi.TabIndex = 3;
+            rbn2doTSi.TabStop = true;
+            rbn2doTSi.UseVisualStyleBackColor = true;
             // 
-            // rbnHTAindEmbaNo2
+            // rbn2doTNo
             // 
-            rbnHTAindEmbaNo2.AutoSize = true;
-            rbnHTAindEmbaNo2.Location = new Point(22, 21);
-            rbnHTAindEmbaNo2.Margin = new Padding(4);
-            rbnHTAindEmbaNo2.Name = "rbnHTAindEmbaNo2";
-            rbnHTAindEmbaNo2.Size = new Size(21, 20);
-            rbnHTAindEmbaNo2.TabIndex = 0;
-            rbnHTAindEmbaNo2.TabStop = true;
-            rbnHTAindEmbaNo2.UseVisualStyleBackColor = true;
+            rbn2doTNo.AutoSize = true;
+            rbn2doTNo.Location = new Point(22, 21);
+            rbn2doTNo.Margin = new Padding(4);
+            rbn2doTNo.Name = "rbn2doTNo";
+            rbn2doTNo.Size = new Size(14, 13);
+            rbn2doTNo.TabIndex = 0;
+            rbn2doTNo.TabStop = true;
+            rbn2doTNo.UseVisualStyleBackColor = true;
             // 
-            // gbxCardiopatía2
+            // gbxInfectP
             // 
-            gbxCardiopatía2.Controls.Add(rbnCardiopatiaSi2);
-            gbxCardiopatía2.Controls.Add(rbnCardiopatiaNo2);
-            gbxCardiopatía2.Location = new Point(153, 330);
-            gbxCardiopatía2.Margin = new Padding(4);
-            gbxCardiopatía2.Name = "gbxCardiopatía2";
-            gbxCardiopatía2.Padding = new Padding(4);
-            gbxCardiopatía2.Size = new Size(113, 53);
-            gbxCardiopatía2.TabIndex = 40;
-            gbxCardiopatía2.TabStop = false;
+            gbxInfectP.Controls.Add(rbnInfectPSi);
+            gbxInfectP.Controls.Add(rbnInfectPNo);
+            gbxInfectP.Location = new Point(153, 330);
+            gbxInfectP.Margin = new Padding(4);
+            gbxInfectP.Name = "gbxInfectP";
+            gbxInfectP.Padding = new Padding(4);
+            gbxInfectP.Size = new Size(113, 53);
+            gbxInfectP.TabIndex = 40;
+            gbxInfectP.TabStop = false;
             // 
-            // rbnCardiopatiaSi2
+            // rbnInfectPSi
             // 
-            rbnCardiopatiaSi2.AutoSize = true;
-            rbnCardiopatiaSi2.Location = new Point(80, 21);
-            rbnCardiopatiaSi2.Margin = new Padding(4);
-            rbnCardiopatiaSi2.Name = "rbnCardiopatiaSi2";
-            rbnCardiopatiaSi2.Size = new Size(21, 20);
-            rbnCardiopatiaSi2.TabIndex = 3;
-            rbnCardiopatiaSi2.TabStop = true;
-            rbnCardiopatiaSi2.UseVisualStyleBackColor = true;
+            rbnInfectPSi.AutoSize = true;
+            rbnInfectPSi.Location = new Point(80, 21);
+            rbnInfectPSi.Margin = new Padding(4);
+            rbnInfectPSi.Name = "rbnInfectPSi";
+            rbnInfectPSi.Size = new Size(14, 13);
+            rbnInfectPSi.TabIndex = 3;
+            rbnInfectPSi.TabStop = true;
+            rbnInfectPSi.UseVisualStyleBackColor = true;
             // 
-            // rbnCardiopatiaNo2
+            // rbnInfectPNo
             // 
-            rbnCardiopatiaNo2.AutoSize = true;
-            rbnCardiopatiaNo2.Location = new Point(22, 21);
-            rbnCardiopatiaNo2.Margin = new Padding(4);
-            rbnCardiopatiaNo2.Name = "rbnCardiopatiaNo2";
-            rbnCardiopatiaNo2.Size = new Size(21, 20);
-            rbnCardiopatiaNo2.TabIndex = 0;
-            rbnCardiopatiaNo2.TabStop = true;
-            rbnCardiopatiaNo2.UseVisualStyleBackColor = true;
+            rbnInfectPNo.AutoSize = true;
+            rbnInfectPNo.Location = new Point(22, 21);
+            rbnInfectPNo.Margin = new Padding(4);
+            rbnInfectPNo.Name = "rbnInfectPNo";
+            rbnInfectPNo.Size = new Size(14, 13);
+            rbnInfectPNo.TabIndex = 0;
+            rbnInfectPNo.TabStop = true;
+            rbnInfectPNo.UseVisualStyleBackColor = true;
             // 
-            // gbxEclampsia2
+            // gbxPostparto
             // 
-            gbxEclampsia2.Controls.Add(rbnEclampsiaSi2);
-            gbxEclampsia2.Controls.Add(rbnEclampsiaNo2);
-            gbxEclampsia2.Location = new Point(153, 269);
-            gbxEclampsia2.Margin = new Padding(4);
-            gbxEclampsia2.Name = "gbxEclampsia2";
-            gbxEclampsia2.Padding = new Padding(4);
-            gbxEclampsia2.Size = new Size(113, 53);
-            gbxEclampsia2.TabIndex = 41;
-            gbxEclampsia2.TabStop = false;
+            gbxPostparto.Controls.Add(rbnPostpartoSi);
+            gbxPostparto.Controls.Add(rbnPostpartoNo);
+            gbxPostparto.Location = new Point(153, 269);
+            gbxPostparto.Margin = new Padding(4);
+            gbxPostparto.Name = "gbxPostparto";
+            gbxPostparto.Padding = new Padding(4);
+            gbxPostparto.Size = new Size(113, 53);
+            gbxPostparto.TabIndex = 41;
+            gbxPostparto.TabStop = false;
             // 
-            // rbnEclampsiaSi2
+            // rbnPostpartoSi
             // 
-            rbnEclampsiaSi2.AutoSize = true;
-            rbnEclampsiaSi2.Location = new Point(80, 21);
-            rbnEclampsiaSi2.Margin = new Padding(4);
-            rbnEclampsiaSi2.Name = "rbnEclampsiaSi2";
-            rbnEclampsiaSi2.Size = new Size(21, 20);
-            rbnEclampsiaSi2.TabIndex = 3;
-            rbnEclampsiaSi2.TabStop = true;
-            rbnEclampsiaSi2.UseVisualStyleBackColor = true;
+            rbnPostpartoSi.AutoSize = true;
+            rbnPostpartoSi.Location = new Point(80, 21);
+            rbnPostpartoSi.Margin = new Padding(4);
+            rbnPostpartoSi.Name = "rbnPostpartoSi";
+            rbnPostpartoSi.Size = new Size(14, 13);
+            rbnPostpartoSi.TabIndex = 3;
+            rbnPostpartoSi.TabStop = true;
+            rbnPostpartoSi.UseVisualStyleBackColor = true;
             // 
-            // rbnEclampsiaNo2
+            // rbnPostpartoNo
             // 
-            rbnEclampsiaNo2.AutoSize = true;
-            rbnEclampsiaNo2.Location = new Point(22, 21);
-            rbnEclampsiaNo2.Margin = new Padding(4);
-            rbnEclampsiaNo2.Name = "rbnEclampsiaNo2";
-            rbnEclampsiaNo2.Size = new Size(21, 20);
-            rbnEclampsiaNo2.TabIndex = 0;
-            rbnEclampsiaNo2.TabStop = true;
-            rbnEclampsiaNo2.UseVisualStyleBackColor = true;
+            rbnPostpartoNo.AutoSize = true;
+            rbnPostpartoNo.Location = new Point(22, 21);
+            rbnPostpartoNo.Margin = new Padding(4);
+            rbnPostpartoNo.Name = "rbnPostpartoNo";
+            rbnPostpartoNo.Size = new Size(14, 13);
+            rbnPostpartoNo.TabIndex = 0;
+            rbnPostpartoNo.TabStop = true;
+            rbnPostpartoNo.UseVisualStyleBackColor = true;
             // 
-            // gbxPreeclampsia2
+            // gbx3erT
             // 
-            gbxPreeclampsia2.Controls.Add(rbnPreeclampsiaSi2);
-            gbxPreeclampsia2.Controls.Add(rbnPreeclampsiaNo2);
-            gbxPreeclampsia2.Location = new Point(153, 207);
-            gbxPreeclampsia2.Margin = new Padding(4);
-            gbxPreeclampsia2.Name = "gbxPreeclampsia2";
-            gbxPreeclampsia2.Padding = new Padding(4);
-            gbxPreeclampsia2.Size = new Size(113, 53);
-            gbxPreeclampsia2.TabIndex = 42;
-            gbxPreeclampsia2.TabStop = false;
+            gbx3erT.Controls.Add(rbn3erTSi);
+            gbx3erT.Controls.Add(rbn3erTNo);
+            gbx3erT.Location = new Point(153, 207);
+            gbx3erT.Margin = new Padding(4);
+            gbx3erT.Name = "gbx3erT";
+            gbx3erT.Padding = new Padding(4);
+            gbx3erT.Size = new Size(113, 53);
+            gbx3erT.TabIndex = 42;
+            gbx3erT.TabStop = false;
             // 
-            // rbnPreeclampsiaSi2
+            // rbn3erTSi
             // 
-            rbnPreeclampsiaSi2.AutoSize = true;
-            rbnPreeclampsiaSi2.Location = new Point(80, 21);
-            rbnPreeclampsiaSi2.Margin = new Padding(4);
-            rbnPreeclampsiaSi2.Name = "rbnPreeclampsiaSi2";
-            rbnPreeclampsiaSi2.Size = new Size(21, 20);
-            rbnPreeclampsiaSi2.TabIndex = 3;
-            rbnPreeclampsiaSi2.TabStop = true;
-            rbnPreeclampsiaSi2.UseVisualStyleBackColor = true;
+            rbn3erTSi.AutoSize = true;
+            rbn3erTSi.Location = new Point(80, 21);
+            rbn3erTSi.Margin = new Padding(4);
+            rbn3erTSi.Name = "rbn3erTSi";
+            rbn3erTSi.Size = new Size(14, 13);
+            rbn3erTSi.TabIndex = 3;
+            rbn3erTSi.TabStop = true;
+            rbn3erTSi.UseVisualStyleBackColor = true;
             // 
-            // rbnPreeclampsiaNo2
+            // rbn3erTNo
             // 
-            rbnPreeclampsiaNo2.AutoSize = true;
-            rbnPreeclampsiaNo2.Location = new Point(22, 21);
-            rbnPreeclampsiaNo2.Margin = new Padding(4);
-            rbnPreeclampsiaNo2.Name = "rbnPreeclampsiaNo2";
-            rbnPreeclampsiaNo2.Size = new Size(21, 20);
-            rbnPreeclampsiaNo2.TabIndex = 0;
-            rbnPreeclampsiaNo2.TabStop = true;
-            rbnPreeclampsiaNo2.UseVisualStyleBackColor = true;
+            rbn3erTNo.AutoSize = true;
+            rbn3erTNo.Location = new Point(22, 21);
+            rbn3erTNo.Margin = new Padding(4);
+            rbn3erTNo.Name = "rbn3erTNo";
+            rbn3erTNo.Size = new Size(14, 13);
+            rbn3erTNo.TabIndex = 0;
+            rbn3erTNo.TabStop = true;
+            rbn3erTNo.UseVisualStyleBackColor = true;
             // 
-            // gbxHTAprevia2
+            // gbx1erT
             // 
-            gbxHTAprevia2.Controls.Add(rbnHTApreviaSi2);
-            gbxHTAprevia2.Controls.Add(rbnHTApreviaNo2);
-            gbxHTAprevia2.Location = new Point(153, 84);
-            gbxHTAprevia2.Margin = new Padding(4);
-            gbxHTAprevia2.Name = "gbxHTAprevia2";
-            gbxHTAprevia2.Padding = new Padding(4);
-            gbxHTAprevia2.Size = new Size(113, 53);
-            gbxHTAprevia2.TabIndex = 39;
-            gbxHTAprevia2.TabStop = false;
+            gbx1erT.Controls.Add(rbn1erTSi);
+            gbx1erT.Controls.Add(rbn1erTNo);
+            gbx1erT.Location = new Point(153, 84);
+            gbx1erT.Margin = new Padding(4);
+            gbx1erT.Name = "gbx1erT";
+            gbx1erT.Padding = new Padding(4);
+            gbx1erT.Size = new Size(113, 53);
+            gbx1erT.TabIndex = 39;
+            gbx1erT.TabStop = false;
             // 
-            // rbnHTApreviaSi2
+            // rbn1erTSi
             // 
-            rbnHTApreviaSi2.AutoSize = true;
-            rbnHTApreviaSi2.Location = new Point(80, 21);
-            rbnHTApreviaSi2.Margin = new Padding(4);
-            rbnHTApreviaSi2.Name = "rbnHTApreviaSi2";
-            rbnHTApreviaSi2.Size = new Size(21, 20);
-            rbnHTApreviaSi2.TabIndex = 3;
-            rbnHTApreviaSi2.TabStop = true;
-            rbnHTApreviaSi2.UseVisualStyleBackColor = true;
+            rbn1erTSi.AutoSize = true;
+            rbn1erTSi.Location = new Point(80, 21);
+            rbn1erTSi.Margin = new Padding(4);
+            rbn1erTSi.Name = "rbn1erTSi";
+            rbn1erTSi.Size = new Size(14, 13);
+            rbn1erTSi.TabIndex = 3;
+            rbn1erTSi.TabStop = true;
+            rbn1erTSi.UseVisualStyleBackColor = true;
             // 
-            // rbnHTApreviaNo2
+            // rbn1erTNo
             // 
-            rbnHTApreviaNo2.AutoSize = true;
-            rbnHTApreviaNo2.Location = new Point(22, 21);
-            rbnHTApreviaNo2.Margin = new Padding(4);
-            rbnHTApreviaNo2.Name = "rbnHTApreviaNo2";
-            rbnHTApreviaNo2.Size = new Size(21, 20);
-            rbnHTApreviaNo2.TabIndex = 0;
-            rbnHTApreviaNo2.TabStop = true;
-            rbnHTApreviaNo2.UseVisualStyleBackColor = true;
+            rbn1erTNo.AutoSize = true;
+            rbn1erTNo.Location = new Point(22, 21);
+            rbn1erTNo.Margin = new Padding(4);
+            rbn1erTNo.Name = "rbn1erTNo";
+            rbn1erTNo.Size = new Size(14, 13);
+            rbn1erTNo.TabIndex = 0;
+            rbn1erTNo.TabStop = true;
+            rbn1erTNo.UseVisualStyleBackColor = true;
             // 
             // lblRCIU
             // 
@@ -588,7 +593,7 @@
             lblRCIU.Location = new Point(692, 311);
             lblRCIU.Margin = new Padding(4, 0, 4, 0);
             lblRCIU.Name = "lblRCIU";
-            lblRCIU.Size = new Size(74, 21);
+            lblRCIU.Size = new Size(50, 14);
             lblRCIU.TabIndex = 45;
             lblRCIU.Text = "R.C.I.U";
             // 
@@ -598,7 +603,7 @@
             lblRoturaPremMem.Location = new Point(692, 372);
             lblRoturaPremMem.Margin = new Padding(4, 0, 4, 0);
             lblRoturaPremMem.Name = "lblRoturaPremMem";
-            lblRoturaPremMem.Size = new Size(269, 21);
+            lblRoturaPremMem.Size = new Size(177, 14);
             lblRoturaPremMem.TabIndex = 44;
             lblRoturaPremMem.Text = "Rotura Prem. de Membranas ";
             // 
@@ -608,7 +613,7 @@
             lblAnemia.Location = new Point(692, 434);
             lblAnemia.Margin = new Padding(4, 0, 4, 0);
             lblAnemia.Name = "lblAnemia";
-            lblAnemia.Size = new Size(77, 21);
+            lblAnemia.Size = new Size(51, 14);
             lblAnemia.TabIndex = 43;
             lblAnemia.Text = "Anemia";
             // 
@@ -618,19 +623,19 @@
             lblAmenzaPartoP.Location = new Point(692, 249);
             lblAmenzaPartoP.Margin = new Padding(4, 0, 4, 0);
             lblAmenzaPartoP.Name = "lblAmenzaPartoP";
-            lblAmenzaPartoP.Size = new Size(206, 21);
+            lblAmenzaPartoP.Size = new Size(134, 14);
             lblAmenzaPartoP.TabIndex = 42;
             lblAmenzaPartoP.Text = "Amenaza Parto Preter";
             // 
-            // lblHTAInducida
+            // lblInfecU
             // 
-            lblHTAInducida.AutoSize = true;
-            lblHTAInducida.Location = new Point(692, 189);
-            lblHTAInducida.Margin = new Padding(4, 0, 4, 0);
-            lblHTAInducida.Name = "lblHTAInducida";
-            lblHTAInducida.Size = new Size(135, 21);
-            lblHTAInducida.TabIndex = 41;
-            lblHTAInducida.Text = "HTA Inducida ";
+            lblInfecU.AutoSize = true;
+            lblInfecU.Location = new Point(692, 189);
+            lblInfecU.Margin = new Padding(4, 0, 4, 0);
+            lblInfecU.Name = "lblInfecU";
+            lblInfecU.Size = new Size(89, 14);
+            lblInfecU.TabIndex = 41;
+            lblInfecU.Text = "Infec. Urinaria";
             // 
             // lblInfecObular
             // 
@@ -638,7 +643,7 @@
             lblInfecObular.Location = new Point(692, 126);
             lblInfecObular.Margin = new Padding(4, 0, 4, 0);
             lblInfecObular.Name = "lblInfecObular";
-            lblInfecObular.Size = new Size(131, 21);
+            lblInfecObular.Size = new Size(86, 14);
             lblInfecObular.TabIndex = 40;
             lblInfecObular.Text = "Infec. Obular ";
             // 
@@ -648,7 +653,7 @@
             lblOtraCondGrave.Location = new Point(692, 496);
             lblOtraCondGrave.Margin = new Padding(4, 0, 4, 0);
             lblOtraCondGrave.Name = "lblOtraCondGrave";
-            lblOtraCondGrave.Size = new Size(165, 21);
+            lblOtraCondGrave.Size = new Size(110, 14);
             lblOtraCondGrave.TabIndex = 39;
             lblOtraCondGrave.Text = "Otra Cond. Grave";
             // 
@@ -658,7 +663,7 @@
             lblEclampsia.Location = new Point(65, 311);
             lblEclampsia.Margin = new Padding(4, 0, 4, 0);
             lblEclampsia.Name = "lblEclampsia";
-            lblEclampsia.Size = new Size(102, 21);
+            lblEclampsia.Size = new Size(68, 14);
             lblEclampsia.TabIndex = 38;
             lblEclampsia.Text = "Eclampsia";
             // 
@@ -668,7 +673,7 @@
             lblCardiopatia.Location = new Point(52, 372);
             lblCardiopatia.Margin = new Padding(4, 0, 4, 0);
             lblCardiopatia.Name = "lblCardiopatia";
-            lblCardiopatia.Size = new Size(113, 21);
+            lblCardiopatia.Size = new Size(75, 14);
             lblCardiopatia.TabIndex = 37;
             lblCardiopatia.Text = "Cardiopatia";
             // 
@@ -678,7 +683,7 @@
             lblNefropatia.Location = new Point(59, 434);
             lblNefropatia.Margin = new Padding(4, 0, 4, 0);
             lblNefropatia.Name = "lblNefropatia";
-            lblNefropatia.Size = new Size(104, 21);
+            lblNefropatia.Size = new Size(68, 14);
             lblNefropatia.TabIndex = 36;
             lblNefropatia.Text = "Nefropatía";
             // 
@@ -688,7 +693,7 @@
             lblPreeclampsia.Location = new Point(37, 250);
             lblPreeclampsia.Margin = new Padding(4, 0, 4, 0);
             lblPreeclampsia.Name = "lblPreeclampsia";
-            lblPreeclampsia.Size = new Size(132, 21);
+            lblPreeclampsia.Size = new Size(87, 14);
             lblPreeclampsia.TabIndex = 35;
             lblPreeclampsia.Text = "Preeclampsia";
             // 
@@ -698,7 +703,7 @@
             lblHTAindEmba.Location = new Point(32, 181);
             lblHTAindEmba.Margin = new Padding(4, 0, 4, 0);
             lblHTAindEmba.Name = "lblHTAindEmba";
-            lblHTAindEmba.Size = new Size(135, 42);
+            lblHTAindEmba.Size = new Size(90, 28);
             lblHTAindEmba.TabIndex = 34;
             lblHTAindEmba.Text = "HTA Inducida \r\nEmbarazo";
             // 
@@ -708,7 +713,7 @@
             lblHTAprevia.Location = new Point(58, 129);
             lblHTAprevia.Margin = new Padding(4, 0, 4, 0);
             lblHTAprevia.Name = "lblHTAprevia";
-            lblHTAprevia.Size = new Size(110, 21);
+            lblHTAprevia.Size = new Size(73, 14);
             lblHTAprevia.TabIndex = 33;
             lblHTAprevia.Text = "HTA Previa";
             // 
@@ -718,7 +723,7 @@
             lblDiabetes.Location = new Point(77, 498);
             lblDiabetes.Margin = new Padding(4, 0, 4, 0);
             lblDiabetes.Name = "lblDiabetes";
-            lblDiabetes.Size = new Size(88, 21);
+            lblDiabetes.Size = new Size(59, 14);
             lblDiabetes.TabIndex = 32;
             lblDiabetes.Text = "Diabetes";
             // 
@@ -728,7 +733,7 @@
             lblEnfermedadesSi.Location = new Point(646, 82);
             lblEnfermedadesSi.Margin = new Padding(4, 0, 4, 0);
             lblEnfermedadesSi.Name = "lblEnfermedadesSi";
-            lblEnfermedadesSi.Size = new Size(27, 21);
+            lblEnfermedadesSi.Size = new Size(18, 14);
             lblEnfermedadesSi.TabIndex = 31;
             lblEnfermedadesSi.Text = "Si";
             // 
@@ -738,7 +743,7 @@
             lblEnfermedadesNo.Location = new Point(587, 82);
             lblEnfermedadesNo.Margin = new Padding(4, 0, 4, 0);
             lblEnfermedadesNo.Name = "lblEnfermedadesNo";
-            lblEnfermedadesNo.Size = new Size(35, 21);
+            lblEnfermedadesNo.Size = new Size(23, 14);
             lblEnfermedadesNo.TabIndex = 30;
             lblEnfermedadesNo.Text = "No";
             // 
@@ -748,7 +753,7 @@
             lblEnfermSi.Location = new Point(245, 86);
             lblEnfermSi.Margin = new Padding(4, 0, 4, 0);
             lblEnfermSi.Name = "lblEnfermSi";
-            lblEnfermSi.Size = new Size(27, 21);
+            lblEnfermSi.Size = new Size(18, 14);
             lblEnfermSi.TabIndex = 29;
             lblEnfermSi.Text = "Si";
             // 
@@ -758,7 +763,7 @@
             lblEnfermNo.Location = new Point(187, 86);
             lblEnfermNo.Margin = new Padding(4, 0, 4, 0);
             lblEnfermNo.Name = "lblEnfermNo";
-            lblEnfermNo.Size = new Size(35, 21);
+            lblEnfermNo.Size = new Size(23, 14);
             lblEnfermNo.TabIndex = 28;
             lblEnfermNo.Text = "No";
             // 
@@ -780,7 +785,7 @@
             rbnRCIUSi.Location = new Point(80, 21);
             rbnRCIUSi.Margin = new Padding(4);
             rbnRCIUSi.Name = "rbnRCIUSi";
-            rbnRCIUSi.Size = new Size(21, 20);
+            rbnRCIUSi.Size = new Size(14, 13);
             rbnRCIUSi.TabIndex = 3;
             rbnRCIUSi.TabStop = true;
             rbnRCIUSi.UseVisualStyleBackColor = true;
@@ -791,7 +796,7 @@
             rbnRCIUNo.Location = new Point(22, 21);
             rbnRCIUNo.Margin = new Padding(4);
             rbnRCIUNo.Name = "rbnRCIUNo";
-            rbnRCIUNo.Size = new Size(21, 20);
+            rbnRCIUNo.Size = new Size(14, 13);
             rbnRCIUNo.TabIndex = 0;
             rbnRCIUNo.TabStop = true;
             rbnRCIUNo.UseVisualStyleBackColor = true;
@@ -814,7 +819,7 @@
             rbnAmenzaPartoPSi.Location = new Point(80, 21);
             rbnAmenzaPartoPSi.Margin = new Padding(4);
             rbnAmenzaPartoPSi.Name = "rbnAmenzaPartoPSi";
-            rbnAmenzaPartoPSi.Size = new Size(21, 20);
+            rbnAmenzaPartoPSi.Size = new Size(14, 13);
             rbnAmenzaPartoPSi.TabIndex = 3;
             rbnAmenzaPartoPSi.TabStop = true;
             rbnAmenzaPartoPSi.UseVisualStyleBackColor = true;
@@ -825,44 +830,44 @@
             rbnAmenzaPartoPNo.Location = new Point(22, 21);
             rbnAmenzaPartoPNo.Margin = new Padding(4);
             rbnAmenzaPartoPNo.Name = "rbnAmenzaPartoPNo";
-            rbnAmenzaPartoPNo.Size = new Size(21, 20);
+            rbnAmenzaPartoPNo.Size = new Size(14, 13);
             rbnAmenzaPartoPNo.TabIndex = 0;
             rbnAmenzaPartoPNo.TabStop = true;
             rbnAmenzaPartoPNo.UseVisualStyleBackColor = true;
             // 
-            // gbxHTAInducida
+            // gbxInfecU
             // 
-            gbxHTAInducida.Controls.Add(rbnHTAInducidaSi);
-            gbxHTAInducida.Controls.Add(rbnHTAInducidaNo);
-            gbxHTAInducida.Location = new Point(569, 170);
-            gbxHTAInducida.Margin = new Padding(4);
-            gbxHTAInducida.Name = "gbxHTAInducida";
-            gbxHTAInducida.Padding = new Padding(4);
-            gbxHTAInducida.Size = new Size(113, 53);
-            gbxHTAInducida.TabIndex = 26;
-            gbxHTAInducida.TabStop = false;
+            gbxInfecU.Controls.Add(rbnInfecUSi);
+            gbxInfecU.Controls.Add(rbnInfecUNo);
+            gbxInfecU.Location = new Point(569, 170);
+            gbxInfecU.Margin = new Padding(4);
+            gbxInfecU.Name = "gbxInfecU";
+            gbxInfecU.Padding = new Padding(4);
+            gbxInfecU.Size = new Size(113, 53);
+            gbxInfecU.TabIndex = 26;
+            gbxInfecU.TabStop = false;
             // 
-            // rbnHTAInducidaSi
+            // rbnInfecUSi
             // 
-            rbnHTAInducidaSi.AutoSize = true;
-            rbnHTAInducidaSi.Location = new Point(80, 21);
-            rbnHTAInducidaSi.Margin = new Padding(4);
-            rbnHTAInducidaSi.Name = "rbnHTAInducidaSi";
-            rbnHTAInducidaSi.Size = new Size(21, 20);
-            rbnHTAInducidaSi.TabIndex = 3;
-            rbnHTAInducidaSi.TabStop = true;
-            rbnHTAInducidaSi.UseVisualStyleBackColor = true;
+            rbnInfecUSi.AutoSize = true;
+            rbnInfecUSi.Location = new Point(80, 21);
+            rbnInfecUSi.Margin = new Padding(4);
+            rbnInfecUSi.Name = "rbnInfecUSi";
+            rbnInfecUSi.Size = new Size(14, 13);
+            rbnInfecUSi.TabIndex = 3;
+            rbnInfecUSi.TabStop = true;
+            rbnInfecUSi.UseVisualStyleBackColor = true;
             // 
-            // rbnHTAInducidaNo
+            // rbnInfecUNo
             // 
-            rbnHTAInducidaNo.AutoSize = true;
-            rbnHTAInducidaNo.Location = new Point(22, 21);
-            rbnHTAInducidaNo.Margin = new Padding(4);
-            rbnHTAInducidaNo.Name = "rbnHTAInducidaNo";
-            rbnHTAInducidaNo.Size = new Size(21, 20);
-            rbnHTAInducidaNo.TabIndex = 0;
-            rbnHTAInducidaNo.TabStop = true;
-            rbnHTAInducidaNo.UseVisualStyleBackColor = true;
+            rbnInfecUNo.AutoSize = true;
+            rbnInfecUNo.Location = new Point(22, 21);
+            rbnInfecUNo.Margin = new Padding(4);
+            rbnInfecUNo.Name = "rbnInfecUNo";
+            rbnInfecUNo.Size = new Size(14, 13);
+            rbnInfecUNo.TabIndex = 0;
+            rbnInfecUNo.TabStop = true;
+            rbnInfecUNo.UseVisualStyleBackColor = true;
             // 
             // gbxInfecObular
             // 
@@ -882,7 +887,7 @@
             rbnInfecObularSi.Location = new Point(80, 21);
             rbnInfecObularSi.Margin = new Padding(4);
             rbnInfecObularSi.Name = "rbnInfecObularSi";
-            rbnInfecObularSi.Size = new Size(21, 20);
+            rbnInfecObularSi.Size = new Size(14, 13);
             rbnInfecObularSi.TabIndex = 3;
             rbnInfecObularSi.TabStop = true;
             rbnInfecObularSi.UseVisualStyleBackColor = true;
@@ -893,7 +898,7 @@
             rbnInfecObularNo.Location = new Point(22, 21);
             rbnInfecObularNo.Margin = new Padding(4);
             rbnInfecObularNo.Name = "rbnInfecObularNo";
-            rbnInfecObularNo.Size = new Size(21, 20);
+            rbnInfecObularNo.Size = new Size(14, 13);
             rbnInfecObularNo.TabIndex = 0;
             rbnInfecObularNo.TabStop = true;
             rbnInfecObularNo.UseVisualStyleBackColor = true;
@@ -916,7 +921,7 @@
             rbnOtraCondGraveSi.Location = new Point(80, 21);
             rbnOtraCondGraveSi.Margin = new Padding(4);
             rbnOtraCondGraveSi.Name = "rbnOtraCondGraveSi";
-            rbnOtraCondGraveSi.Size = new Size(21, 20);
+            rbnOtraCondGraveSi.Size = new Size(14, 13);
             rbnOtraCondGraveSi.TabIndex = 3;
             rbnOtraCondGraveSi.TabStop = true;
             rbnOtraCondGraveSi.UseVisualStyleBackColor = true;
@@ -927,7 +932,7 @@
             rbnOtraCondGraveNo.Location = new Point(22, 21);
             rbnOtraCondGraveNo.Margin = new Padding(4);
             rbnOtraCondGraveNo.Name = "rbnOtraCondGraveNo";
-            rbnOtraCondGraveNo.Size = new Size(21, 20);
+            rbnOtraCondGraveNo.Size = new Size(14, 13);
             rbnOtraCondGraveNo.TabIndex = 0;
             rbnOtraCondGraveNo.TabStop = true;
             rbnOtraCondGraveNo.UseVisualStyleBackColor = true;
@@ -950,7 +955,7 @@
             rbnAnemiaSi.Location = new Point(80, 21);
             rbnAnemiaSi.Margin = new Padding(4);
             rbnAnemiaSi.Name = "rbnAnemiaSi";
-            rbnAnemiaSi.Size = new Size(21, 20);
+            rbnAnemiaSi.Size = new Size(14, 13);
             rbnAnemiaSi.TabIndex = 3;
             rbnAnemiaSi.TabStop = true;
             rbnAnemiaSi.UseVisualStyleBackColor = true;
@@ -961,7 +966,7 @@
             rbnAnemiaNo.Location = new Point(22, 21);
             rbnAnemiaNo.Margin = new Padding(4);
             rbnAnemiaNo.Name = "rbnAnemiaNo";
-            rbnAnemiaNo.Size = new Size(21, 20);
+            rbnAnemiaNo.Size = new Size(14, 13);
             rbnAnemiaNo.TabIndex = 0;
             rbnAnemiaNo.TabStop = true;
             rbnAnemiaNo.UseVisualStyleBackColor = true;
@@ -984,7 +989,7 @@
             rbnRoturaPremMemSi.Location = new Point(80, 21);
             rbnRoturaPremMemSi.Margin = new Padding(4);
             rbnRoturaPremMemSi.Name = "rbnRoturaPremMemSi";
-            rbnRoturaPremMemSi.Size = new Size(21, 20);
+            rbnRoturaPremMemSi.Size = new Size(14, 13);
             rbnRoturaPremMemSi.TabIndex = 3;
             rbnRoturaPremMemSi.TabStop = true;
             rbnRoturaPremMemSi.UseVisualStyleBackColor = true;
@@ -995,7 +1000,7 @@
             rbnRoturaPremMemNo.Location = new Point(22, 21);
             rbnRoturaPremMemNo.Margin = new Padding(4);
             rbnRoturaPremMemNo.Name = "rbnRoturaPremMemNo";
-            rbnRoturaPremMemNo.Size = new Size(21, 20);
+            rbnRoturaPremMemNo.Size = new Size(14, 13);
             rbnRoturaPremMemNo.TabIndex = 0;
             rbnRoturaPremMemNo.TabStop = true;
             rbnRoturaPremMemNo.UseVisualStyleBackColor = true;
@@ -1018,7 +1023,7 @@
             rbnHTAindEmbaSi.Location = new Point(80, 21);
             rbnHTAindEmbaSi.Margin = new Padding(4);
             rbnHTAindEmbaSi.Name = "rbnHTAindEmbaSi";
-            rbnHTAindEmbaSi.Size = new Size(21, 20);
+            rbnHTAindEmbaSi.Size = new Size(14, 13);
             rbnHTAindEmbaSi.TabIndex = 3;
             rbnHTAindEmbaSi.TabStop = true;
             rbnHTAindEmbaSi.UseVisualStyleBackColor = true;
@@ -1029,7 +1034,7 @@
             rbnHTAindEmbaNo.Location = new Point(22, 21);
             rbnHTAindEmbaNo.Margin = new Padding(4);
             rbnHTAindEmbaNo.Name = "rbnHTAindEmbaNo";
-            rbnHTAindEmbaNo.Size = new Size(21, 20);
+            rbnHTAindEmbaNo.Size = new Size(14, 13);
             rbnHTAindEmbaNo.TabIndex = 0;
             rbnHTAindEmbaNo.TabStop = true;
             rbnHTAindEmbaNo.UseVisualStyleBackColor = true;
@@ -1052,7 +1057,7 @@
             rbnNefropatiaSi.Location = new Point(80, 21);
             rbnNefropatiaSi.Margin = new Padding(4);
             rbnNefropatiaSi.Name = "rbnNefropatiaSi";
-            rbnNefropatiaSi.Size = new Size(21, 20);
+            rbnNefropatiaSi.Size = new Size(14, 13);
             rbnNefropatiaSi.TabIndex = 3;
             rbnNefropatiaSi.TabStop = true;
             rbnNefropatiaSi.UseVisualStyleBackColor = true;
@@ -1063,7 +1068,7 @@
             rbnNefropatiaNo.Location = new Point(22, 21);
             rbnNefropatiaNo.Margin = new Padding(4);
             rbnNefropatiaNo.Name = "rbnNefropatiaNo";
-            rbnNefropatiaNo.Size = new Size(21, 20);
+            rbnNefropatiaNo.Size = new Size(14, 13);
             rbnNefropatiaNo.TabIndex = 0;
             rbnNefropatiaNo.TabStop = true;
             rbnNefropatiaNo.UseVisualStyleBackColor = true;
@@ -1086,7 +1091,7 @@
             rbnCardiopatiaSi.Location = new Point(80, 21);
             rbnCardiopatiaSi.Margin = new Padding(4);
             rbnCardiopatiaSi.Name = "rbnCardiopatiaSi";
-            rbnCardiopatiaSi.Size = new Size(21, 20);
+            rbnCardiopatiaSi.Size = new Size(14, 13);
             rbnCardiopatiaSi.TabIndex = 3;
             rbnCardiopatiaSi.TabStop = true;
             rbnCardiopatiaSi.UseVisualStyleBackColor = true;
@@ -1097,7 +1102,7 @@
             rbnCardiopatiaNo.Location = new Point(22, 21);
             rbnCardiopatiaNo.Margin = new Padding(4);
             rbnCardiopatiaNo.Name = "rbnCardiopatiaNo";
-            rbnCardiopatiaNo.Size = new Size(21, 20);
+            rbnCardiopatiaNo.Size = new Size(14, 13);
             rbnCardiopatiaNo.TabIndex = 0;
             rbnCardiopatiaNo.TabStop = true;
             rbnCardiopatiaNo.UseVisualStyleBackColor = true;
@@ -1120,7 +1125,7 @@
             rbnEclampsiaSi.Location = new Point(80, 21);
             rbnEclampsiaSi.Margin = new Padding(4);
             rbnEclampsiaSi.Name = "rbnEclampsiaSi";
-            rbnEclampsiaSi.Size = new Size(21, 20);
+            rbnEclampsiaSi.Size = new Size(14, 13);
             rbnEclampsiaSi.TabIndex = 3;
             rbnEclampsiaSi.TabStop = true;
             rbnEclampsiaSi.UseVisualStyleBackColor = true;
@@ -1131,7 +1136,7 @@
             rbnEclampsiaNo.Location = new Point(22, 21);
             rbnEclampsiaNo.Margin = new Padding(4);
             rbnEclampsiaNo.Name = "rbnEclampsiaNo";
-            rbnEclampsiaNo.Size = new Size(21, 20);
+            rbnEclampsiaNo.Size = new Size(14, 13);
             rbnEclampsiaNo.TabIndex = 0;
             rbnEclampsiaNo.TabStop = true;
             rbnEclampsiaNo.UseVisualStyleBackColor = true;
@@ -1154,7 +1159,7 @@
             rbnPreeclampsiaSi.Location = new Point(80, 21);
             rbnPreeclampsiaSi.Margin = new Padding(4);
             rbnPreeclampsiaSi.Name = "rbnPreeclampsiaSi";
-            rbnPreeclampsiaSi.Size = new Size(21, 20);
+            rbnPreeclampsiaSi.Size = new Size(14, 13);
             rbnPreeclampsiaSi.TabIndex = 3;
             rbnPreeclampsiaSi.TabStop = true;
             rbnPreeclampsiaSi.UseVisualStyleBackColor = true;
@@ -1165,7 +1170,7 @@
             rbnPreeclampsiaNo.Location = new Point(22, 21);
             rbnPreeclampsiaNo.Margin = new Padding(4);
             rbnPreeclampsiaNo.Name = "rbnPreeclampsiaNo";
-            rbnPreeclampsiaNo.Size = new Size(21, 20);
+            rbnPreeclampsiaNo.Size = new Size(14, 13);
             rbnPreeclampsiaNo.TabIndex = 0;
             rbnPreeclampsiaNo.TabStop = true;
             rbnPreeclampsiaNo.UseVisualStyleBackColor = true;
@@ -1190,7 +1195,7 @@
             rbnDiabetesG.Location = new Point(187, 15);
             rbnDiabetesG.Margin = new Padding(4);
             rbnDiabetesG.Name = "rbnDiabetesG";
-            rbnDiabetesG.Size = new Size(49, 25);
+            rbnDiabetesG.Size = new Size(35, 18);
             rbnDiabetesG.TabIndex = 5;
             rbnDiabetesG.TabStop = true;
             rbnDiabetesG.Text = "G";
@@ -1202,7 +1207,7 @@
             rbnDiabetesII.Location = new Point(129, 15);
             rbnDiabetesII.Margin = new Padding(4);
             rbnDiabetesII.Name = "rbnDiabetesII";
-            rbnDiabetesII.Size = new Size(47, 25);
+            rbnDiabetesII.Size = new Size(33, 18);
             rbnDiabetesII.TabIndex = 4;
             rbnDiabetesII.TabStop = true;
             rbnDiabetesII.Text = "II";
@@ -1214,7 +1219,7 @@
             rbnDiabetesI.Location = new Point(78, 15);
             rbnDiabetesI.Margin = new Padding(4);
             rbnDiabetesI.Name = "rbnDiabetesI";
-            rbnDiabetesI.Size = new Size(41, 25);
+            rbnDiabetesI.Size = new Size(29, 18);
             rbnDiabetesI.TabIndex = 3;
             rbnDiabetesI.TabStop = true;
             rbnDiabetesI.Text = "I";
@@ -1226,7 +1231,7 @@
             rbnDiabetesNo.Location = new Point(22, 21);
             rbnDiabetesNo.Margin = new Padding(4);
             rbnDiabetesNo.Name = "rbnDiabetesNo";
-            rbnDiabetesNo.Size = new Size(21, 20);
+            rbnDiabetesNo.Size = new Size(14, 13);
             rbnDiabetesNo.TabIndex = 0;
             rbnDiabetesNo.TabStop = true;
             rbnDiabetesNo.UseVisualStyleBackColor = true;
@@ -1249,7 +1254,7 @@
             rbnHTApreviaSi.Location = new Point(80, 21);
             rbnHTApreviaSi.Margin = new Padding(4);
             rbnHTApreviaSi.Name = "rbnHTApreviaSi";
-            rbnHTApreviaSi.Size = new Size(21, 20);
+            rbnHTApreviaSi.Size = new Size(14, 13);
             rbnHTApreviaSi.TabIndex = 3;
             rbnHTApreviaSi.TabStop = true;
             rbnHTApreviaSi.UseVisualStyleBackColor = true;
@@ -1260,7 +1265,7 @@
             rbnHTApreviaNo.Location = new Point(22, 21);
             rbnHTApreviaNo.Margin = new Padding(4);
             rbnHTApreviaNo.Name = "rbnHTApreviaNo";
-            rbnHTApreviaNo.Size = new Size(21, 20);
+            rbnHTApreviaNo.Size = new Size(14, 13);
             rbnHTApreviaNo.TabIndex = 0;
             rbnHTApreviaNo.TabStop = true;
             rbnHTApreviaNo.UseVisualStyleBackColor = true;
@@ -1268,12 +1273,12 @@
             // gbxTDPprueba
             // 
             gbxTDPprueba.BackColor = SystemColors.GradientInactiveCaption;
-            gbxTDPprueba.Controls.Add(groupBox26);
+            gbxTDPprueba.Controls.Add(gbxVIH);
             gbxTDPprueba.Controls.Add(lblNc);
             gbxTDPprueba.Controls.Add(lblNr);
             gbxTDPprueba.Controls.Add(lblMas);
             gbxTDPprueba.Controls.Add(lblMenos);
-            gbxTDPprueba.Controls.Add(groupBox25);
+            gbxTDPprueba.Controls.Add(gbxSifilis);
             gbxTDPprueba.Location = new Point(19, 622);
             gbxTDPprueba.Margin = new Padding(4);
             gbxTDPprueba.Name = "gbxTDPprueba";
@@ -1283,20 +1288,20 @@
             gbxTDPprueba.TabStop = false;
             gbxTDPprueba.Text = "TDP PRUEBA";
             // 
-            // groupBox26
+            // gbxVIH
             // 
-            groupBox26.Controls.Add(lblVIH);
-            groupBox26.Controls.Add(rbnVIHNc);
-            groupBox26.Controls.Add(rbnVIHNr);
-            groupBox26.Controls.Add(rbnVIHMas);
-            groupBox26.Controls.Add(rbnVIHMenos);
-            groupBox26.Location = new Point(19, 101);
-            groupBox26.Margin = new Padding(4);
-            groupBox26.Name = "groupBox26";
-            groupBox26.Padding = new Padding(4);
-            groupBox26.Size = new Size(290, 53);
-            groupBox26.TabIndex = 38;
-            groupBox26.TabStop = false;
+            gbxVIH.Controls.Add(lblVIH);
+            gbxVIH.Controls.Add(rbnVIHNc);
+            gbxVIH.Controls.Add(rbnVIHNr);
+            gbxVIH.Controls.Add(rbnVIHMas);
+            gbxVIH.Controls.Add(rbnVIHMenos);
+            gbxVIH.Location = new Point(19, 101);
+            gbxVIH.Margin = new Padding(4);
+            gbxVIH.Name = "gbxVIH";
+            gbxVIH.Padding = new Padding(4);
+            gbxVIH.Size = new Size(290, 53);
+            gbxVIH.TabIndex = 38;
+            gbxVIH.TabStop = false;
             // 
             // lblVIH
             // 
@@ -1304,7 +1309,7 @@
             lblVIH.Location = new Point(22, 25);
             lblVIH.Margin = new Padding(4, 0, 4, 0);
             lblVIH.Name = "lblVIH";
-            lblVIH.Size = new Size(42, 21);
+            lblVIH.Size = new Size(28, 14);
             lblVIH.TabIndex = 34;
             lblVIH.Text = "VIH";
             // 
@@ -1314,7 +1319,7 @@
             rbnVIHNc.Location = new Point(238, 28);
             rbnVIHNc.Margin = new Padding(4);
             rbnVIHNc.Name = "rbnVIHNc";
-            rbnVIHNc.Size = new Size(21, 20);
+            rbnVIHNc.Size = new Size(14, 13);
             rbnVIHNc.TabIndex = 5;
             rbnVIHNc.TabStop = true;
             rbnVIHNc.UseVisualStyleBackColor = true;
@@ -1325,7 +1330,7 @@
             rbnVIHNr.Location = new Point(183, 28);
             rbnVIHNr.Margin = new Padding(4);
             rbnVIHNr.Name = "rbnVIHNr";
-            rbnVIHNr.Size = new Size(21, 20);
+            rbnVIHNr.Size = new Size(14, 13);
             rbnVIHNr.TabIndex = 4;
             rbnVIHNr.TabStop = true;
             rbnVIHNr.UseVisualStyleBackColor = true;
@@ -1336,7 +1341,7 @@
             rbnVIHMas.Location = new Point(128, 28);
             rbnVIHMas.Margin = new Padding(4);
             rbnVIHMas.Name = "rbnVIHMas";
-            rbnVIHMas.Size = new Size(21, 20);
+            rbnVIHMas.Size = new Size(14, 13);
             rbnVIHMas.TabIndex = 3;
             rbnVIHMas.TabStop = true;
             rbnVIHMas.UseVisualStyleBackColor = true;
@@ -1347,7 +1352,7 @@
             rbnVIHMenos.Location = new Point(73, 28);
             rbnVIHMenos.Margin = new Padding(4);
             rbnVIHMenos.Name = "rbnVIHMenos";
-            rbnVIHMenos.Size = new Size(21, 20);
+            rbnVIHMenos.Size = new Size(14, 13);
             rbnVIHMenos.TabIndex = 0;
             rbnVIHMenos.TabStop = true;
             rbnVIHMenos.UseVisualStyleBackColor = true;
@@ -1358,7 +1363,7 @@
             lblNc.Location = new Point(249, 27);
             lblNc.Margin = new Padding(4, 0, 4, 0);
             lblNc.Name = "lblNc";
-            lblNc.Size = new Size(37, 21);
+            lblNc.Size = new Size(24, 14);
             lblNc.TabIndex = 37;
             lblNc.Text = "n/c";
             // 
@@ -1368,7 +1373,7 @@
             lblNr.Location = new Point(188, 27);
             lblNr.Margin = new Padding(4, 0, 4, 0);
             lblNr.Name = "lblNr";
-            lblNr.Size = new Size(34, 21);
+            lblNr.Size = new Size(22, 14);
             lblNr.TabIndex = 36;
             lblNr.Text = "n/r";
             // 
@@ -1378,7 +1383,7 @@
             lblMas.Location = new Point(146, 27);
             lblMas.Margin = new Padding(4, 0, 4, 0);
             lblMas.Name = "lblMas";
-            lblMas.Size = new Size(20, 21);
+            lblMas.Size = new Size(14, 14);
             lblMas.TabIndex = 35;
             lblMas.Text = "+";
             // 
@@ -1388,24 +1393,24 @@
             lblMenos.Location = new Point(91, 27);
             lblMenos.Margin = new Padding(4, 0, 4, 0);
             lblMenos.Name = "lblMenos";
-            lblMenos.Size = new Size(16, 21);
+            lblMenos.Size = new Size(11, 14);
             lblMenos.TabIndex = 34;
             lblMenos.Text = "-";
             // 
-            // groupBox25
+            // gbxSifilis
             // 
-            groupBox25.Controls.Add(lblSifilis);
-            groupBox25.Controls.Add(rbnSifilisNc);
-            groupBox25.Controls.Add(rbnSifilisNr);
-            groupBox25.Controls.Add(rbnSifilisMas);
-            groupBox25.Controls.Add(rbnSifilisMenos);
-            groupBox25.Location = new Point(19, 46);
-            groupBox25.Margin = new Padding(4);
-            groupBox25.Name = "groupBox25";
-            groupBox25.Padding = new Padding(4);
-            groupBox25.Size = new Size(290, 53);
-            groupBox25.TabIndex = 33;
-            groupBox25.TabStop = false;
+            gbxSifilis.Controls.Add(lblSifilis);
+            gbxSifilis.Controls.Add(rbnSifilisNc);
+            gbxSifilis.Controls.Add(rbnSifilisNr);
+            gbxSifilis.Controls.Add(rbnSifilisMas);
+            gbxSifilis.Controls.Add(rbnSifilisMenos);
+            gbxSifilis.Location = new Point(19, 46);
+            gbxSifilis.Margin = new Padding(4);
+            gbxSifilis.Name = "gbxSifilis";
+            gbxSifilis.Padding = new Padding(4);
+            gbxSifilis.Size = new Size(290, 53);
+            gbxSifilis.TabIndex = 33;
+            gbxSifilis.TabStop = false;
             // 
             // lblSifilis
             // 
@@ -1413,7 +1418,7 @@
             lblSifilis.Location = new Point(10, 25);
             lblSifilis.Margin = new Padding(4, 0, 4, 0);
             lblSifilis.Name = "lblSifilis";
-            lblSifilis.Size = new Size(58, 21);
+            lblSifilis.Size = new Size(38, 14);
             lblSifilis.TabIndex = 34;
             lblSifilis.Text = "Sifilis";
             // 
@@ -1423,7 +1428,7 @@
             rbnSifilisNc.Location = new Point(238, 28);
             rbnSifilisNc.Margin = new Padding(4);
             rbnSifilisNc.Name = "rbnSifilisNc";
-            rbnSifilisNc.Size = new Size(21, 20);
+            rbnSifilisNc.Size = new Size(14, 13);
             rbnSifilisNc.TabIndex = 5;
             rbnSifilisNc.TabStop = true;
             rbnSifilisNc.UseVisualStyleBackColor = true;
@@ -1434,7 +1439,7 @@
             rbnSifilisNr.Location = new Point(183, 28);
             rbnSifilisNr.Margin = new Padding(4);
             rbnSifilisNr.Name = "rbnSifilisNr";
-            rbnSifilisNr.Size = new Size(21, 20);
+            rbnSifilisNr.Size = new Size(14, 13);
             rbnSifilisNr.TabIndex = 4;
             rbnSifilisNr.TabStop = true;
             rbnSifilisNr.UseVisualStyleBackColor = true;
@@ -1445,7 +1450,7 @@
             rbnSifilisMas.Location = new Point(128, 28);
             rbnSifilisMas.Margin = new Padding(4);
             rbnSifilisMas.Name = "rbnSifilisMas";
-            rbnSifilisMas.Size = new Size(21, 20);
+            rbnSifilisMas.Size = new Size(14, 13);
             rbnSifilisMas.TabIndex = 3;
             rbnSifilisMas.TabStop = true;
             rbnSifilisMas.UseVisualStyleBackColor = true;
@@ -1456,7 +1461,7 @@
             rbnSifilisMenos.Location = new Point(73, 28);
             rbnSifilisMenos.Margin = new Padding(4);
             rbnSifilisMenos.Name = "rbnSifilisMenos";
-            rbnSifilisMenos.Size = new Size(21, 20);
+            rbnSifilisMenos.Size = new Size(14, 13);
             rbnSifilisMenos.TabIndex = 0;
             rbnSifilisMenos.TabStop = true;
             rbnSifilisMenos.UseVisualStyleBackColor = true;
@@ -1482,7 +1487,7 @@
             rbnTARVNo.Location = new Point(10, 88);
             rbnTARVNo.Margin = new Padding(4);
             rbnTARVNo.Name = "rbnTARVNo";
-            rbnTARVNo.Size = new Size(60, 25);
+            rbnTARVNo.Size = new Size(41, 18);
             rbnTARVNo.TabIndex = 8;
             rbnTARVNo.TabStop = true;
             rbnTARVNo.Text = "No";
@@ -1494,7 +1499,7 @@
             rbnTARVNc.Location = new Point(10, 145);
             rbnTARVNc.Margin = new Padding(4);
             rbnTARVNc.Name = "rbnTARVNc";
-            rbnTARVNc.Size = new Size(62, 25);
+            rbnTARVNc.Size = new Size(42, 18);
             rbnTARVNc.TabIndex = 7;
             rbnTARVNc.TabStop = true;
             rbnTARVNc.Text = "n/c";
@@ -1506,7 +1511,7 @@
             rbnTARVSi.Location = new Point(10, 31);
             rbnTARVSi.Margin = new Padding(4);
             rbnTARVSi.Name = "rbnTARVSi";
-            rbnTARVSi.Size = new Size(52, 25);
+            rbnTARVSi.Size = new Size(36, 18);
             rbnTARVSi.TabIndex = 6;
             rbnTARVSi.TabStop = true;
             rbnTARVSi.Text = "Si";
@@ -1523,6 +1528,7 @@
             btnRegresar.TabIndex = 15;
             btnRegresar.Text = "REGRESAR AL MENU";
             btnRegresar.UseVisualStyleBackColor = false;
+            btnRegresar.Click += btnRegresar_Click;
             // 
             // btnContinuar
             // 
@@ -1535,6 +1541,7 @@
             btnContinuar.TabIndex = 14;
             btnContinuar.Text = "FINALIZAR";
             btnContinuar.UseVisualStyleBackColor = false;
+            btnContinuar.Click += btnContinuar_Click;
             // 
             // btnCerrar
             // 
@@ -1547,6 +1554,7 @@
             btnCerrar.TabIndex = 13;
             btnCerrar.Text = "CERRAR SESIÓN";
             btnCerrar.UseVisualStyleBackColor = false;
+            btnCerrar.Click += btnCerrar_Click;
             // 
             // erpNumeros
             // 
@@ -1558,7 +1566,7 @@
             // 
             // Enfermedades
             // 
-            AutoScaleDimensions = new SizeF(11F, 21F);
+            AutoScaleDimensions = new SizeF(8F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1540, 874);
@@ -1580,22 +1588,22 @@
             gbxEnfermedades.PerformLayout();
             gbxHemorragia.ResumeLayout(false);
             gbxHemorragia.PerformLayout();
-            gbxHTAInduEmba2.ResumeLayout(false);
-            gbxHTAInduEmba2.PerformLayout();
-            gbxCardiopatía2.ResumeLayout(false);
-            gbxCardiopatía2.PerformLayout();
-            gbxEclampsia2.ResumeLayout(false);
-            gbxEclampsia2.PerformLayout();
-            gbxPreeclampsia2.ResumeLayout(false);
-            gbxPreeclampsia2.PerformLayout();
-            gbxHTAprevia2.ResumeLayout(false);
-            gbxHTAprevia2.PerformLayout();
+            gbx2doT.ResumeLayout(false);
+            gbx2doT.PerformLayout();
+            gbxInfectP.ResumeLayout(false);
+            gbxInfectP.PerformLayout();
+            gbxPostparto.ResumeLayout(false);
+            gbxPostparto.PerformLayout();
+            gbx3erT.ResumeLayout(false);
+            gbx3erT.PerformLayout();
+            gbx1erT.ResumeLayout(false);
+            gbx1erT.PerformLayout();
             gbxRCIU.ResumeLayout(false);
             gbxRCIU.PerformLayout();
             gbxAmenazaPartoP.ResumeLayout(false);
             gbxAmenazaPartoP.PerformLayout();
-            gbxHTAInducida.ResumeLayout(false);
-            gbxHTAInducida.PerformLayout();
+            gbxInfecU.ResumeLayout(false);
+            gbxInfecU.PerformLayout();
             gbxInfecObular.ResumeLayout(false);
             gbxInfecObular.PerformLayout();
             gbxOtraCondGrave.ResumeLayout(false);
@@ -1620,10 +1628,10 @@
             gbxHTAprevia.PerformLayout();
             gbxTDPprueba.ResumeLayout(false);
             gbxTDPprueba.PerformLayout();
-            groupBox26.ResumeLayout(false);
-            groupBox26.PerformLayout();
-            groupBox25.ResumeLayout(false);
-            groupBox25.PerformLayout();
+            gbxVIH.ResumeLayout(false);
+            gbxVIH.PerformLayout();
+            gbxSifilis.ResumeLayout(false);
+            gbxSifilis.PerformLayout();
             gbxTARV.ResumeLayout(false);
             gbxTARV.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)erpNumeros).EndInit();
@@ -1641,9 +1649,9 @@
         private GroupBox gbxAmenazaPartoP;
         private RadioButton rbnAmenzaPartoPSi;
         private RadioButton rbnAmenzaPartoPNo;
-        private GroupBox gbxHTAInducida;
-        private RadioButton rbnHTAInducidaSi;
-        private RadioButton rbnHTAInducidaNo;
+        private GroupBox gbxInfecU;
+        private RadioButton rbnInfecUSi;
+        private RadioButton rbnInfecUNo;
         private GroupBox gbxInfecObular;
         private RadioButton rbnInfecObularSi;
         private RadioButton rbnInfecObularNo;
@@ -1694,49 +1702,49 @@
         private Label lblRoturaPremMem;
         private Label lblAnemia;
         private Label lblAmenzaPartoP;
-        private Label lblHTAInducida;
+        private Label lblInfecU;
         private Label lblInfecObular;
         private Label lblOtraCondGrave;
         private GroupBox gbxHemorragia;
-        private Label lblEclampsia2;
-        private Label lblCardiopatia2;
-        private Label lblPreeclampsia2;
-        private Label lblHTAInduEmba2;
-        private Label lblHTAPrevia2;
+        private Label lblPostparto;
+        private Label lblInfectP;
+        private Label lbl3erT;
+        private Label lbl2doT;
+        private Label lbl1erT;
         private Label label24;
         private Label label25;
-        private GroupBox gbxHTAInduEmba2;
-        private RadioButton rbnHTAindEmbaSi2;
-        private RadioButton rbnHTAindEmbaNo2;
-        private GroupBox gbxCardiopatía2;
-        private RadioButton rbnCardiopatiaSi2;
-        private RadioButton rbnCardiopatiaNo2;
-        private GroupBox gbxEclampsia2;
-        private RadioButton rbnEclampsiaSi2;
-        private RadioButton rbnEclampsiaNo2;
-        private GroupBox gbxPreeclampsia2;
-        private RadioButton rbnPreeclampsiaSi2;
-        private RadioButton rbnPreeclampsiaNo2;
-        private GroupBox gbxHTAprevia2;
-        private RadioButton rbnHTApreviaSi2;
-        private RadioButton rbnHTApreviaNo2;
+        private GroupBox gbx2doT;
+        private RadioButton rbn2doTSi;
+        private RadioButton rbn2doTNo;
+        private GroupBox gbxInfectP;
+        private RadioButton rbnInfectPSi;
+        private RadioButton rbnInfectPNo;
+        private GroupBox gbxPostparto;
+        private RadioButton rbnPostpartoSi;
+        private RadioButton rbnPostpartoNo;
+        private GroupBox gbx3erT;
+        private RadioButton rbn3erTSi;
+        private RadioButton rbn3erTNo;
+        private GroupBox gbx1erT;
+        private RadioButton rbn1erTSi;
+        private RadioButton rbn1erTNo;
         private Label label26;
-        private TextBox txtCardiopatia;
-        private TextBox txtPreeclampsia;
-        private TextBox txtEclampsia;
-        private TextBox txtHTAInducEmbara;
-        private TextBox txtHTAPrevia;
+        private TextBox txtCodigoInfectP;
+        private TextBox txtCodigo3erT;
+        private TextBox txtCodigoPostparto;
+        private TextBox txtCodigo2doT;
+        private TextBox txtCodigo1erT;
         private RadioButton rbnEnfermedadesNinguna;
         private RadioButton rbnEnfermedades1oMas;
         private GroupBox gbxTDPprueba;
-        private GroupBox groupBox25;
+        private GroupBox gbxSifilis;
         private Label lblSifilis;
         private RadioButton rbnSifilisNc;
         private RadioButton rbnSifilisNr;
         private RadioButton rbnSifilisMas;
         private RadioButton rbnSifilisMenos;
         private GroupBox gbxTARV;
-        private GroupBox groupBox26;
+        private GroupBox gbxVIH;
         private Label lblVIH;
         private RadioButton rbnVIHNc;
         private RadioButton rbnVIHNr;
