@@ -134,7 +134,9 @@ namespace SistemaInformaticoPerinatal
 
 
 
+#pragma warning disable CS0219 // La variable está asignada pero nunca se usa su valor
             bool comboBoxSelected = true;
+#pragma warning restore CS0219 // La variable está asignada pero nunca se usa su valor
             erpListas.Clear();
             if (cmbFMetodoAnticonseptivo.SelectedIndex == -1)
             {

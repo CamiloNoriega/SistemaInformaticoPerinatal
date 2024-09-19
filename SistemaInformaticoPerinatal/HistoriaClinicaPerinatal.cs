@@ -232,5 +232,6 @@ namespace SistemaInformaticoPerinatal
             this.Hide();
             MessageBox.Show("Su secion ha sido cerrada exitosamente");
         }
+
     }
 }

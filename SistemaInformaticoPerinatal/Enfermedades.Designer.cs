@@ -590,7 +590,7 @@
             // lblRCIU
             // 
             lblRCIU.AutoSize = true;
-            lblRCIU.Location = new Point(692, 311);
+            lblRCIU.Location = new Point(723, 313);
             lblRCIU.Margin = new Padding(4, 0, 4, 0);
             lblRCIU.Name = "lblRCIU";
             lblRCIU.Size = new Size(50, 14);
@@ -600,7 +600,7 @@
             // lblRoturaPremMem
             // 
             lblRoturaPremMem.AutoSize = true;
-            lblRoturaPremMem.Location = new Point(692, 372);
+            lblRoturaPremMem.Location = new Point(723, 374);
             lblRoturaPremMem.Margin = new Padding(4, 0, 4, 0);
             lblRoturaPremMem.Name = "lblRoturaPremMem";
             lblRoturaPremMem.Size = new Size(177, 14);
@@ -610,7 +610,7 @@
             // lblAnemia
             // 
             lblAnemia.AutoSize = true;
-            lblAnemia.Location = new Point(692, 434);
+            lblAnemia.Location = new Point(723, 436);
             lblAnemia.Margin = new Padding(4, 0, 4, 0);
             lblAnemia.Name = "lblAnemia";
             lblAnemia.Size = new Size(51, 14);
@@ -620,7 +620,7 @@
             // lblAmenzaPartoP
             // 
             lblAmenzaPartoP.AutoSize = true;
-            lblAmenzaPartoP.Location = new Point(692, 249);
+            lblAmenzaPartoP.Location = new Point(723, 251);
             lblAmenzaPartoP.Margin = new Padding(4, 0, 4, 0);
             lblAmenzaPartoP.Name = "lblAmenzaPartoP";
             lblAmenzaPartoP.Size = new Size(134, 14);
@@ -630,7 +630,7 @@
             // lblInfecU
             // 
             lblInfecU.AutoSize = true;
-            lblInfecU.Location = new Point(692, 189);
+            lblInfecU.Location = new Point(723, 191);
             lblInfecU.Margin = new Padding(4, 0, 4, 0);
             lblInfecU.Name = "lblInfecU";
             lblInfecU.Size = new Size(89, 14);
@@ -640,7 +640,7 @@
             // lblInfecObular
             // 
             lblInfecObular.AutoSize = true;
-            lblInfecObular.Location = new Point(692, 126);
+            lblInfecObular.Location = new Point(723, 128);
             lblInfecObular.Margin = new Padding(4, 0, 4, 0);
             lblInfecObular.Name = "lblInfecObular";
             lblInfecObular.Size = new Size(86, 14);
@@ -650,7 +650,7 @@
             // lblOtraCondGrave
             // 
             lblOtraCondGrave.AutoSize = true;
-            lblOtraCondGrave.Location = new Point(692, 496);
+            lblOtraCondGrave.Location = new Point(723, 498);
             lblOtraCondGrave.Margin = new Padding(4, 0, 4, 0);
             lblOtraCondGrave.Name = "lblOtraCondGrave";
             lblOtraCondGrave.Size = new Size(110, 14);
@@ -1569,7 +1569,7 @@
             AutoScaleDimensions = new SizeF(8F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1540, 874);
+            ClientSize = new Size(1540, 883);
             Controls.Add(btnRegresar);
             Controls.Add(btnContinuar);
             Controls.Add(btnCerrar);
