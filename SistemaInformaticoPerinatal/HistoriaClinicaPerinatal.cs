@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿
 
 namespace SistemaInformaticoPerinatal
 {
@@ -19,6 +11,7 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
+
             //validar listas desplegables
             bool comboBoxSelected = true;
             erpListas.Clear();
@@ -130,7 +123,11 @@ namespace SistemaInformaticoPerinatal
             Antecedentes ven3 = new Antecedentes();
             ven3.Show();
             this.Hide();
+
+
+
         }
+
 
         //funcion para validar numeros en interacciones
         private bool ValidarSoloNumeros(TextBox textBox, ErrorProvider errorProvider)
