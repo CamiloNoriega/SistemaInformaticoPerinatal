@@ -1,4 +1,4 @@
-﻿
+﻿using Entidades;
 
 namespace SistemaInformaticoPerinatal
 {
@@ -11,6 +11,11 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
+            var persona = new Paciente()// agregar las demas clases de entidades 
+            {
+                Nombre = txtNombre.Text,
+            };
+
 
             //validar listas desplegables
             bool comboBoxSelected = true;

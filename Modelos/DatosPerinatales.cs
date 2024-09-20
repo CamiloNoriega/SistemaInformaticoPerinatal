@@ -14,7 +14,7 @@ namespace Entidades
         public string NumeroDeIdentidad { get; set; }
 
 
-        public Paciente paciente { get; set; }
+      
 
     }
 }

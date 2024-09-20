@@ -15,7 +15,7 @@ namespace Entidades
         public bool Eclampsia { get; set; }
         public bool Cardiopatia { get; set; }
         public bool Nefropatia { get; set; }
-        public string Diabetes { get; set; }  //  I, II o G
+        public string Diabetes { get; set; }  // crear entidad 
         public bool InfeccionObular { get; set; }
         public bool InfeccionUrinaria { get; set; }
         public bool AmenazaPartoPreter { get; set; }
@@ -32,9 +32,9 @@ namespace Entidades
         public bool HemorragiaInfeccionPuerperal { get; set; }
 
         // TDP Prueba
-        public string TdpSifilis { get; set; }  //  +, -, n/r, n/c
-        public string TdpVIH { get; set; }      //  +, -, n/r, n/c
+        public string TdpSifilis { get; set; }  //  crear entidad 
+        public string TdpVIH { get; set; }      //  crear entidad 
 
-        public string TARV { get; set; }  //  (Si, No, n/c)
+        public string TARV { get; set; }  //  crear entidad 
     }
 }
