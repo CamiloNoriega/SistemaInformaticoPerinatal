@@ -1,5 +1,7 @@
 ﻿
 
+using Entidades.Enumeraciones;
+
 namespace Entidades
 {
 
@@ -13,10 +15,12 @@ namespace Entidades
         public string Telefono { get; set; }
         public string Localidad { get; set; }
         public DateTime FechaNacimiento { get; set; }
-        public string Etnia { get; set; }
+        public string Etnia { get; set; }// crear entidad
+        
+
         public bool Alfabeta { get; set; }
-        public string NivelDeEstudios { get; set; }// crear entidad
-        public int AñoAprobado { get; set; }
+        public string NivelEstudios { get; set; }// crear entidad
+        public string AñoAprobado { get; set; }
         public string EstadoCivil { get; set; }// crear entidad
         public bool ViveSola { get; set; }
     }

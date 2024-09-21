@@ -11,9 +11,26 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
-            var persona = new Paciente()// agregar las demas clases de entidades 
+            var persona = new Paciente() 
             {
                 Nombre = txtNombre.Text,
+                Apellido = txtApellido.Text,
+                Direccion = txtDireccion.Text,
+                Telefono = txtTelefono.Text,
+                Localidad = txtLocalidad.Text,
+                FechaNacimiento = dtpFechaN.Value,
+                Etnia = cmbEtnia.Text,
+                Alfabeta = rbnAlfabetaNo.Checked || rbnAlfabetaSi.Checked,//revisar
+                NivelEstudios = cmbEstudios.Text,
+                AñoAprobado = txtAñoNivelE.Text,
+                EstadoCivil = cmbEstadoCivil.Text,
+                ViveSola = rbnViveSolaNo.Checked || rbnViveSolaSi.Checked,
+
+
+
+
+
+
             };
 
 
