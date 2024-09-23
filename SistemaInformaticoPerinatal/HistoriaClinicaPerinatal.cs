@@ -11,7 +11,7 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
-            var persona = new Paciente() 
+            var paciente = new Paciente() 
             {
                 Nombre = txtNombre.Text,
                 Apellido = txtApellido.Text,
