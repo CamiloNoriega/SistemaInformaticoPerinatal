@@ -19,12 +19,12 @@ namespace SistemaInformaticoPerinatal
                 Telefono = txtTelefono.Text,
                 Localidad = txtLocalidad.Text,
                 FechaNacimiento = dtpFechaN.Value,
-                Etnia = cmbEtnia.Text,
-                Alfabeta = rbnAlfabetaNo.Checked || rbnAlfabetaSi.Checked,//revisar
-                NivelEstudios = cmbEstudios.Text,
+                Etnia = cmbEtnia.SelectedItem as Etnia,
+                Alfabeta = rbnAlfabetaSi.Checked,
+                NivelEstudios = cmbEstudios.SelectedItem as NivelEstudios,
                 AñoAprobado = txtAñoNivelE.Text,
-                EstadoCivil = cmbEstadoCivil.Text,
-                ViveSola = rbnViveSolaNo.Checked || rbnViveSolaSi.Checked,
+                EstadoCivil = cmbEstadoCivil.SelectedItem as EstadoCivil,
+                ViveSola = rbnViveSolaSi.Checked,
 
 
 

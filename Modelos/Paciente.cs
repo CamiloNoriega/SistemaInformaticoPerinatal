@@ -15,13 +15,18 @@ namespace Entidades
         public string Telefono { get; set; }
         public string Localidad { get; set; }
         public DateTime FechaNacimiento { get; set; }
-        public string Etnia { get; set; }// crear entidad
+        public  Etnia Etnia { get; set; }// crear entidad
         
 
         public bool Alfabeta { get; set; }
-        public string NivelEstudios { get; set; }// crear entidad
+        
+
+        public  NivelEstudios NivelEstudios { get; set; }// crear entidad
         public string AñoAprobado { get; set; }
-        public string EstadoCivil { get; set; }// crear entidad
+        public  EstadoCivil EstadoCivil{ get; set; }// crear entidad
+
+
         public bool ViveSola { get; set; }
+       
     }
 }

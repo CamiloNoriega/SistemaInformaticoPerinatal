@@ -1583,6 +1583,7 @@
             Name = "Enfermedades";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Enfermedades";
+            Load += Enfermedades_Load;
             gbxPatologíasMaternas.ResumeLayout(false);
             gbxEnfermedades.ResumeLayout(false);
             gbxEnfermedades.PerformLayout();

@@ -254,5 +254,10 @@ namespace SistemaInformaticoPerinatal
         {
             ValidarSoloNumeros(txtCodigoInfectP, erpNumeros);
         }
+
+        private void Enfermedades_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
