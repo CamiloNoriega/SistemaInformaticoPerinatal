@@ -33,6 +33,8 @@ namespace Modelo
         public bool AntecedentesGemelares { get; set; }
         public bool EmbarazoPlaneado { get; set; }
 
+        public AntecedentesPersonales AntecedentesPersonales { get; set; }
+
 
     }
 }

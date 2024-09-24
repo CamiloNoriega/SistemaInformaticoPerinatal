@@ -1,4 +1,5 @@
 ﻿using Entidades;
+using Negocio;
 
 namespace SistemaInformaticoPerinatal
 {
@@ -11,20 +12,6 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
-            var antecedentesFamiliares = new AntecedentesFamiliares()
-            {
-                TBC = rbnFTBCSi.Checked,
-                Diabetes = rbnFDiabetesSi.Checked,
-
-            };
-            var antecedentesPersonales = new AntecedentesPersonales() 
-            {
-                TBC=rbnPTBCSi.Checked,
-                
-            };
-
-
-            
             bool radioButtonChecked = true;
 
             // Limpiar cualquier mensaje de error previo
@@ -231,6 +218,27 @@ namespace SistemaInformaticoPerinatal
                 MessageBox.Show("Corrija los errores antes de continuar, y verifique que todos los campos esten diligenciados");
                 return;
             }
+
+            var antecedentes = new AntecedentesPersonales()
+            {
+                TBC = rbnPTBCSi.Checked,
+                DiabetesAPersonales = new DiabetesAPersonales()
+                {
+                    Id = rbnPDiabetesNo.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.No :
+                         rbnPDiabetesI.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoI :
+                         rbnPDiabetesII.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoII :
+                         (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoG
+                },
+                Hipertension = rbnPHipertensionSi.Checked,
+                Preeclampsia = rbnPPreeclampsiaSi.Checked,
+                Eclampsia=rbnPEclampsiaSi.Checked,
+                OtraCondMedicaGrave=rbnPOCMGraveSi.Checked,
+
+                
+                
+
+            };
+            
 
 
 
