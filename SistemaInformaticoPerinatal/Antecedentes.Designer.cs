@@ -810,7 +810,7 @@
             // lblVih
             // 
             lblVih.AutoSize = true;
-            lblVih.Location = new Point(320, 219);
+            lblVih.Location = new Point(599, 451);
             lblVih.Margin = new Padding(4, 0, 4, 0);
             lblVih.Name = "lblVih";
             lblVih.Size = new Size(42, 21);

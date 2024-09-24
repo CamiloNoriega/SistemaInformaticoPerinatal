@@ -9,6 +9,8 @@ namespace Entidades
     internal class EnfermedadesMaternas
     {
         public int Id { get; set; }
+
+        public bool UnaoMas { get; set; }
         public bool HTAPrevia { get; set; }
         public bool HTAInducidaEmbarazo { get; set; }
         public bool Preeclampsia { get; set; }
