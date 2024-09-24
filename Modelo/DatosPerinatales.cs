@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace Entidades
+namespace Modelo
 {
 
-    public class DatosPerinatales
+    internal class DatosPerinatales
     {
         public int Id { get; set; }
         public string LugarControlPrenatal { get; set; }

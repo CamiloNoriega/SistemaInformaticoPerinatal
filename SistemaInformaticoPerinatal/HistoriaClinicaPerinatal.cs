@@ -11,7 +11,7 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
-            var paciente = new Paciente() 
+            var paciente = new Paciente()
             {
                 Nombre = txtNombre.Text,
                 Apellido = txtApellido.Text,
@@ -24,17 +24,21 @@ namespace SistemaInformaticoPerinatal
                 NivelEstudios = cmbEstudios.SelectedItem as NivelEstudios,
                 AñoAprobado = txtAñoNivelE.Text,
                 EstadoCivil = cmbEstadoCivil.SelectedItem as EstadoCivil,
-                ViveSola = rbnViveSolaSi.Checked,
-
-
-
-
-
-
+                ViveSola = rbnViveSolaSi.Checked
+            };
+            var datosPerinatales = new DatosPerinatales()
+            {
+                LugarControlPrenatal = txtLugarControl.Text,
+                LugarPartoAborto = txtLugarParto.Text,
+                NumeroDeIdentidad = txtNumeroIdentidad.Text,
             };
 
 
-            //validar listas desplegables
+
+
+;
+
+              //validar listas desplegables
             bool comboBoxSelected = true;
             erpListas.Clear();
             // validar Estado Civil
