@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Diabetes
+    public class FracasoMetodoAnticonceptivo
     {
         public int Id { get; set; }
         public string Nombre { get; set; }

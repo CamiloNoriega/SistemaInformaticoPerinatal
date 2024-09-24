@@ -27,6 +27,8 @@ namespace Entidades
 
 
         public bool ViveSola { get; set; }
+
+
        
     }
 }

@@ -13,8 +13,7 @@ namespace Entidades
         public string LugarPartoAborto { get; set; }
         public string NumeroDeIdentidad { get; set; }
 
-
+        public Paciente Paciente { get; set; }
       
-
     }
 }

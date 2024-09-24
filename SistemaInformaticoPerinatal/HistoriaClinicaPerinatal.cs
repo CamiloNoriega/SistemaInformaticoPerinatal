@@ -4,6 +4,8 @@ namespace SistemaInformaticoPerinatal
 {
     public partial class HistoriaClinicaPerinatal : Form
     {
+        public static DatosPerinatales DatosPerinatales;
+
         public HistoriaClinicaPerinatal()
         {
             InitializeComponent();
@@ -11,32 +13,7 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
-            var paciente = new Paciente()
-            {
-                Nombre = txtNombre.Text,
-                Apellido = txtApellido.Text,
-                Direccion = txtDireccion.Text,
-                Telefono = txtTelefono.Text,
-                Localidad = txtLocalidad.Text,
-                FechaNacimiento = dtpFechaN.Value,
-                Etnia = cmbEtnia.SelectedItem as Etnia,
-                Alfabeta = rbnAlfabetaSi.Checked,
-                NivelEstudios = cmbEstudios.SelectedItem as NivelEstudios,
-                AñoAprobado = txtAñoNivelE.Text,
-                EstadoCivil = cmbEstadoCivil.SelectedItem as EstadoCivil,
-                ViveSola = rbnViveSolaSi.Checked
-            };
-            var datosPerinatales = new DatosPerinatales()
-            {
-                LugarControlPrenatal = txtLugarControl.Text,
-                LugarPartoAborto = txtLugarParto.Text,
-                NumeroDeIdentidad = txtNumeroIdentidad.Text,
-            };
-
-
-
-
-;
+             
 
               //validar listas desplegables
             bool comboBoxSelected = true;
@@ -145,6 +122,31 @@ namespace SistemaInformaticoPerinatal
                 MessageBox.Show("Corrija los errores antes de continuar, y verifique que todos los campos esten diligenciados");
                 return;
             }
+
+
+            var datosPerinatales = new DatosPerinatales()
+            {
+                LugarControlPrenatal = txtLugarControl.Text,
+                LugarPartoAborto = txtLugarParto.Text,
+                NumeroDeIdentidad = txtNumeroIdentidad.Text,
+                Paciente = new Paciente()
+                {
+                    Nombre = txtNombre.Text,
+                    Apellido = txtApellido.Text,
+                    Direccion = txtDireccion.Text,
+                    Telefono = txtTelefono.Text,
+                    Localidad = txtLocalidad.Text,
+                    FechaNacimiento = dtpFechaN.Value,
+                    Etnia = cmbEtnia.SelectedItem as Etnia,
+                    Alfabeta = rbnAlfabetaSi.Checked,
+                    NivelEstudios = cmbEstudios.SelectedItem as NivelEstudios,
+                    AñoAprobado = txtAñoNivelE.Text,
+                    EstadoCivil = cmbEstadoCivil.SelectedItem as EstadoCivil,
+                    ViveSola = rbnViveSolaSi.Checked
+                }
+
+            };
+            HistoriaClinicaPerinatal.DatosPerinatales = datosPerinatales;
 
             Antecedentes ven3 = new Antecedentes();
             ven3.Show();
