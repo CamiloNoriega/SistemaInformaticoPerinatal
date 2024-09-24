@@ -225,7 +225,7 @@ namespace SistemaInformaticoPerinatal
                 {
                     CirugiaGUrinaria = rbnCirugiaGUSi.Checked,
                     Infertilidad = rbnInfertilidadSi.Checked,
-
+                    Cardioparía = rbnCardiopatiaSi.Checked,
                   
                 },
                 TBC = rbnPTBCSi.Checked,
