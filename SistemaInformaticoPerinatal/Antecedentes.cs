@@ -219,10 +219,17 @@ namespace SistemaInformaticoPerinatal
                 return;
             }
 
-            var antecedentes = new AntecedentesPersonales()
+            var antecedentesPersonales = new AntecedentesPersonales()
             {
+                antecedentesOPersonales= new AntecedentesPObstetricos() 
+                {
+                    CirugiaGUrinaria = rbnCirugiaGUSi.Checked,
+                    Infertilidad = rbnInfertilidadSi.Checked,
+
+                  
+                },
                 TBC = rbnPTBCSi.Checked,
-                DiabetesAPersonales = new DiabetesAPersonales()
+                DiabetesAPersonales= new  DiabetesAPersonales()
                 {
                     Id = rbnPDiabetesNo.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.No :
                          rbnPDiabetesI.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoI :
@@ -234,8 +241,8 @@ namespace SistemaInformaticoPerinatal
                 Eclampsia=rbnPEclampsiaSi.Checked,
                 OtraCondMedicaGrave=rbnPOCMGraveSi.Checked,
 
-                
-                
+
+
 
             };
             

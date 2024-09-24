@@ -8,6 +8,8 @@ namespace Entidades
 {
     public class AntecedentesPersonales
     {
+        public AntecedentesPObstetricos antecedentesOPersonales;
+
         public int Id { get; set; }
         public bool TBC { get; set; }
         public DiabetesAPersonales DiabetesAPersonales { get; set; }  

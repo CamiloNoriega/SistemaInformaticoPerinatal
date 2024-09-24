@@ -12,8 +12,8 @@ namespace Modelo
 
         public bool CirugiaGUrinaria { get; set; }
         public bool Infertilidad { get; set; }
-        public bool Cardioparía { get; set; }
-        public bool Nefropatía { get; set; }
+        public bool Cardiopatia { get; set; }
+        public bool Nefropatia { get; set; }
         public bool Violencia { get; set; }
         public bool VIH { get; set; }
         public int GestasPrevias { get; set; }
@@ -33,7 +33,7 @@ namespace Modelo
         public bool AntecedentesGemelares { get; set; }
         public bool EmbarazoPlaneado { get; set; }
 
-        public AntecedentesPersonales AntecedentesPersonales { get; set; }
+        
 
 
     }
