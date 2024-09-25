@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entidades.Enumeraciones
 {
-    public enum DiabetesAPersonales
+    public enum PesoRecionNacido
     {
-        No = 1,
-        TipoI = 2,
-        TipoII = 3,
-        TipoG = 4
+        nc = 1,
+        menos2500g = 2,
+        mas4000g= 3,
+        Normal = 4
+
     }
 }

@@ -1,13 +1,4 @@
-﻿using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using Entidades;
 
 namespace SistemaInformaticoPerinatal
 {
@@ -20,6 +11,33 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
+            var enfermedadesMaternas = new EnfermedadesMaternas() 
+            { 
+                UnaoMas= rbnEnfermedades1oMas.Checked,
+                HTAPrevia= rbnHTApreviaSi.Checked,
+                HTAInducidaEmbarazo = rbnHTAindEmbaSi.Checked,
+                Preeclampsia =rbnPreeclampsiaSi.Checked,
+                Eclampsia = rbnEclampsiaSi.Checked,
+                Cardiopatia=rbnCardiopatiaSi.Checked,
+                Nefropatia =rbnNefropatiaSi.Checked,
+                diabetesEnfermedades = new DiabetesEnfermedades
+                {
+                    Id = rbnDiabetesNo.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.No :
+                        rbnDiabetesI.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoI :
+                        rbnDiabetesII.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoII :
+                        (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoG
+                },
+                InfeccionObular= rbnInfecObularSi.Checked,
+                InfeccionUrinaria = rbnInfecUSi.Checked,
+                AmenazaPartoPreter = rbnAmenzaPartoPSi.Checked,
+                RCIU = rbnRCIUSi.Checked,
+                RoturaPremMembranas = rbnRoturaPremMemSi.Checked,
+                
+
+            };
+
+
+
             bool radioButtonChecked = true;
 
             // Limpiar cualquier mensaje de error previo
@@ -187,7 +205,6 @@ namespace SistemaInformaticoPerinatal
                 MessageBox.Show("Corrija los errores antes de finalizar, y verifique que todos los campos esten diligenciados");
                 return;
             }
-
             InicioDeSesion ven1 = new InicioDeSesion();
             ven1.Show();
             this.Hide();

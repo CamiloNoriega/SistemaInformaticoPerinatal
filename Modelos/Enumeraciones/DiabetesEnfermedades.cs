@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades.Enumeraciones
 {
-    public enum DiabetesAPersonales
+    public enum DiabetesEnfermedades
     {
         No = 1,
         TipoI = 2,

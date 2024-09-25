@@ -1,6 +1,7 @@
 ﻿using Entidades;
 using Negocio;
 
+
 namespace SistemaInformaticoPerinatal
 {
     public partial class Antecedentes : Form
@@ -221,30 +222,64 @@ namespace SistemaInformaticoPerinatal
 
             var antecedentesPersonales = new AntecedentesPersonales()
             {
-                antecedentesOPersonales= new AntecedentesPObstetricos() 
+                antecedentesFamiliares= new AntecedentesFamiliares()
+                {
+                    TBC = rbnFTBCSi.Checked,
+                    Diabetes = rbnFDiabetesSi.Checked,
+                    Hipertension = rbnFHipertensionSi.Checked,
+                    Preeclampsia = rbnFPreeclampsiaSi.Checked,
+                    Eclampsia = rbnFEclampsiaSi.Checked,
+                    OtraCondMedicaGrave = rbnFOCMGraveSi.Checked,
+
+                },
+                
+                antecedentesPObstetricos = new AntecedentesPObstetricos()
                 {
                     CirugiaGUrinaria = rbnCirugiaGUSi.Checked,
                     Infertilidad = rbnInfertilidadSi.Checked,
-                    Cardioparía = rbnCardiopatiaSi.Checked,
-                  
+                    Cardiopatia = rbnCardiopatiaSi.Checked,
+                    Nefropatia = rbnNefropatiaSi.Checked,
+                    Violencia = rbnViolenciaSi.Checked,
+                    VIH = rbnVIHSi.Checked,
+                    GestasPrevias = txtGestasPrevias.Text,
+                    NacidosVivos = txtNacidosVivos.Text,
+                    Viven = txtViven.Text,
+                    NacidosMuertos = txtNacidosMuertos.Text,
+                    MuertosPrimeraSemana = txtMuertesPrimeraSemana.Text,
+                    EmbarazoEctopico = txtEmbEtopico.Text,
+                    NumeroPartos = txtNumeroPartos.Text,
+                    PartosVaginales = txtVaginales.Text,
+                    Cesareas = txtCesarea.Text,
+                    PesoRecienNacido = new PesoRecienNacido()
+                    {
+                        Id = rbnPesoNc.Checked ? (int)Entidades.Enumeraciones.PesoRecionNacido.nc :
+                        rbnPesoM2500.Checked ? (int)Entidades.Enumeraciones.PesoRecionNacido.menos2500g :
+                        rbnPeso4000.Checked ? (int)Entidades.Enumeraciones.PesoRecionNacido.mas4000g :
+                        (int)Entidades.Enumeraciones.PesoRecionNacido.Normal
+                    },
+                    Abortos = txtAbortos.Text,
+                    FechaFinEmbarazoAnterior = dtpFinEmbaA.Value,
+                    UsoAnticonseptivos = cmbFMetodoAnticonseptivo.SelectedItem as UsoAnticonseptivo,
+                    AntecedentesGemelares = rbnGemelaresSi.Checked,
+                    EmbarazoPlaneado = rbnEmbarazoPlaneadoSi.Checked,
                 },
                 TBC = rbnPTBCSi.Checked,
-                DiabetesAPersonales= new  DiabetesAPersonales()
+                DiabetesAPersonales = new DiabetesAPersonales()
                 {
                     Id = rbnPDiabetesNo.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.No :
-                         rbnPDiabetesI.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoI :
-                         rbnPDiabetesII.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoII :
-                         (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoG
+                        rbnPDiabetesI.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoI :
+                        rbnPDiabetesII.Checked ? (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoII :
+                        (int)Entidades.Enumeraciones.DiabetesAPersonales.TipoG
                 },
                 Hipertension = rbnPHipertensionSi.Checked,
                 Preeclampsia = rbnPPreeclampsiaSi.Checked,
-                Eclampsia=rbnPEclampsiaSi.Checked,
-                OtraCondMedicaGrave=rbnPOCMGraveSi.Checked,
-
-
-
-
+                Eclampsia = rbnPEclampsiaSi.Checked,
+                OtraCondMedicaGrave = rbnPOCMGraveSi.Checked,
             };
+
+            
+            
+
             
 
 

@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Enumeraciones
 {
-    public enum DiabetesAPersonales
+    public enum UsoAnticonseptivo
     {
-        No = 1,
-        TipoI = 2,
-        TipoII = 3,
-        TipoG = 4
+        Nouasaba=1,
+        Barrera=2,
+        Emergencia=3,
+        Hormonal=4,
+        DIU=5,
+        Natural=6,
     }
 }

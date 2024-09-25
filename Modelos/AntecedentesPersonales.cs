@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Entidades
 {
     public class AntecedentesPersonales
     {
-        public AntecedentesPObstetricos antecedentesOPersonales;
 
         public int Id { get; set; }
         public bool TBC { get; set; }
@@ -18,7 +13,9 @@ namespace Entidades
         public bool Eclampsia { get; set; }
         public bool OtraCondMedicaGrave { get; set; }
 
-       
+
+        public AntecedentesFamiliares antecedentesFamiliares { get; set; }
+        public AntecedentesPObstetricos antecedentesPObstetricos { get; set; }
     }
 }
 

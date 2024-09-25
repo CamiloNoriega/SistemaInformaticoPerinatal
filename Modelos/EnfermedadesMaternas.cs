@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    internal class EnfermedadesMaternas
+    public class EnfermedadesMaternas
     {
         public int Id { get; set; }
 
@@ -17,7 +17,7 @@ namespace Entidades
         public bool Eclampsia { get; set; }
         public bool Cardiopatia { get; set; }
         public bool Nefropatia { get; set; }
-        public string Diabetes { get; set; }  // crear entidad 
+        public DiabetesEnfermedades diabetesEnfermedades { get; set; }  
         public bool InfeccionObular { get; set; }
         public bool InfeccionUrinaria { get; set; }
         public bool AmenazaPartoPreter { get; set; }

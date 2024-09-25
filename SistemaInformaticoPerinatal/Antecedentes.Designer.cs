@@ -491,10 +491,10 @@
             rbnPeso4000.AutoSize = true;
             rbnPeso4000.Location = new Point(19, 84);
             rbnPeso4000.Name = "rbnPeso4000";
-            rbnPeso4000.Size = new Size(61, 18);
+            rbnPeso4000.Size = new Size(68, 18);
             rbnPeso4000.TabIndex = 6;
             rbnPeso4000.TabStop = true;
-            rbnPeso4000.Text = "4000g";
+            rbnPeso4000.Text = ">4000g";
             rbnPeso4000.UseVisualStyleBackColor = true;
             // 
             // rbnPesoM2500
