@@ -32,7 +32,7 @@ namespace Modelo
         public string Abortos { get; set; }
         public DateTime FechaFinEmbarazoAnterior { get; set; }
         public int IdUsoAnticonceptivos { get; set; }
-        public UsoAnticonceptivos UsoAnticonseptivos { get; set; }
+        public UsoAnticonceptivos UsoAnticonceptivos { get; set; }
         public bool AntecedentesGemelares { get; set; }
         public bool EmbarazoPlaneado { get; set; }
 

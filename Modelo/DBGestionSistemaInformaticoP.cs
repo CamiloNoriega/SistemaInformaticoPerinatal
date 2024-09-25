@@ -7,6 +7,15 @@ namespace Modelo
     {
         public DbSet<EstadoCivil> EstadoCivil { get; set;}
         public DbSet<Etnia> Etina  { get; set; }
+        public DbSet<UsoAnticonceptivos> UsoAnticonceptivos { get; set; }
+        public DbSet<PesoRecienNacido> PesoRecienNacidos { get; set; }
+        public DbSet<NivelEstudios> NivelEstudios { get; set; }
+        public DbSet<TARV> TARV { get; set; }
+        public DbSet<TdpSifilis> TdpSifilis { get; set; }
+        public DbSet<TdpVIH> TdpVIH { get; set; }
+        public DbSet<DiabetesAPersonales> DiabetesAPersonales { get; set; }
+        public DbSet<DiabetesEnfermedades> DiabetesEnfermedades { get; set; }
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
@@ -28,6 +37,48 @@ namespace Modelo
                 .HasMany(e => e.Paciente)
                 .WithOne(e => e.Etnia)
                 .HasForeignKey(e => e.IdEtnia);
+
+            Builder.Entity<UsoAnticonceptivos>()
+                .HasMany(e => e.AntecedentesPObstetricos)
+                .WithOne(e => e.UsoAnticonceptivos)
+                .HasForeignKey(e => e.IdUsoAnticonceptivos);
+
+            Builder.Entity<PesoRecienNacido>()
+                .HasMany(e => e.AntecedentesPObstetricos)
+                .WithOne(e => e.PesoRecienNacido)
+                .HasForeignKey(e => e.IdPesoRecienNacido);
+
+            Builder.Entity<NivelEstudios>()
+                .HasMany(e => e.Paciente)
+                .WithOne(e => e.NivelEstudios)
+                .HasForeignKey(e => e.IdNivelEstudios);
+
+            Builder.Entity<TARV>()
+                .HasMany(e => e.EnfermedadesMaternas)
+                .WithOne(e => e.TARV)
+                .HasForeignKey(e => e.IdTARV);
+
+            Builder.Entity<TdpSifilis>()
+                .HasMany(e => e.EnfermedadesMaternas)
+                .WithOne(e => e.TdpSifilis)
+                .HasForeignKey(e => e.IdTdpSifilis);
+
+            Builder.Entity<TdpVIH>()
+               .HasMany(e => e.EnfermedadesMaternas)
+               .WithOne(e => e.TdpVIH)
+               .HasForeignKey(e => e.IdTdpVIH);
+
+            Builder.Entity<DiabetesAPersonales>()
+               .HasMany(e => e.AntecedentesPersonales)
+               .WithOne(e => e.DiabetesAPersonales)
+               .HasForeignKey(e => e.DiabetesAPersonales);
+
+            Builder.Entity<DiabetesEnfermedades>()
+              .HasMany(e => e.EnfermedadesMaternas)
+              .WithOne(e => e.DiabetesEnfermedades)
+              .HasForeignKey(e => e.DiabetesEnfermedades);
+
+
         }
 
     }
