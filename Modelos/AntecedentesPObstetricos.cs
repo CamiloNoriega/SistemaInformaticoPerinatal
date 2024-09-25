@@ -24,7 +24,7 @@ namespace Entidades
         public   PesoRecienNacido PesoRecienNacido { get; set; }
         public string Abortos { get; set; }
         public DateTime FechaFinEmbarazoAnterior { get; set; }
-        public UsoAnticonseptivo UsoAnticonseptivos { get; set; }
+        public UsoAnticonceptivos UsoAnticonseptivos { get; set; }
         public bool AntecedentesGemelares { get; set; }
         public bool EmbarazoPlaneado { get; set; }
 

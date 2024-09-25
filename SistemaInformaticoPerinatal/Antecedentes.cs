@@ -5,7 +5,9 @@ using Negocio;
 namespace SistemaInformaticoPerinatal
 {
     public partial class Antecedentes : Form
+
     {
+        public static AntecedentesPersonales antecedentesPersonales;
         public Antecedentes()
         {
             InitializeComponent();
@@ -259,7 +261,7 @@ namespace SistemaInformaticoPerinatal
                     },
                     Abortos = txtAbortos.Text,
                     FechaFinEmbarazoAnterior = dtpFinEmbaA.Value,
-                    UsoAnticonseptivos = cmbFMetodoAnticonseptivo.SelectedItem as UsoAnticonseptivo,
+                    UsoAnticonseptivos = cmbFMetodoAnticonseptivo.SelectedItem as UsoAnticonceptivos,
                     AntecedentesGemelares = rbnGemelaresSi.Checked,
                     EmbarazoPlaneado = rbnEmbarazoPlaneadoSi.Checked,
                 },
@@ -276,11 +278,11 @@ namespace SistemaInformaticoPerinatal
                 Eclampsia = rbnPEclampsiaSi.Checked,
                 OtraCondMedicaGrave = rbnPOCMGraveSi.Checked,
             };
+            Antecedentes.antecedentesPersonales = antecedentesPersonales;
 
-            
-            
 
-            
+
+
 
 
 

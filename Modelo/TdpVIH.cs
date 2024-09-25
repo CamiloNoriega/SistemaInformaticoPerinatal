@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    public class Diabetes
+    public class TdpVIH
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
+
     }
 }

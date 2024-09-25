@@ -4,6 +4,7 @@ namespace SistemaInformaticoPerinatal
 {
     public partial class Enfermedades : Form
     {
+        public static EnfermedadesMaternas enfermedadesMaternas;
         public Enfermedades()
         {
             InitializeComponent();
@@ -11,65 +12,6 @@ namespace SistemaInformaticoPerinatal
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
-            var enfermedadesMaternas = new EnfermedadesMaternas()
-            {
-                UnaoMas = rbnEnfermedades1oMas.Checked,
-                HTAPrevia = rbnHTApreviaSi.Checked,
-                HTAInducidaEmbarazo = rbnHTAindEmbaSi.Checked,
-                Preeclampsia = rbnPreeclampsiaSi.Checked,
-                Eclampsia = rbnEclampsiaSi.Checked,
-                Cardiopatia = rbnCardiopatiaSi.Checked,
-                Nefropatia = rbnNefropatiaSi.Checked,
-                DiabetesEnfermedades = new DiabetesEnfermedades
-                {
-                    Id = rbnDiabetesNo.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.No :
-                        rbnDiabetesI.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoI :
-                        rbnDiabetesII.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoII :
-                        (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoG
-                },
-                InfeccionObular = rbnInfecObularSi.Checked,
-                InfeccionUrinaria = rbnInfecUSi.Checked,
-                AmenazaPartoPreter = rbnAmenzaPartoPSi.Checked,
-                RCIU = rbnRCIUSi.Checked,
-                RoturaPremMembranas = rbnRoturaPremMemSi.Checked,
-                Anemia = rbnAnemiaSi.Checked,
-                OtraCondGrave = rbnOtraCondGraveSi.Checked,
-
-
-                //hemooragia 
-                HemorragiaPrimerTrimestre = rbn1erTSi.Checked,
-                HemorragiaSegundoTrimestre = rbn2doTSi.Checked,
-                HemorragiaTercerTrimestre = rbn3erTSi.Checked,
-                HemorragiaPostparto = rbnPostpartoSi.Checked,
-                HemorragiaInfeccionPuerperal = rbnInfectPSi.Checked,
-
-
-                //tdpprueba
-                TdpSifilis = new TdpSifilis
-                {
-                    Id = rbnSifilisMenos.Checked ? (int)Entidades.Enumeraciones.TdpSifilis.Negativo :
-                        rbnSifilisMas.Checked ? (int)Entidades.Enumeraciones.TdpSifilis.Positivo :
-                        rbnSifilisNr.Checked ? (int)Entidades.Enumeraciones.TdpSifilis.Nr :
-                        (int)Entidades.Enumeraciones.TdpSifilis.Nc
-                },
-                TdpVIH = new TdpVIH
-                {
-                    Id = rbnVIHMenos.Checked ? (int)Entidades.Enumeraciones.TdpVIH.Negativo :
-                        rbnVIHMas.Checked ? (int)Entidades.Enumeraciones.TdpVIH.Positivo :
-                        rbnVIHNr.Checked ? (int)Entidades.Enumeraciones.TdpVIH.Nr :
-                        (int)Entidades.Enumeraciones.TdpVIH.Nc
-                },
-                TARV = new TARV
-                {
-                    Id = rbnTARVSi.Checked ? (int)Entidades.Enumeraciones.TRAV.Si :
-                        rbnTARVNo.Checked ? (int)Entidades.Enumeraciones.TRAV.No :
-                        (int)Entidades.Enumeraciones.TRAV.Nc
-                }
-
-
-            };
-
-
 
             bool radioButtonChecked = true;
 
@@ -238,6 +180,70 @@ namespace SistemaInformaticoPerinatal
                 MessageBox.Show("Corrija los errores antes de finalizar, y verifique que todos los campos esten diligenciados");
                 return;
             }
+
+
+
+
+            var enfermedadesMaternas = new EnfermedadesMaternas()
+            {
+                UnaoMas = rbnEnfermedades1oMas.Checked,
+                HTAPrevia = rbnHTApreviaSi.Checked,
+                HTAInducidaEmbarazo = rbnHTAindEmbaSi.Checked,
+                Preeclampsia = rbnPreeclampsiaSi.Checked,
+                Eclampsia = rbnEclampsiaSi.Checked,
+                Cardiopatia = rbnCardiopatiaSi.Checked,
+                Nefropatia = rbnNefropatiaSi.Checked,
+                DiabetesEnfermedades = new DiabetesEnfermedades
+                {
+                    Id = rbnDiabetesNo.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.No :
+                     rbnDiabetesI.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoI :
+                     rbnDiabetesII.Checked ? (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoII :
+                     (int)Entidades.Enumeraciones.DiabetesEnfermedades.TipoG
+                },
+                InfeccionObular = rbnInfecObularSi.Checked,
+                InfeccionUrinaria = rbnInfecUSi.Checked,
+                AmenazaPartoPreter = rbnAmenzaPartoPSi.Checked,
+                RCIU = rbnRCIUSi.Checked,
+                RoturaPremMembranas = rbnRoturaPremMemSi.Checked,
+                Anemia = rbnAnemiaSi.Checked,
+                OtraCondGrave = rbnOtraCondGraveSi.Checked,
+
+
+                //hemooragia 
+                HemorragiaPrimerTrimestre = rbn1erTSi.Checked,
+                HemorragiaSegundoTrimestre = rbn2doTSi.Checked,
+                HemorragiaTercerTrimestre = rbn3erTSi.Checked,
+                HemorragiaPostparto = rbnPostpartoSi.Checked,
+                HemorragiaInfeccionPuerperal = rbnInfectPSi.Checked,
+
+
+                //tdpprueba
+                TdpSifilis = new TdpSifilis
+                {
+                    Id = rbnSifilisMenos.Checked ? (int)Entidades.Enumeraciones.TdpSifilis.Negativo :
+                     rbnSifilisMas.Checked ? (int)Entidades.Enumeraciones.TdpSifilis.Positivo :
+                     rbnSifilisNr.Checked ? (int)Entidades.Enumeraciones.TdpSifilis.Nr :
+                     (int)Entidades.Enumeraciones.TdpSifilis.Nc
+                },
+                TdpVIH = new TdpVIH
+                {
+                    Id = rbnVIHMenos.Checked ? (int)Entidades.Enumeraciones.TdpVIH.Negativo :
+                     rbnVIHMas.Checked ? (int)Entidades.Enumeraciones.TdpVIH.Positivo :
+                     rbnVIHNr.Checked ? (int)Entidades.Enumeraciones.TdpVIH.Nr :
+                     (int)Entidades.Enumeraciones.TdpVIH.Nc
+                },
+                TARV = new TARV
+                {
+                    Id = rbnTARVSi.Checked ? (int)Entidades.Enumeraciones.TRAV.Si :
+                     rbnTARVNo.Checked ? (int)Entidades.Enumeraciones.TRAV.No :
+                     (int)Entidades.Enumeraciones.TRAV.Nc
+                }
+
+
+            };
+
+            Enfermedades.enfermedadesMaternas = enfermedadesMaternas;
+
             InicioDeSesion ven1 = new InicioDeSesion();
             ven1.Show();
             this.Hide();

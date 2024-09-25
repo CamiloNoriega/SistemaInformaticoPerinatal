@@ -12,24 +12,21 @@ namespace Modelo
         public bool Nefropatia { get; set; }
         public bool Violencia { get; set; }
         public bool VIH { get; set; }
-        public int GestasPrevias { get; set; }
-        public int NacidosVivos { get; set; }
-        public int Viven { get; set; }
-        public int NacidosMuertos { get; set; }
-        public int MuertosPrimeraSemana { get; set; }
-        public int EmbarazoEctopico { get; set; }
-        public int NumeroPartos { get; set; }
-        public int PartosVaginales { get; set; }
-        public int Cesareas { get; set; }
-        public bool PesoRecienNacido { get; set; }
-        public int Abortos { get; set; }
-        public bool TresAbortosConsecutivos { get; set; }
+        public string GestasPrevias { get; set; }
+        public string NacidosVivos { get; set; }
+        public string Viven { get; set; }
+        public string NacidosMuertos { get; set; }
+        public string MuertosPrimeraSemana { get; set; }
+        public string EmbarazoEctopico { get; set; }
+        public string NumeroPartos { get; set; }
+        public string PartosVaginales { get; set; }
+        public string Cesareas { get; set; }
+        public   PesoRecienNacido PesoRecienNacido { get; set; }
+        public string Abortos { get; set; }
         public DateTime FechaFinEmbarazoAnterior { get; set; }
-        public bool UsoAnticonceptivos { get; set; } //REVISAR
+        public UsoAnticonceptivos UsoAnticonseptivos { get; set; }
         public bool AntecedentesGemelares { get; set; }
         public bool EmbarazoPlaneado { get; set; }
-
-        
 
 
     }

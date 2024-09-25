@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    internal class EnfermedadesMaternas
+    public class EnfermedadesMaternas
     {
         public int Id { get; set; }
 
@@ -17,7 +17,7 @@ namespace Modelo
         public bool Eclampsia { get; set; }
         public bool Cardiopatia { get; set; }
         public bool Nefropatia { get; set; }
-        public Diabetes Dianetes{ get; set; }  // crear entidad 
+        public DiabetesEnfermedades DiabetesEnfermedades { get; set; }
         public bool InfeccionObular { get; set; }
         public bool InfeccionUrinaria { get; set; }
         public bool AmenazaPartoPreter { get; set; }
@@ -34,9 +34,9 @@ namespace Modelo
         public bool HemorragiaInfeccionPuerperal { get; set; }
 
         // TDP Prueba
-        public string TdpSifilis { get; set; }  //  crear entidad 
-        public string TdpVIH { get; set; }      //  crear entidad 
+        public TdpSifilis TdpSifilis { get; set; }  //  crear entidad 
+        public TdpVIH TdpVIH { get; set; }      //  crear entidad 
 
-        public string TARV { get; set; }  //  crear entidad 
+        public TARV TARV { get; set; }  //  crear entidad 
     }
 }

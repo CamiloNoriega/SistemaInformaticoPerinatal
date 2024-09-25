@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Modelo
 {
@@ -15,5 +11,8 @@ namespace Modelo
         public bool Preeclampsia { get; set; }
         public bool Eclampsia { get; set; }
         public bool OtraCondMedicaGrave { get; set; }
+
+
+       
     }
 }
