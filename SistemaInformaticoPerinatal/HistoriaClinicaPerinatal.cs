@@ -1,9 +1,14 @@
 ﻿using Entidades;
+using Negocio;
 
 namespace SistemaInformaticoPerinatal
 {
     public partial class HistoriaClinicaPerinatal : Form
+
     {
+        private IServicioMaestro servicioMaestro;
+        private IServicioPerinatal servicioPerinatal;
+
         public static DatosPerinatales DatosPerinatales;
 
         public HistoriaClinicaPerinatal()
@@ -143,10 +148,12 @@ namespace SistemaInformaticoPerinatal
                     AñoAprobado = txtAñoNivelE.Text,
                     EstadoCivil = cmbEstadoCivil.SelectedItem as EstadoCivil,
                     ViveSola = rbnViveSolaSi.Checked
-                }
 
+                }
+                
             };
             HistoriaClinicaPerinatal.DatosPerinatales = datosPerinatales;
+ 
 
             Antecedentes ven3 = new Antecedentes();
             ven3.Show();

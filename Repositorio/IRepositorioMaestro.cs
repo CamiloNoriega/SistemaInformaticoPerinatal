@@ -1,13 +1,12 @@
 ﻿using Entidades;
 
-
-namespace Negocio
+namespace Repositorio
 {
-    public interface IServicioMaestro
+    public interface IRepositorioMaestro
     {
         List<Etnia> ObtenerEtnia();
         List<EstadoCivil> ObtenerEstadoCivil();
-        List<NivelEstudios> ObtenerNivleEstudios();
+        List<NivelEstudios> ObtenerNivelEstudios();
         List<UsoAnticonceptivos> ObtenerUsoAnticonseptivos();
     }
 }
