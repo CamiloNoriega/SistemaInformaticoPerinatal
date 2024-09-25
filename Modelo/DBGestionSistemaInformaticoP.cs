@@ -8,7 +8,10 @@ namespace Modelo
         public DbSet<EstadoCivil> Civiles { get; set;}
 
 
-
+        protected override void OnConfiguring(DbContextOptionsBuilder builder)
+        {
+            builder.UseSqlServer(ConfigurationManager.ConnectionStrings["GestionActividadFisica"].ConnectionString);
+        }
 
     }
 }
