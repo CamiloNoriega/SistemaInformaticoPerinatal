@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Modelo
 {
+    [Table("EnfermedadesMaternas")]
     public class EnfermedadesMaternas
     {
+        [Key]
         public int Id { get; set; }
 
         public bool UnaoMas { get; set; }
@@ -34,9 +38,9 @@ namespace Modelo
         public bool HemorragiaInfeccionPuerperal { get; set; }
 
         // TDP Prueba
-        public TdpSifilis TdpSifilis { get; set; }  //  crear entidad 
-        public TdpVIH TdpVIH { get; set; }      //  crear entidad 
+        public TdpSifilis TdpSifilis { get; set; }  
+        public TdpVIH TdpVIH { get; set; }      
 
-        public TARV TARV { get; set; }  //  crear entidad 
+        public TARV TARV { get; set; }  
     }
 }

@@ -1,9 +1,14 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Modelo
 {
+    [Table("AntecedentesPObstetricos")]
     public class AntecedentesPObstetricos
     {
+        [Key]
         public int Id { get; set; }
 
         public bool CirugiaGUrinaria { get; set; }

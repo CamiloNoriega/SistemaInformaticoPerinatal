@@ -1,9 +1,14 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Modelo
 {
+    [Table("AntecedentesPersonales")]
     public class AntecedentesPersonales
     {
+        [Key]
 
         public int Id { get; set; }
         public bool TBC { get; set; }

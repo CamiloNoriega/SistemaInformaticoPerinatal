@@ -23,6 +23,7 @@ namespace Modelo
         public string AñoAprobado { get; set; }
         public  EstadoCivil EstadoCivil{ get; set; }
         public bool ViveSola { get; set; }
-       
+        public virtual ICollection<Usuario> Usuario { get; set; }
+
     }
 }
