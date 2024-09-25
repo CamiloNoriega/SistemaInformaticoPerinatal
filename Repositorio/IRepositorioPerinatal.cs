@@ -1,8 +1,8 @@
 ﻿using Entidades;
 
-namespace Negocio
+namespace Repositorio
 {
-    public interface IServicioPerinatal
+    public interface IRepositorioPerinatal
     {
         public void GuardarPaciente(Paciente paciente);
         public void GuardarDatosPerinatales(DatosPerinatales datosPerinatales);
@@ -10,7 +10,5 @@ namespace Negocio
         public void GuardarAntecedentesPObstetricos(AntecedentesPObstetricos antecedentesPObstetricos);
         public void GuardarAntecedentesFamiliares(AntecedentesFamiliares antecedentesFamiliares);
         public void GuardarEnfermedadesMaternas(EnfermedadesMaternas antecedentesMaternas);
-        
-
     }
 }

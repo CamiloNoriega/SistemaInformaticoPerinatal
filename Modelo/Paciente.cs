@@ -27,8 +27,11 @@ namespace Modelo
         public int IdEstadoCivil { get; set; }
         public  EstadoCivil EstadoCivil{ get; set; }
         public bool ViveSola { get; set; }
-        public int IdUsuarios { get; set; }
-        public virtual ICollection<Usuario> Usuario { get; set; }
+        public virtual ICollection<AntecedentesFamiliares> AntecedentesFamiliares { get; set; }
+        public virtual ICollection<AntecedentesPersonales> AntecedentesPersonales { get; set; }
+        public virtual ICollection<AntecedentesPObstetricos> AntecedentesPObstetricos { get; set; }
+        public virtual ICollection<DatosPerinatales> DatosPerinatales { get; set; }
+        public virtual ICollection<EnfermedadesMaternas> EnfermedadesMaternas { get; set; }
 
     }
 }

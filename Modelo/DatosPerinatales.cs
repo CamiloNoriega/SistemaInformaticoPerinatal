@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Modelo
 {
     [Table("DatosPerinatales")]
-    internal class DatosPerinatales
+    public class DatosPerinatales
     {
         [Key]
         public int Id { get; set; }
