@@ -13,6 +13,7 @@ namespace Modelo
     {
         [Key]
         public int Id { get; set; }
+        public int IdPaciente { get; set; }
 
         public bool UnaoMas { get; set; }
         public bool HTAPrevia { get; set; }
@@ -21,6 +22,7 @@ namespace Modelo
         public bool Eclampsia { get; set; }
         public bool Cardiopatia { get; set; }
         public bool Nefropatia { get; set; }
+        public int IdDiabetesEnfermedades { get; set; }
         public DiabetesEnfermedades DiabetesEnfermedades { get; set; }
         public bool InfeccionObular { get; set; }
         public bool InfeccionUrinaria { get; set; }
@@ -38,9 +40,11 @@ namespace Modelo
         public bool HemorragiaInfeccionPuerperal { get; set; }
 
         // TDP Prueba
-        public TdpSifilis TdpSifilis { get; set; }  
-        public TdpVIH TdpVIH { get; set; }      
-
+        public int IdTdpSifilis { get; set; }
+        public TdpSifilis TdpSifilis { get; set; }
+        public int IdTdpVIH { get; set; }
+        public TdpVIH TdpVIH { get; set; }
+        public int IdTARV { get; set; }
         public TARV TARV { get; set; }  
     }
 }

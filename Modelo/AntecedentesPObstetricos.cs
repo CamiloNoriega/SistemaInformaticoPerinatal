@@ -10,6 +10,7 @@ namespace Modelo
     {
         [Key]
         public int Id { get; set; }
+        public int IdPaciente { get; set; }
 
         public bool CirugiaGUrinaria { get; set; }
         public bool Infertilidad { get; set; }
@@ -26,9 +27,11 @@ namespace Modelo
         public string NumeroPartos { get; set; }
         public string PartosVaginales { get; set; }
         public string Cesareas { get; set; }
+        public int IdPesoRecienNacido { get; set; }
         public   PesoRecienNacido PesoRecienNacido { get; set; }
         public string Abortos { get; set; }
         public DateTime FechaFinEmbarazoAnterior { get; set; }
+        public int IdUsoAnticonceptivos { get; set; }
         public UsoAnticonceptivos UsoAnticonseptivos { get; set; }
         public bool AntecedentesGemelares { get; set; }
         public bool EmbarazoPlaneado { get; set; }

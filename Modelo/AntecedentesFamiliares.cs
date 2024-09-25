@@ -10,6 +10,7 @@ namespace Modelo
     {
         [Key]
         public int Id { get; set; }
+        public int IdPaciente { get; set; }
         public bool TBC { get; set; }
         public bool Diabetes { get; set; }
         public bool Hipertension { get; set; }

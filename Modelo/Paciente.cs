@@ -16,13 +16,18 @@ namespace Modelo
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public string Localidad { get; set; }
+        public int IdFechaNacimiento { get; set; }
         public DateTime FechaNacimiento { get; set; }
+        public int IdEtnia { get; set; }
         public  Etnia Etnia { get; set; }
         public bool Alfabeta { get; set; }
+        public int IdNivelEstudios { get; set; }
         public  NivelEstudios NivelEstudios { get; set; }
         public string AñoAprobado { get; set; }
+        public int IdEstadoCivil { get; set; }
         public  EstadoCivil EstadoCivil{ get; set; }
         public bool ViveSola { get; set; }
+        public int IdUsuarios { get; set; }
         public virtual ICollection<Usuario> Usuario { get; set; }
 
     }

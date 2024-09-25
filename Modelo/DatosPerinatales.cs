@@ -13,7 +13,7 @@ namespace Modelo
         public string LugarControlPrenatal { get; set; }
         public string LugarPartoAborto { get; set; }
         public string NumeroDeIdentidad { get; set; }
-
+        public int IdPaciente { get; set; }
         public virtual ICollection<Paciente> Paciente { get; set; }
 
 

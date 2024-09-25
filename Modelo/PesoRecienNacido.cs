@@ -14,6 +14,8 @@ namespace Modelo
         [Key]
         public int Id { get; set; }
         public string Nombre { get; set; }
+
+        public int IdAntecedentesPObstetricos { get; set; }
         public virtual ICollection<AntecedentesPObstetricos> AntecedentesPObstetricos { get; set; }
     }
 }
