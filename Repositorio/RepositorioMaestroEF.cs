@@ -2,7 +2,7 @@
 
 namespace Repositorio
 {
-    public class RepositorioMaestroEF: IRepositorioMaestro
+    internal class RepositorioMaestroEF: IRepositorioMaestro
     {
         private Modelo.DBGestionSistemaInformaticoP dBGestionSistemaInformaticoP;
 

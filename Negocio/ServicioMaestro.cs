@@ -11,11 +11,6 @@ namespace Negocio
         {
             this.repositorioMaestro = repositorioMaestro;
         }
-        public ServicioMaestro()
-        {
-            repositorioMaestro = new RepositorioMaestroEF();
-        }
-
         public List<Etnia> ObtenerEtnia()
         => repositorioMaestro.ObtenerEtnia();
         public List<EstadoCivil> ObtenerEstadoCivil()
