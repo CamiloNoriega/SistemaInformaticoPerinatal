@@ -24,6 +24,9 @@ namespace Modelo
         public AntecedentesFamiliares antecedentesFamiliares { get; set; }
         public int IdAntecedentesPObstetricos { get; set; }
         public AntecedentesPObstetricos antecedentesPObstetricos { get; set; }
+
+        public virtual Paciente Paciente { get; set; }
     }
+    
 }
 

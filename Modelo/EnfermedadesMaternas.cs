@@ -45,6 +45,9 @@ namespace Modelo
         public int IdTdpVIH { get; set; }
         public TdpVIH TdpVIH { get; set; }
         public int IdTARV { get; set; }
-        public TARV TARV { get; set; }  
+        public TARV TARV { get; set; }
+
+
+        public virtual Paciente Paciente { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace Modelo
         public string LugarPartoAborto { get; set; }
         public string NumeroDeIdentidad { get; set; }
         public int IdPaciente { get; set; }
-        public virtual ICollection<Paciente> Paciente { get; set; }
+        public virtual Paciente Paciente { get; set; }
 
 
 

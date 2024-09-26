@@ -6,6 +6,12 @@ namespace Modelo
 {
     public class DBGestionSistemaInformaticoP : DbContext
     {
+        public DbSet<AntecedentesFamiliares> AntecedentesFamiliares { get; set; }
+        public DbSet<AntecedentesPersonales> AntecedentesPersonales { get; set; }
+        public DbSet<AntecedentesPObstetricos> AntecedentesPObstetricos { get; set; }
+        public DbSet<DatosPerinatales> DatosPerinatales { get; set; }
+        public DbSet<EnfermedadesMaternas> EnfermedadesMaternas { get; set; }
+        public DbSet<Paciente> Paciente { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<EstadoCivil> EstadoCivil { get; set;}
         public DbSet<Etnia> Etina  { get; set; }
@@ -30,9 +36,36 @@ namespace Modelo
             base.OnModelCreating(Builder);
 
             Builder.Entity<Paciente>()
+                .HasMany(e => e.EnfermedadesMaternas)
+                .WithOne(e => e.Paciente)
+                .HasForeignKey(e => e.IdPaciente);
+
+            Builder.Entity<Paciente>()
+                .HasMany(e => e.DatosPerinatales)
+                .WithOne(e => e.Paciente)
+                .HasForeignKey(e => e.IdPaciente);
+
+            Builder.Entity<Paciente>()
+                .HasMany(e => e.AntecedentesFamiliares)
+                .WithOne(e => e.Paciente)
+                .HasForeignKey(e => e.IdPaciente);
+
+            Builder.Entity<Paciente>()
+                .HasMany(e => e.AntecedentesPObstetricos)
+                .WithOne(e => e.Paciente)
+                .HasForeignKey(e => e.IdPaciente);
+
+
+            Builder.Entity<Paciente>()
+                .HasMany(e => e.AntecedentesPersonales)
+                .WithOne(e => e.Paciente)
+                .HasForeignKey(e => e.IdPaciente);
+
+
+            Builder.Entity<Paciente>()
                 .HasMany(e => e.Usuario)
                 .WithOne(e => e.Paciente)
-                .HasForeignKey(e => e.IdPersona);
+                .HasForeignKey(e => e.IdPaciente);
 
             Builder.Entity<EstadoCivil>()
                 .HasMany(e => e.Paciente)

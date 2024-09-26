@@ -9,7 +9,7 @@ namespace Modelo
         public int Id { get; set; }
         public string NombreUsuario { get; set; }
         public string Clave { get; set; }
-        public int IdPersona { get; set; }
+        public int IdPaciente { get; set; }
         public virtual Paciente Paciente { get; set; }
     }
 }

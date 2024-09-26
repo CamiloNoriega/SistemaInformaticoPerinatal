@@ -19,6 +19,9 @@ namespace Modelo
         public bool OtraCondMedicaGrave { get; set; }
 
 
-       
+        public virtual Paciente Paciente { get; set; }
+
+
+
     }
 }

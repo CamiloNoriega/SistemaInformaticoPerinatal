@@ -35,7 +35,7 @@ namespace Modelo
         public UsoAnticonceptivos UsoAnticonceptivos { get; set; }
         public bool AntecedentesGemelares { get; set; }
         public bool EmbarazoPlaneado { get; set; }
-
+        public virtual Paciente Paciente { get; set; }
 
     }
 }
