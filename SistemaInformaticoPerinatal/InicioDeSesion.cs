@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+﻿
+
+using Negocio;
 
 namespace SistemaInformaticoPerinatal
 {
     public partial class InicioDeSesion : Form
+
     {
+        IServicioSeguridad servicioSeguridad = new ServicioSeguridad();
         public InicioDeSesion()
         {
             InitializeComponent();
@@ -20,19 +15,15 @@ namespace SistemaInformaticoPerinatal
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "" && txtContraseña.Text == "")
+            if (servicioSeguridad.ValidarUsuario(new Entidades.Usuario() { Clave = txtContraseña.Text, NombreUsuario = txtUsuario.Text }))
             {
-                MessageBox.Show("BIENVENIDO");
-                MenuDeNavegacion ven2 = new MenuDeNavegacion();
-                ven2.Show();
-                this.Hide();
+                var form = new MenuDeNavegacion();
+                form.Show();
+                Hide();
             }
             else
             {
-                MessageBox.Show("ACCESO DENEGADO");
-                txtUsuario.Clear();
-                txtContraseña.Clear();
-
+                MessageBox.Show("Usuario o contraseña no válidos");
             }
         }
 

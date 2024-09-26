@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entidades;
 
 namespace Repositorio
 {
-    internal class IRepositorioSeguridad
+    public interface IRepositorioSeguridad
     {
+        public Usuario ObtenerUsuario(string nombreUsuario);
     }
 }

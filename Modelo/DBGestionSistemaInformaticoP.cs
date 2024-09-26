@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Modelo;
 using System.Configuration;
 
 namespace Modelo
 {
     public class DBGestionSistemaInformaticoP : DbContext
     {
+        public DbSet<Usuario> Usuario { get; set; }
         public DbSet<EstadoCivil> EstadoCivil { get; set;}
         public DbSet<Etnia> Etina  { get; set; }
         public DbSet<UsoAnticonceptivos> UsoAnticonceptivos { get; set; }
@@ -27,6 +29,10 @@ namespace Modelo
         {
             base.OnModelCreating(Builder);
 
+            Builder.Entity<Paciente>()
+                .HasMany(e => e.Usuario)
+                .WithOne(e => e.Paciente)
+                .HasForeignKey(e => e.IdPersona);
 
             Builder.Entity<EstadoCivil>()
                 .HasMany(e => e.Paciente)

@@ -1,12 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entidades;
+using Repositorio;
 
 namespace Negocio
 {
-    internal class ServicioSeguridad
+    public class ServicioSeguridad : IServicioSeguridad
     {
+        private IRepositorioSeguridad repositorio;
+
+        public ServicioSeguridad(RepositorioSeguridad repositorio)
+        {
+            this.repositorio = repositorio;
+        }
+
+        public ServicioSeguridad()
+        {
+            repositorio = new RepositorioSeguridadEF();
+        }
+
+        public bool ValidarUsuario(Usuario usuario)
+        {
+            var usuarioActual = repositorio.ObtenerUsuario(usuario.NombreUsuario);
+            if(usuarioActual != null)
+            {
+                return usuarioActual.Clave == usuario.Clave;
+            }
+
+            return false;
+        }
     }
 }

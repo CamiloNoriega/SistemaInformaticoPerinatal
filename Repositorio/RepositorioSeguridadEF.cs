@@ -1,12 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using Entidades;
 namespace Repositorio
 {
-    internal class RepositorioSeguridadEF
+    public class RepositorioSeguridadEF : IRepositorioSeguridad
     {
+        private Modelo.DBGestionSistemaInformaticoP dbGestionSistemaInformaticoP;
+
+        public RepositorioSeguridadEF()
+        {
+            dbGestionSistemaInformaticoP = new Modelo.DBGestionSistemaInformaticoP();
+        }
+
+        public Usuario ObtenerUsuario(string nombreUsuario)
+        {
+            var usuarioActual = dbGestionSistemaInformaticoP.Usuario.FirstOrDefault(u=>u.NombreUsuario == nombreUsuario);
+
+            if (usuarioActual != null)
+            {
+                return new Usuario() { NombreUsuario = usuarioActual.NombreUsuario, Clave = usuarioActual.Clave };
+            }
+
+            return null;
+        }
     }
 }

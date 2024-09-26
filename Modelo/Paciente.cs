@@ -1,6 +1,7 @@
 ﻿
 
 
+using Modelo;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -32,6 +33,7 @@ namespace Modelo
         public virtual ICollection<AntecedentesPObstetricos> AntecedentesPObstetricos { get; set; }
         public virtual ICollection<DatosPerinatales> DatosPerinatales { get; set; }
         public virtual ICollection<EnfermedadesMaternas> EnfermedadesMaternas { get; set; }
+        public virtual ICollection<Usuario> Usuario { get; set; }
 
     }
 }
