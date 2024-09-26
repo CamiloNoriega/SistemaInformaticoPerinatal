@@ -12,7 +12,10 @@ namespace Negocio
             this.repositorioPerinatal = repositorioPerinatal;
         }
 
-
+        public ServicoPerinatal()
+        {
+            repositorioPerinatal = new RepositorioPerinatalEF();
+        }
 
 
         public void GuardarPaciente(Paciente Paciente)
