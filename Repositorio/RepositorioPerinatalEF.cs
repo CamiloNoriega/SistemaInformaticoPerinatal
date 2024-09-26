@@ -14,12 +14,11 @@ namespace Repositorio
 
         public void GuardarPaciente(Paciente paciente)
         {
-
+           
         }
         public void GuardarDatosPerinatales(DatosPerinatales datosPerinatales)
         {
-            var personaActual = dBGestionSistemaInformaticoP.Usuario.FirstOrDefault();
-
+            
         }
         
         public void GuardarAntecedentesPersonales(AntecedentesPersonales antecedentesPersonales)

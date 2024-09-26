@@ -8,7 +8,7 @@ namespace Entidades.Enumeraciones
 {
     public enum UsoAnticonseptivo
     {
-        Nouasaba=1,
+        NoUsaba=1,
         Barrera=2,
         Emergencia=3,
         Hormonal=4,
